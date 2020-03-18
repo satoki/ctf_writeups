@@ -17,3 +17,4 @@
 - [PSK:Misc:90pts](ångstromCTF_2020/PSK)  
 - [Inputter:Misc:100pts](ångstromCTF_2020/Inputter)  
 - [Taking Off:Rev:70pts](ångstromCTF_2020/Taking_Off)  
+- [Survey:Misc:5pts](ångstromCTF_2020/Survey)  
