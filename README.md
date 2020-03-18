@@ -4,7 +4,7 @@
 
 ## ångstromCTF 2020 (2020/03/13)
 [ångstromCTF 2020](ångstromCTF_2020)  
-1035 Points  
+1160 Points  
 - [Git Good:Web:70pts](ångstromCTF_2020/Git_Good)  
 - [Reasonably Strong Algorithm:Crypto:70pts](ångstromCTF_2020/Reasonably_Strong_Algorithm)  
 - [Keysar:Crypto:40pts](ångstromCTF_2020/Keysar)  
@@ -18,3 +18,4 @@
 - [Inputter:Misc:100pts](ångstromCTF_2020/Inputter)  
 - [Taking Off:Rev:70pts](ångstromCTF_2020/Taking_Off)  
 - [Survey:Misc:5pts](ångstromCTF_2020/Survey)  
+- [Autorev, Assemble!:Rev:125pts](ångstromCTF_2020/Autorev,_Assemble!)  
