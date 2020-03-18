@@ -1,0 +1,106 @@
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+exit
+fopen
+puts
+__stack_chk_fail
+stdin
+printf
+fgets
+strlen
+setresgid
+sscanf
+getegid
+strchr
+strcmp
+__libc_start_main
+GLIBC_2.4
+GLIBC_2.2.5
+__gmon_start__
+AWAVI
+AUATL
+[]A\A]A^A_
+flag.txt
+Cannot read flag file.
+So you figured out how to provide input and command line arguments.
+But can you figure out what input to provide?
+Make sure you have the correct amount of command line arguments!
+chicken
+Don't try to guess the arguments, it won't work.
+Well, you found the arguments, but what's the password?
+I'm sure it's just a typo. Try again.
+Good job! You're ready to move on to bigger and badder rev!
+;*3$"
+ZFOKYO
+MC\O
+LFKM*GCC: (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.7697
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+taking_off.c
+__FRAME_END__
+__init_array_end
+_DYNAMIC
+__init_array_start
+__GNU_EH_FRAME_HDR
+_GLOBAL_OFFSET_TABLE_
+__libc_csu_fini
+puts@@GLIBC_2.2.5
+stdin@@GLIBC_2.2.5
+_edata
+strlen@@GLIBC_2.2.5
+__stack_chk_fail@@GLIBC_2.4
+setresgid@@GLIBC_2.2.5
+strchr@@GLIBC_2.2.5
+printf@@GLIBC_2.2.5
+__libc_start_main@@GLIBC_2.2.5
+fgets@@GLIBC_2.2.5
+__data_start
+strcmp@@GLIBC_2.2.5
+__gmon_start__
+string_to_int
+__dso_handle
+_IO_stdin_used
+__libc_csu_init
+sscanf@@GLIBC_2.2.5
+_dl_relocate_static_pie
+getegid@@GLIBC_2.2.5
+__bss_start
+main
+is_invalid
+fopen@@GLIBC_2.2.5
+print_flag
+exit@@GLIBC_2.2.5
+__TMC_END__
+desired
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.note.gnu.build-id
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.dynamic
+.got
+.got.plt
+.data
+.bss
+.comment
