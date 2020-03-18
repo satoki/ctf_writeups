@@ -3,7 +3,7 @@ You remember when I said I dropped clam's tables? Well that was on Xmas day. And
 
 
 # Solution
-URLにアクセスすると文字列をPostし、それを表示できるようだ。  
+文字列をPostし、それを表示するWEBアプリケーションであるようだ。  
 Home  
 [site1.png](site/site1.png)
 Post  
@@ -13,7 +13,7 @@ Report
 Admin  
 [site4.png](site/site4.png)
 さらに管理人にReportすることでそのPostを削除させることができる。  
-XSSで管理人のcookieを盗めばよい(Adminページより)。  
+AdminページよりXSSで管理人のcookieを盗めばよい。  
 問題の頭文字もXSSである。  
 ```javascript
 <script>alert("actf")</script>

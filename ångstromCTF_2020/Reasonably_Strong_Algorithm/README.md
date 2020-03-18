@@ -6,7 +6,7 @@ After you get a number, you still have to get a flag from that.
 # Solution
 n、e、cが渡されるのでRSAを解読する。  
 はじめに(おわりに)msieveを用いて楕円曲線法でnを素因数分解する。  
-```text:出力
+```bash
 $ ./msieve -q -v -e 126390312099294739294606157407778835887
 
 ~~~

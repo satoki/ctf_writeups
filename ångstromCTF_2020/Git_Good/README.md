@@ -7,15 +7,15 @@ Static file serving is a very dangerous thing when in the wrong directory.
 はじめにhttps://gitgood.2020.chall.actf.co/.git/HEADにアクセスする。  
 config、descriptionと順に見ていくがflagは無いようである。  
 つぎにhttps://gitgood.2020.chall.actf.co/.git/logs/HEADを取得する。  
-上記ファイルから以下のハッシュを取得できる  
+上記ファイルから以下のハッシュを取得できる。  
 ```text
 6b3c94c0b90a897f246f0f32dec3f5fd3e40abb5
 e975d678f209da09fff763cd297a6ed8dd77bb35
 ```
-./git/objectsの構成は先頭二桁がディレクトリ名に、残りがファイル名になる。  
+./git/objectsの構成はハッシュの先頭二桁がディレクトリ名に、残りがファイル名になる。  
 https://gitgood.2020.chall.actf.co/.git/objects/6b/3c94c0b90a897f246f0f32dec3f5fd3e40abb5  
 https://gitgood.2020.chall.actf.co/.git/objects/e9/75d678f209da09fff763cd297a6ed8dd77bb35  
-上記ファイルを共に取得し、zlib_dec.pyでzlib.decompressを行う。  
+上記URLからファイルを取得し、zlib_dec.pyでzlib.decompressを行う。  
 ```python:zlib_dec.py
 import zlib
 
@@ -26,7 +26,7 @@ print(zlib.decompress(f2.read()))
 f1.close()
 f2.close()
 ```
-```text:出力
+```text:出力1
 commit 210 tree b630430d9d393a6b143af2839fd24ac2118dba79
 author aplet123 <noneof@your.business> 1583598444 +0000
 committer aplet123 <jasonqan2004@gmail.com> 1583598444 +0000
@@ -49,7 +49,7 @@ b630430d9d393a6b143af2839fd24ac2118dba79
 再度./git/objectsを見に行き、zlib.decompressを行う。  
 https://gitgood.2020.chall.actf.co/.git/objects/b6/30430d9d393a6b143af2839fd24ac2118dba79  
 https://gitgood.2020.chall.actf.co/.git/objects/94/02d143d3d7998247c95597b63598ce941e7bcb  
-```python:zlib_dec.py(差分)
+```python:zlib_dec.py(差分1)
 f1 = open("30430d9d393a6b143af2839fd24ac2118dba79")
 f2 = open("02d143d3d7998247c95597b63598ce941e7bcb")
 ```

@@ -7,7 +7,8 @@ Do you really need to calculate all those numbers?
 
 # Solution
 nc misc.2020.chall.actf.co 20300をたたくと以下のように表示された。  
-```text
+```bash
+$ nc misc.2020.chall.actf.co 20300
 Solve 50 of these epic problems in a row to prove you are a master crypto man like Aplet123!
 You'll be given a number n and also a plaintext p.
 Caesar shift `p` with the nth Fibonacci number.
