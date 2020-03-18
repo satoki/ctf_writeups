@@ -1,0 +1,1 @@
+/hack.php?cookie=super_secret_admin_cookie=hello_yes_i_am_admin;%20admin_name=John
