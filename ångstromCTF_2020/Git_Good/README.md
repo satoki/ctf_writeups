@@ -4,9 +4,9 @@ Hint
 Static file serving is a very dangerous thing when in the wrong directory.  
 
 # Solution
-はじめにhttps://gitgood.2020.chall.actf.co/.git/HEADにアクセスする。  
+はじめにhttps://gitgood.2020.chall.actf.co/.git/HEAD にアクセスする。  
 config、descriptionと順に見ていくがflagは無いようである。  
-つぎにhttps://gitgood.2020.chall.actf.co/.git/logs/HEADを取得する。  
+つぎにhttps://gitgood.2020.chall.actf.co/.git/logs/HEAD を取得する。  
 上記ファイルから以下のハッシュを取得できる。  
 ```text
 6b3c94c0b90a897f246f0f32dec3f5fd3e40abb5
@@ -59,7 +59,7 @@ thisistheflag.txtなるものがあるようだ。
 0f52598006f9cdb21db2f4c8d44d70535630289b
 247c9d491c0d2d6da5e93afcd0681b3edd7ccd70
 ```
-ハッシュが取得できるので同様にzlib.decompress。
+ハッシュが取得できるので同様にzlib.decompress。  
 https://gitgood.2020.chall.actf.co/.git/objects/0f/52598006f9cdb21db2f4c8d44d70535630289b  
 https://gitgood.2020.chall.actf.co/.git/objects/24/7c9d491c0d2d6da5e93afcd0681b3edd7ccd70  
 ```python:zlib_dec.py(差分2)

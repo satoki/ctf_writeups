@@ -5,7 +5,7 @@ You can probably solve it just by looking at the disassembly.
 
 # Solution
 Windowsの実行ファイルが渡される。  
-メインマシンで実行したくないのでstringsを行う。
+メインマシンで実行したくないのでstringsを行う。  
 するとflagが出てくる。  
 ```bash
 $ strings windows_of_opportunity.exe | grep actf

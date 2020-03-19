@@ -5,13 +5,13 @@ You remember when I said I dropped clam's tables? Well that was on Xmas day. And
 # Solution
 文字列をPostし、それを表示するWEBアプリケーションであるようだ。  
 Home  
-[site1.png](site/site1.png)
+[site1.png](site/site1.png)  
 Post  
-[site2.png](site/site2.png)
+[site2.png](site/site2.png)  
 Report  
-[site3.png](site/site3.png)
+[site3.png](site/site3.png)  
 Admin  
-[site4.png](site/site4.png)
+[site4.png](site/site4.png)  
 さらに管理人にReportすることでそのPostを削除させることができる。  
 AdminページよりXSSで管理人のcookieを盗めばよい。  
 問題の頭文字もXSSである。  

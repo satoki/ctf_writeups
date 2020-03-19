@@ -29,9 +29,11 @@ Good job! You're ready to move on to bigger and badder rev!
 ```asm
 cmp     [rbp+var_B4], 5
 ```
-さらにis_invalidで先頭三個のコマンドライン引数(string_to_intで数字になっている)を0から9の間に入っているか比較している。  
+さらにis_invalidで先頭三個のコマンドライン引数(string_to_intにより数字)を0から9の間に入っているか比較している。  
+![ida1.png](images/ida1.png)  
 その後、何らかの計算をしてジャンプしているようだ。  
 四個目のコマンドライン引数は推測通り、chickenのようだ。  
+![ida2.png](images/ida2.png)  
 計算をアセンブリから求めてもよいが、総当たりした方が効率がよい(ヒットした場合入力待ちになる)。  
 総当たりするシェルスクリプトを出力するプログラムは以下になる。  
 ```python:make_sh.py
@@ -54,7 +56,7 @@ Well, you found the arguments, but what's the password?
 コマンドライン引数は判明したが、パスワードが必要らしい。  
 IDAのグラフやobjdumpの結果から一文字ずつループして比較しているようだ。  
 これはstrchr、strlenからも推測できる  
-結論として以下のレジスタを確認してやれば、どの文字と比較しているのかわかる。  
+結論として以下のレジスタclとalを確認してやれば、どの文字と比較しているのかわかる。  
 ```asm
 cmp     cl, al
 ```
@@ -78,7 +80,7 @@ gdb-peda$ set $cl = $al
 gdb-peda$ c
 ```
 breakpoint  
-![gdb.png](gdb.png)  
+![gdb.png](images/gdb.png)  
 上記手順を繰り返すことでレジスタの値を解析したものが以下になる。  
 ```text
 al
