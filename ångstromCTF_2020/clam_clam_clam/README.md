@@ -4,7 +4,7 @@ Hint
 U+000D  
 
 # Solution
-nc misc.2020.chall.actf.co 20204をたたくと、以下のようにclam{clam_clam_clam_clam_clam}が流れ続ける。  
+nc misc.2020.chall.actf.co 20204をたたくと、以下のようにclamとmalcが流れ続ける。  
 ```bash
 $ nc misc.2020.chall.actf.co 20204
 clam{clam_clam_clam_clam_clam}
@@ -15,7 +15,6 @@ clam{clam_clam_clam_clam_clam}
 malc{malc_malc_malc_malc_malc}
 clam{clam_clam_clam_clam_clam}
 malc{malc_malc_malc_malc_malc}
-clam{clam_clam_clam_clam_clam}
 ~~~
 ```
 ファイルにリダイレクトしてみる。  
