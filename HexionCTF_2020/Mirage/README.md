@@ -5,9 +5,9 @@
 
 # Solution
 URLにアクセスすると次のようなページが開く。  
-[site.png](site/site.png)
-画像がflagの換字式暗号文であることは容易に想像ができるが、大文字、小文字、記号すべての表を総当たりするのは骨が折れる。  
-inputに文字を入力してみると以下のように変換されて出力された。  
+[site.png](site/site.png)  
+画像がflagの換字式暗号文であることは容易に想像ができるが、総当たりするのは骨が折れる。  
+inputに文字を入力してみると以下のように変換された。  
 ```text
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}
 dBFS4f}jZE5gRsAKOplm20xt8hwcevoyGz1TJ{VDMQ39iquC7WXN_HLYUaPkr6Ibn
