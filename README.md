@@ -7,9 +7,9 @@
 2273 Points  
 - [Mirage:Misc:100pts](HexionCTF_2020/Mirage)  
 - [Hmmm:Misc:453pts](HexionCTF_2020/Hmmm)  
-- [](HexionCTF_2020/)  
-- [](HexionCTF_2020/)  
-- [](HexionCTF_2020/)  
+- [T&J:Misc:839pts](HexionCTF_2020/T&J)  
+- [Notes:Web:881pts](HexionCTF_2020/Notes)  
+- [Survey:Survey:0pts](HexionCTF_2020/Survey)  
 
 ## ångstromCTF 2020 (2020/03/14)
 [ångstromCTF 2020](ångstromCTF_2020)  
