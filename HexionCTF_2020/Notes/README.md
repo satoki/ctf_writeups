@@ -19,7 +19,7 @@ $ flask-unsign --decode --cookie 'eyJub3RlcyI6WyJTYXRva2kgPCBIYWhhaGEhIl19.XpSLd
 `{{10+10}}`を入力してやると/notesでは20になっているので、Jinja2の式が評価されて出力されている。  
 サーバーサイドテンプレートインジェクションをにらんで`{{config}}`を入力すると/notesは以下になる。  
 [{{config}}を入力した/notes](notes_{{config}}.html)  
-ここからSECRET_KEYを奪い、セッションを偽装するのかとも考えたが、違うようだ(adminにしても意味はなかった)。  
+ここからSECRET_KEYを奪い、セッションを偽装するのかとも考えたが、違うようだ。  
 サーバーのファイルを読み取りにいく。  
 `{{url_for.__globals__.__getitem__('os').listdir('./')}}`を入力すると/notesは以下になる。  
 ```text
