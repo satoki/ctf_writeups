@@ -9,7 +9,7 @@ Home
 Show stored data  
 [site2.png](site/site2.png)  
 Show stored dataページに注目するとURLがhttp://xxexternalxx.sharkyctf.xyz/?xml=data.xml となっている。  
-以下のhttp://xxexternalxx.sharkyctf.xyz/data.xml を読み出しているようだ。  
+http://xxexternalxx.sharkyctf.xyz/data.xml を読み出しているようだ。  
 ```xml:data.xml
 <root>
     <data>17/09/2019 the platform is now online, the fonctionnalities it contains will be audited by one of our society partenairs</data>
