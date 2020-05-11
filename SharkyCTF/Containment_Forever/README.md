@@ -72,7 +72,7 @@ Apr 09 2020 09:09:09からApr 13 2020 15:50:18は369669秒
 http://containment-forever.sharkyctf.xyz/item/5e75dab2d7b1600013655bb8  
 http://containment-forever.sharkyctf.xyz/item/5e948a3ad7b1600013655bbf  
 flagはそのページに分割して書かれている  
-[5e75dab2d7b1600013655bb8.png](5e75dab2d7b1600013655bb8.png)  
-[5e948a3ad7b1600013655bbf.png](5e948a3ad7b1600013655bbf.png)  
+[5e75dab2d7b1600013655bb8.png](site/flag/5e75dab2d7b1600013655bb8.png)  
+[5e948a3ad7b1600013655bbf.png](site/flag/5e948a3ad7b1600013655bbf.png)  
 
 ## shkCTF{IDOR_IS_ALS0_P0SSIBLE_W1TH_CUST0M_ID!_f878b1c38e20617a8fbd20d97524a515}
