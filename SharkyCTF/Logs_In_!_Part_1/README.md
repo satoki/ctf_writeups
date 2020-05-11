@@ -12,7 +12,7 @@ http://logs_in.sharkyctf.xyz/_profiler/empty/search/results?limit=10 でログ�
 Profile Search  
 [site2.png](site/site2.png)  
 limitの値を大きくしログの表示数を増やすと、CTF開始前である2020/05/08にhttp://logs_in-nginx/e48e13207341b6bffb7fb1622282247b/debug なるGETがある。  
-http://logs_in.sharkyctf.xyz/e48e13207341b6bffb7fb1622282247b/debug にアクセスしてみるとflagが手に入る。
+http://logs_in.sharkyctf.xyz/e48e13207341b6bffb7fb1622282247b/debug にアクセスしてみるとflagが手に入る。  
 [flag.png](site/flag.png)  
 
 ## shkCTF{0h_N0_Y0U_H4V3_4N_0P3N_SYNF0NY_D3V_M0D3_1787a60ce7970e2273f7df8d11618475}
