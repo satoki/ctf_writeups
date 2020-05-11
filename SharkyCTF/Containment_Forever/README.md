@@ -12,6 +12,7 @@ Flag
 [site3.png](site/site3.png)  
 Confinementページのソースは以下のようになっている。  
 ```html
+~~~
 <tr>
     <td> 5e70da94d7b1600013655bb5 </td>
     <td> <a href="/item/5e70da94d7b1600013655bb5">Confinement basics</a> </td>
@@ -43,6 +44,7 @@ Confinementページのソースは以下のようになっている。
     <td>Toilet Paper Fever</td>
     <td>Thu Apr 09 2020 09:09:09 GMT+0000 (Coordinated Universal Time)</td>
 </tr>
+~~~
 ```
 /item/ObjectIdに各コンテンツのページが生成されているようである。  
 [/item/~~~](site/item)  
