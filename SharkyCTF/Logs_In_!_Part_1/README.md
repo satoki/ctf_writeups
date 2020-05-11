@@ -9,6 +9,7 @@ Home
 [site1.png](site/site1.png)  
 サイトにアクセスするとSymfonyの設定が開けることがわかる。  
 http://logs_in.sharkyctf.xyz/_profiler/empty/search/results?limit=10 でログが見えるようだ。  
+Profile Search  
 [site2.png](site/site2.png)  
 limitの値を大きくしログの表示数を増やすと、CTF開始前である2020/05/08にhttp://logs_in-nginx/e48e13207341b6bffb7fb1622282247b/debug なるGETがある。  
 http://logs_in.sharkyctf.xyz/e48e13207341b6bffb7fb1622282247b/debug にアクセスしてみるとflagが手に入る。
