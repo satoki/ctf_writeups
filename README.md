@@ -2,6 +2,19 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## SharkyCTF (2020/05/09)
+[SharkyCTF](SharkyCTF)  
+1146 Points  
+- [Welcome:Misc:10pts](SharkyCTF/Welcome)  
+- [XXExternalXX:Web:70pts](SharkyCTF/XXExternalXX)  
+- [basic LSB:Steganography:50pts](SharkyCTF/basic_LSB)  
+- [Trolled:Misc:50pts](SharkyCTF/Trolled)  
+- [Containment Forever:Web:266pts](SharkyCTF/Containment_Forever)  
+- [Logs In ! Part 1:Web:155pts](SharkyCTF/Logs_In_!_Part_1)  
+- [Erwin's file manager:Misc:197pts](SharkyCTF/Erwin's_file_manager)  
+- [RattataTACACS:Network:167pts](SharkyCTF/RattataTACACS)  
+- [Pain in the ass:Forensics:181pts](SharkyCTF/Pain_in_the_ass)  
+
 ## HexionCTF 2020 (2020/04/11)
 [HexionCTF 2020](HexionCTF_2020)  
 2273 Points  
