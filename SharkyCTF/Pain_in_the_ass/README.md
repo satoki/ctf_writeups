@@ -10,7 +10,7 @@ stringsを行うと以下のような記述が見られた。
 th3_fl4g_1s_n0t_h3r3
 h3r3_1s_n0t_th3_fl4g
 l00k1ng_f0r_34sy_p01nts
-3rr0r_b4s3d_1s_s0_34syC
+3rr0r_b4s3d_1s_s0_34sy
 ```
 fl4gやb4s3dで文字列検索してやるとその上の部分のペイロードに含まれている一文字が以下のようになっていた。  
 ```text
