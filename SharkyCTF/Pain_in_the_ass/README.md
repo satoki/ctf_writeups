@@ -23,6 +23,6 @@ SELECT * FROM users WHERE username = 'd4rk2phi' AND password ='' or substr((SELE
 ~~~
 ```
 これがflagであった。  
-substrで一文字ずつサーチしているようであるので、データベースへのアクセスが成功しているものを抽出するのが正攻法。  
+substrで一文字ずつサーチしているようなので、データベースへのアクセスが成功しているものを抽出するのが正攻法(たぶん)。  
 
 ## shkCTF{4lm0st_h1dd3n_3xtr4ct10n_0e18e336adc8236a0452cd570f74542}
