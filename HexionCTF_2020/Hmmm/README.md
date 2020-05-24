@@ -29,7 +29,7 @@ $ ./hmmm
 バイナリエディタなどで開き中身を眺めているとAAは2パターンあった。  
 結局stringsでflagを取得する(一文字ずつ散らばっているのでnオプションを使う)。  
 ```bash
-$ strings -n 1 hmmm | tr -d '\n'| grep -oP "hexCTF{.*?}"
+$ strings -n 1 hmmm | tr -d '\n' | grep -oP "hexCTF{.*?}"
 hexCTF{1m_s0rry_1f_y0u_r3v3r5ed_7h1s}
 ```
 

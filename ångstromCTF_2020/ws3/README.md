@@ -47,6 +47,6 @@ wf.close()
 ```
 最後にバイナリエディタなどでヘッダーFFD8の前の部分を削除することにより、画像ファイルとして読み込むことができる。  
 画像内にflagが書かれている。  
-![image.jpg](image.jpg) 
+![image.jpg](image.jpg)  
 
 ## actf{git_good_git_wireshark-123323}
