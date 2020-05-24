@@ -13,7 +13,7 @@ a`adede`a`adedepqpqtutupqp
 abc`abchijkhijk`abc`abchij
 Wrong FLAG. Try again.
 ```
-アルファベットを引数にとりそれを二回置換しているようだ。  
+コマンドライン引数で与えられたFLAGを二回置換しているようだ。  
 IDAで見てもよいが、stringsで以下が見られる。  
 ```bash
 $ strings mask

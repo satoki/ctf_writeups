@@ -4,7 +4,7 @@ Unzip Your .zip Archive Like a Pro.
 Hint:  
 - [index.php (sha1: 968357c7a82367eb1ad6c3a4e9a52a30eada2a7d)](index.php-968357c7a82367eb1ad6c3a4e9a52a30eada2a7d)  
 Hint  
-- [(updated at 5/23 17:30) docker-compose.yml](docker-compose.yml-591e0b33b6a4485d7f6518c7efee547fad257ea2)  
+- (updated at 5/23 17:30) [docker-compose.yml](docker-compose.yml-591e0b33b6a4485d7f6518c7efee547fad257ea2)  
 
 # Solution
 zipを解凍してくれるサービスのようだ。  
