@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - "127.0.0.1:$APP_PORT:80"
+    depends_on:
+      - php-fpm
+    volumes:
+      - ./storage/logs/nginx:/var/log/nginx
+      - ./public:/var/www/web
+    environment:
+      TZ: "Asia/Tokyo"
+    restart: always
+
+  php-fpm:
+    build: ./docker/php-fpm
+    env_file: .env
+    working_dir: /var/www/web
+    environment:
+      TZ: "Asia/Tokyo"
+    volumes:
+      - ./public:/var/www/web
+      - ./uploads:/uploads
+      - ./flag.txt:/flag.txt
+    restart: always
