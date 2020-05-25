@@ -12,7 +12,7 @@ Unzip
 [site.png](site/site.png)  
 test.phpファイルを圧縮したtest.zipを解凍させたが動作しない。  
 Content-Type: text/plain;charset=UTF-8であった。  
-URLを見ると?filename=test.phpとあったのでディレクトリトラバーサルを試すも失敗に終わった。  
+URLを見ると?filename=test.phpとあったので?filename=../../../../etc/passwdなどディレクトリトラバーサルを試すも失敗に終わった。  
 docker-compose.ymlを見るとflagは/flag.txtに書かれているようだ。  
 index.phpを見ると以下の記述があった。  
 ```php:index.php
@@ -39,8 +39,8 @@ if (isset($_GET["filename"]) && is_string(($_GET["filename"]))) {
 }
 ~~~
 ```
-ファイル名でディレクトリトラバーサルができそうだ。  
-../../flag.txtをファイル名にすればよいので、..{..{flag.txtを圧縮し、zipファイルをバイナリエディタなどで編集する。  
+セッションに紐付けられているファイル名でディレクトリトラバーサルができそうだ。  
+../../flag.txtをファイル名にすればよいので、..{..{flag.txtを圧縮し、そのzipファイルをバイナリエディタなどで編集する。  
 それを解凍させてやればflagが得られる。  
 
 ## ctf4b{y0u_c4nn07_7ru57_4ny_1npu75_1nclud1n6_z1p_f1l3n4m35}

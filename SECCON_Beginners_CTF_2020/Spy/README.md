@@ -34,8 +34,7 @@ Challenge
 いかにもsecが怪しい。  
 ユーザ名が存在する場合パスワードをハッシュ化し、チェックしている。  
 つまり、その分secが増加する。  
-employeesを確認する。  
-手作業でソースのsecを見てもよい。  
+以下のcheck.shでemployees.txtに記述されているアカウントを確認する(手作業でソースを見てもよい)。  
 ```bash:check.sh
 while read line
 do
