@@ -16,9 +16,9 @@ XXXX Points  <!--XXX-->
 - [Comments:Forensics:100pts](HSCTF_7/Comments)  
 - [Recursion Reverse:Reverse Engineering:100pts](HSCTF_7/Recursion_Reverse)  
 - [XORed:Cryptography:100pts](HSCTF_7/XORed)  
-- [Does CTFd Work?:Miscellaneous:10pts](HSCTF_7/Does_CTFd_Work?)  
+- [Does CTFd Work?:Miscellaneous:10pts](HSCTF_7/Does_CTFd_Work%3F)  
 - [Discord Flag:Miscellaneous:10pts](HSCTF_7/Discord_Flag)  
-- [Do Stars Spin? 1:Miscellaneous:100pts](HSCTF_7/Do_Stars_Spin?_1)  
+- [Do Stars Spin? 1:Miscellaneous:100pts](HSCTF_7/Do_Stars_Spin%3F_1)  
 - [Mad Libs:Forensics:100pts](HSCTF_7/Mad_Libs)  
 - [Debt Simulator:Web Exploitation:100pts](HSCTF_7/Debt_Simulator)  
 - [Chonky E:Cryptography:XXXpts](HSCTF_7/Chonky_E)  <!--XXX-->

@@ -7,7 +7,7 @@ Note: If you receive an "Internal Server Error" (HTTP Status Code 500), that mea
 アクセスするとログインフォームとpublickey.pemがある。  
 Web Portal Login  
 [site.png](site/site.png)  
-何も入力せずログインするとguestとしてログイン成功している。  
+何も入力せずログインするとguestとなる。  
 ところでcookieに以下のような値が入っていた。  
 ```text
 eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdXRoIjoiZ3Vlc3QifQ.e3UX6vGuTGHWouov4s5HuKn6B5zbe0ZjxwHCB_OQlX_TcntJuj89x0RDi8gQi88TMoXSFN-qnFUQxillB_nD5ErrVZKL8HI5Ah_iQBX1xfu097H2xT3LAhDEceq4HDEQY-iC4TVSxMGM0AS_ItsVLBIrxk8tapcANvCW_KnO3mEFwfQOD64YHtapSZJ-kKjdN19lgdI_g-2nNI83P6TlgLtZ8vo1BB1zt_8b4UECSiPb67YCsrCYIIsABq5UyxSwgUpZsM6oxW0k1c4NbaUTnUWURG2qWDVw56svRQETU3YjO59AMj67n9r9Y9NJ9FBlpHQ60Ck-mfL5JcmFE9sgVw

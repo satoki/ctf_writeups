@@ -46,7 +46,7 @@ public class EnglishLanguage
 ```
 
 どうやら入力をtransposeした後、xorしているので逆を行えばよい。  
-transposeでは入力を指定した順序に入れ替えているので逆を行う、xorはもう一度xorすることにより元に戻る性質を使う。  
+transposeでは入力を指定した順序に入れ替えているので復元し、xorはもう一度xorすることにより元に戻る性質を使う。  
 EnglishLanguage2.javaにその動作を記述し実行する。  
 ```bash
 $ javac EnglishLanguage2.java

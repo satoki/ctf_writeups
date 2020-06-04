@@ -6,7 +6,7 @@ Bet you can't log in.
 ただのログインフォームのようだ。  
 Login  
 [site.png](site/site.png)  
-ソースに以下の表記を見つけることができる。  
+ソースに以下を見つけることができる。  
 ```JavaScript
 ~~~
             const username = login.username.value;

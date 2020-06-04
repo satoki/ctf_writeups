@@ -4,13 +4,13 @@
 # Solution
 アクセスするとゲームが楽しめる。  
 Debt :))  
-[site.png](site/site1.png)  
+[site.png](site/site.png)  
 絶対に勝てないようになっているのでズルをしてみる。  
 $-1000で`You lost. You have less than $-1000. Better luck next time.`  
 $2000で`You won. You have more than $2000. Try your luck again?`  
 と表示されるだけだ。  
-通信を見てみる(ソースのjsを見ても良い)と、https://debt-simulator-login-backend.web.hsctf.com/yolo_0000000000001にPOSTしている。  
-再現は以下になる。  
+通信を見てみる(ソースのjsを見ても良い)と、https://debt-simulator-login-backend.web.hsctf.com/yolo_0000000000001 にPOSTしている。  
+詳細は以下になる。  
 ```bash
 $ curl -X POST -d "function=getPay" https://debt-simulator-login-backend.web.hsctf.com/yolo_0000000000001
 {"response":15}
@@ -23,7 +23,7 @@ $ curl -X POST -d "function=getFlag" https://debt-simulator-login-backend.web.hs
 ```
 functionが不明である。  
 getFlagでは取れないようだ。  
-GETすると降ってきたので、getgetgetgetgetgetgetgetgetFlagを使うとflagが得られる。  
+GETするとfunctionが降ってきたので、getgetgetgetgetgetgetgetgetFlagを使うとflagが得られる。  
 ```bash
 $ curl -X GET https://debt-simulator-login-backend.web.hsctf.com/yolo_0000000000001
 {"functions":["getPay","getCost","getgetgetgetgetgetgetgetgetFlag"]}

@@ -4,7 +4,8 @@ Connect at nc pwn.hsctf.com 5002.
 Note, if you're having trouble getting it to work remotely:  
 - check your offset, the offset is slightly different on the remote server  
 - the addresses are still the same  
-[boredom.c](boredom.c)  [boredom](boredom)  
+
+[boredom.c](boredom.c)　　　　[boredom](boredom)  
 
 # Solution
 boredom.cを読むとmain内の`gets(toDo);`でBOFできそうだ(本来ならばchecksecする)。  
@@ -29,7 +30,6 @@ Dump of assembler code for function flag:
    0x000000000040120e <+57>:    callq  0x401030 <puts@plt>
    0x0000000000401213 <+62>:    mov    $0x1,%edi
    0x0000000000401218 <+67>:    callq  0x401090 <exit@plt>
-   0x000000000040121d <+72>:    mov    -0x8(%rbp),%rdx
 ~~~
 ```
 0x00000000004011d5とわかった。  
