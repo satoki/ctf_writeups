@@ -4,7 +4,7 @@
 
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  
-XXXX Points  <!--XXX-->
+1820 Points  
 - [Blurry Eyes:Web Exploitation:100pts](HSCTF_7/Blurry_Eyes)  
 - [Inspector Gadget:Web Exploitation:100pts](HSCTF_7/Inspector_Gadget)  
 - [Broken Tokens:Web Exploitation:100pts](HSCTF_7/Broken_Tokens)  
@@ -21,7 +21,7 @@ XXXX Points  <!--XXX-->
 - [Do Stars Spin? 1:Miscellaneous:100pts](HSCTF_7/Do_Stars_Spin%3F_1)  
 - [Mad Libs:Forensics:100pts](HSCTF_7/Mad_Libs)  
 - [Debt Simulator:Web Exploitation:100pts](HSCTF_7/Debt_Simulator)  
-- [Chonky E:Cryptography:XXXpts](HSCTF_7/Chonky_E)  <!--XXX-->
+- [Chonky E:Cryptography:100pts](HSCTF_7/Chonky_E)  
 - [Very Safe Login:Web Exploitation:100pts](HSCTF_7/Very_Safe_Login)  
 - [Primes:Miscellaneous:100pts](HSCTF_7/Primes)  
 - [Unexpected:Cryptography:100pts](HSCTF_7/Unexpected)  

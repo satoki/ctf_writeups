@@ -1,4 +1,4 @@
-# Chonky E:Cryptography:XXXpts
+# Chonky E:Cryptography:100pts
 ***E***  
 Note: P>Q  
 [ChonkyE.txt](ChonkyE.txt)  
