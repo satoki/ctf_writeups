@@ -24,6 +24,7 @@ XXXX Points  <!--XXX-->
 - [Chonky E:Cryptography:XXXpts](HSCTF_7/Chonky_E)  <!--XXX-->
 - [Very Safe Login:Web Exploitation:100pts](HSCTF_7/Very_Safe_Login)  
 - [Primes:Miscellaneous:100pts](HSCTF_7/Primes)  
+- [Unexpected:Cryptography:100pts](HSCTF_7/Unexpected)  
 
 ## SECCON Beginners CTF 2020 (2020/05/23)
 [SECCON Beginners CTF 2020](SECCON_Beginners_CTF_2020)  
