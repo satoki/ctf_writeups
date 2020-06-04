@@ -2,6 +2,29 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## HSCTF 7 (2020/06/01)
+[HSCTF 7](HSCTF_7)  
+XXXX Points  <!--XXX-->
+- [Blurry Eyes:Web Exploitation:100pts](HSCTF_7/Blurry_Eyes)  
+- [Inspector Gadget:Web Exploitation:100pts](HSCTF_7/Inspector_Gadget)  
+- [Broken Tokens:Web Exploitation:100pts](HSCTF_7/Broken_Tokens)  
+- [AP Lab: Computer Science Principles:Reverse Engineering:100pts](HSCTF_7/AP_Lab:_Computer_Science_Principles)  
+- [AP Lab: English Language:Reverse Engineering:100pts](HSCTF_7/AP_Lab:_English_Language)  
+- [My First Calculator:Miscellaneous:100pts](HSCTF_7/My_First_Calculator)  
+- [Boredom:Binary Exploitation:100pts](HSCTF_7/Boredom)  
+- [Pythagorean Tree Fractal 2:Algorithms:100pts](HSCTF_7/Pythagorean_Tree_Fractal_2)  
+- [Comments:Forensics:100pts](HSCTF_7/Comments)  
+- [Recursion Reverse:Reverse Engineering:100pts](HSCTF_7/Recursion_Reverse)  
+- [XORed:Cryptography:100pts](HSCTF_7/XORed)  
+- [Does CTFd Work?:Miscellaneous:10pts](HSCTF_7/Does_CTFd_Work?)  
+- [Discord Flag:Miscellaneous:10pts](HSCTF_7/Discord_Flag)  
+- [Do Stars Spin? 1:Miscellaneous:100pts](HSCTF_7/Do_Stars_Spin?_1)  
+- [Mad Libs:Forensics:100pts](HSCTF_7/Mad_Libs)  
+- [Debt Simulator:Web Exploitation:100pts](HSCTF_7/Debt_Simulator)  
+- [Chonky E:Cryptography:XXXpts](HSCTF_7/Chonky_E)  <!--XXX-->
+- [Very Safe Login:Web Exploitation:100pts](HSCTF_7/Very_Safe_Login)  
+- [Primes:Miscellaneous:100pts](HSCTF_7/Primes)  
+
 ## SECCON Beginners CTF 2020 (2020/05/23)
 [SECCON Beginners CTF 2020](SECCON_Beginners_CTF_2020)  
 888 Points  
