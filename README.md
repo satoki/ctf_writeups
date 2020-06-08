@@ -2,6 +2,40 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## RACTF (2020/06/05)
+[RACTF](RACTF)  
+7550 Points  
+- [Remote Retreat:OSINT:250pts](RACTF/Remote_Retreat)  
+- [Quarantine - Hidden information:Web:150pts](RACTF/Quarantine_-_Hidden_information)  
+- [Solved in a Flash:Reversing / Pwn:100pts](RACTF/Solved_in_a_Flash)  
+- [Entrypoint:Web:200pts](RACTF/Entrypoint)  
+- [Admin Attack:Web:300pts](RACTF/Admin_Attack)  
+- [A Musical Mix-up:Steg / Forensics:200pts](RACTF/A_Musical_Mix-up)  
+- [A Monster Issue:Steg / Forensics:100pts](RACTF/A_Monster_Issue)  
+- [Cut Short:Steg / Forensics:200pts](RACTF/Cut_Short)  
+- [Reading Between the Lines:Misc:300pts](RACTF/Reading_Between_the_Lines)  
+- [Suspended Belief:OSINT:350pts](RACTF/Suspended_Belief)  
+- [Brick by Brick:OSINT:400pts](RACTF/Brick_by_Brick)  
+- [Tree Man:OSINT:300pts](RACTF/Tree_Man)  
+- [Dead Man:OSINT:350pts](RACTF/Dead_Man)  
+- [Insert witty name:Web:200pts](RACTF/Insert_witty_name)  
+- [BR.MOV:Misc:400pts](RACTF/BR.MOV)  
+- [RAirways:OSINT:200pts](RACTF/RAirways)  
+- [pearl pearl pearl:Misc:300pts](RACTF/pearl_pearl_pearl)  
+- [Really Small Algorithm:Cryptography:150pts](RACTF/Really_Small_Algorithm)  
+- [Quarantine:Web:200pts](RACTF/Quarantine)  
+- [Teleport:Misc:300pts](RACTF/Teleport)  
+- [Baiting:Web:200pts](RACTF/Baiting)  
+- [Getting admin:Web:300pts](RACTF/Getting_admin)  
+- [C0llide?:Web:250pts](RACTF/C0llide%3F)  
+- [Spentalkux:Misc:300pts](RACTF/Spentalkux)  
+- [Finding server information:Web:350pts](RACTF/Finding_server_information)  
+- [Xtremely Memorable Listing:Web:200pts](RACTF/Xtremely_Memorable_Listing)  
+- [ST.MOV:Misc:250pts](RACTF/ST.MOV)  
+- [B007l3G CRYP70:Cryptography:350pts](RACTF/B007l3G_CRYP70)  
+- [B007L36 CRYP70... 4641N:Cryptography:400pts](RACTF/B007L36_CRYP70..._4641N)  
+🥇OSINT
+
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  
 1820 Points  
