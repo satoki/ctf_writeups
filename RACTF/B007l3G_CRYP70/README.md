@@ -38,7 +38,7 @@ Please enter the message you wish to encrypt:
 暗号化されており、鍵も毎回変わっているように見える。  
 38+53+25+42=158  
 38+40+28+52=158  
-暗号ではなく、ただの和分解のようだ。  
+ただの和分解のようだ。  
 まずは`abcdefghijklmnopqrstuvwxyz0123456789{}_`の数値を取得する。  
 ```bash
 $ nc 95.216.233.106 16118

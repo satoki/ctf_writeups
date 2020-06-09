@@ -16,6 +16,7 @@ Wow! You're killing these! One of our social media monitoring team just sent us 
 > > One of the other guys on the team thinks if we know  
 > > where he was we should be able to track him down faster.  
 > END  
+
 As usual, we've set up the map. It should be accurate to 2km.  
 ![image1.png](images/image1.png)  
 [hires.jpg](hires.jpg)  

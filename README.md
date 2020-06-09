@@ -34,7 +34,8 @@
 - [ST.MOV:Misc:250pts](RACTF/ST.MOV)  
 - [B007l3G CRYP70:Cryptography:350pts](RACTF/B007l3G_CRYP70)  
 - [B007L36 CRYP70... 4641N:Cryptography:400pts](RACTF/B007L36_CRYP70..._4641N)  
-🥇OSINT
+
+🥇OSINT  
 
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  

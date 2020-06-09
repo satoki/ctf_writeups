@@ -2,7 +2,7 @@
 I'm so glad we've got you on the team; I don't think we'd have manged to get that last one if it weren't for you. We've been watching the account, and the target just posted another image. This guy really doesn't learn. We don't think he's left Spain yet, but we really need this one pinpointed exactly. Can you work where he took this?  
 The map here should be accurate to 50 meters.  
 ![image1.png](images/image1.png)  
-[hires.jpg](hires.jpg)  
+[hires.png](hires.png)  
 
 # Solution
 OSINT問題のようだ。  

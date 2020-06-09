@@ -6,7 +6,7 @@ pearlpearlpearlpearlpearlpearlpearlpearlpearlpearlpearlpearlpearlpearlpearl
 ncすると以下のように表示される。  
 何もできそうにないが、とりあえずファイルにはき出す。  
 ```bash
-nc 95.216.233.106 49960
+$ nc 95.216.233.106 49960
 ctf{pearlpearlpearl}
 ctf{pearlpearlpearl}
 ctf{pearlpearlpearl}

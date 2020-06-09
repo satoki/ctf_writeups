@@ -3,8 +3,7 @@ Challenge instance ready at 95.216.233.106:30741.
 A target service is asking for two bits of information that have the same "custom hash", but can't be identical. Looks like we're going to have to generate a collision?  
 
 # Solution
-アクセスするともろにJavaScriptのソースが見える。  
-[site.png](../Quarantine_-_Hidden_information/site/site.png)  
+アクセスするとJavaScriptのソースが見える。  
 ```JavaScript:app.js
 const bodyParser = require("body-parser")
 const express = require("express")

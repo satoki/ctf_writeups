@@ -1,5 +1,5 @@
 # RAirways:OSINT:200pts
-Agent. We found a target posting strange images of boarding passes to his Instagram. None of the guys at base can figure it out, but we think he's been using the images to exfiltrate data. We've attached a high-quality version of the image below, here's the one from his Instagram: 
+Agent. We found a target posting strange images of boarding passes to his Instagram. None of the guys at base can figure it out, but we think he's been using the images to exfiltrate data. We've attached a high-quality version of the image below, here's the one from his Instagram:  
 ![image.png](image.png)  
 [original.jpg](original.jpg)  
 
@@ -11,4 +11,4 @@ OSINT問題のようだ。
 PDF417のようだ。  
 [PDF417 barcode scanner](https://play.google.com/store/apps/details?id=mobi.pdf417)で読み取るとflagが入っていた。  
 
-##　ractf{B0ard1ngP4ssD4t4}
+## ractf{B0ard1ngP4ssD4t4}

@@ -22,10 +22,10 @@ Welcome, xxslayer420
 ユーザー名がxxslayer420以外を指定する`' OR username!='xxslayer420`である。  
 Welcome, jimmyTehAdmin  
 [site2.png](../Admin_Attack/site/flag.png)  
-さらにNGを追加していく。  
-`' OR (username!='xxslayer420' AND username!='jimmyTehAdmin') --`
+loginToGetFlagではないので、さらにNGを追加していく。  
+`' OR (username!='xxslayer420' AND username!='jimmyTehAdmin') --`  
 flag(Welcome, loginToGetFlag)  
 [flag.png](site/flag.png)  
-flagが出てきた。  
+loginToGetFlagでログインするとflagが出てきた。  
 
 ## ractf{injectingSQLLikeNobody'sBusiness}

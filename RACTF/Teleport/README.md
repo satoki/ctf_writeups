@@ -7,8 +7,7 @@ One of our admins plays a strange game which can be accessed over TCP. He's been
 ncすると座標を移動できるゲームなようだ。  
 ただしユークリッド距離で10未満しか移動できない。  
 ```bash
-$
-satoki@SatoPC:~$ nc 95.216.233.106 34351
+$ nc 95.216.233.106 34351
 Your player is at 0,0
 The flag is at 10000000000000, 10000000000000
 Enter your next position in the form x,y

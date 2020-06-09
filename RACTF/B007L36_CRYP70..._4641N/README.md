@@ -63,7 +63,7 @@ while True:
         break
 ```
 ![image1.png](images/image1.png)  
-ractf{n0t_th3_fl49_y3t}とだめ出しをされた。
+ractf{n0t_th3_fl49_y3t}とだめ出しをされた。  
 しかしpassword.txtのkeyがわかっており、dataとの交換法則が成り立つためdataをkeyとして復号できる。  
 bfdec.pyの差分は以下になる。  
 ```python:bfdec.py差分

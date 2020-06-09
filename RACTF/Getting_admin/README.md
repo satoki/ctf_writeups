@@ -93,5 +93,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJuT25FIn0.eyJ1c2VyIjoiSGFycnkiLCJwcml2aWxlZ2UiOjJ9.
 ```
 結局privilegeを2とするのが正解だった。  
 `eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJ1c2VyIjoiSGFycnkiLCJwcml2aWxlZ2UiOjJ9.`をセットしてAdminに飛ぶとflagが得られる。  
+flag  
+[flag.png](site/flag.png)  
 
 ## ractf{j4va5cr1pt_w3b_t0ken}

@@ -35,8 +35,8 @@ Hello, If you're reading this you've managed to find my little... *interface*. T
 [Hexadecimal -> file (binary)](https://tomeko.net/online_tools/hex_to_file.php)が便利。  
 画像にバイナリ(01011111 01101000 01100101 01110010 01110010 01101001 01101110 01100111)が書いてあるのでASCIIにして読むと、_herringである。  
 red herringで注意をそらすといった意味があるのでハズレらしい。  
-しかしSpentalkuxには前のバージョンがあるようだ。
-実行すると以下になる。
+しかしSpentalkuxには前のバージョンがあるようだ。  
+実行すると以下になる。  
 ```bash
 $ python __init__0.9.py
 Urgh. Not you again.
@@ -54,7 +54,7 @@ I used to want you dead but...
 now I only want you gone.
 ```
 ちなみにここまで、すでにチームメンバーがやっていた。  
-マジかしこい。
+マジかしこい。  
 Base系の暗号化であるように見える。  
 Base32を試すと、Base64が出てくる。  
 ```text
@@ -71,6 +71,6 @@ HexをさらにASCIIにすると以下になる。
 ```text
 Ea`I"Ap[6t20:Wp0ed`-?SQG?1NI(a@l$>t
 ```
-Base85をデコードすると以下のflagが得られた。  
+Base85をデコードするとflagが得られた。  
 
 ## ractf{My5t3r10u5_1nt3rf4c3?}
