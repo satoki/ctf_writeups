@@ -4,7 +4,7 @@
 
 ## RACTF (2020/06/05)
 [RACTF](RACTF)  
-7550 Points  
+7800 Points  
 - [Remote Retreat:OSINT:250pts](RACTF/Remote_Retreat)  
 - [Quarantine - Hidden information:Web:150pts](RACTF/Quarantine_-_Hidden_information)  
 - [Solved in a Flash:Reversing / Pwn:100pts](RACTF/Solved_in_a_Flash)  
@@ -34,8 +34,9 @@
 - [ST.MOV:Misc:250pts](RACTF/ST.MOV)  
 - [B007l3G CRYP70:Cryptography:350pts](RACTF/B007l3G_CRYP70)  
 - [B007L36 CRYP70... 4641N:Cryptography:400pts](RACTF/B007L36_CRYP70..._4641N)  
+- [Vandalism:Web:250pts](RACTF/Vandalism)  
 
-🥇OSINT  
+🥇OSINT,Web  
 
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  
