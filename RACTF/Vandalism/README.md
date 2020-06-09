@@ -12,9 +12,8 @@ Login
 するとAdminでのログインが成功する。  
 Welcome, jimmyTehAdmin  
 [site2.png](../Admin_Attack/site/flag.png)  
-ここからエスパーを発動する。  
-adminのpanelを見つければいいようだが、すごいfuzzで/__adminPortalがヒットするらしい(知人から教えてもらった)。  
-確かに__adminなどでは404なのに302が返ってくる。  
+adminのpanelを見つければいいようだ。  
+X-OptionalHeaderにLocation: /__adminPortalが入っていた。  
 通常は302でリダイレクトしてしまうがWelcome, jimmyTehAdminページからアクセスすると以下のページに飛ぶ。  
 __adminPortal  
 [site3.png](site/site3.png)  
