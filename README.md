@@ -36,7 +36,7 @@
 - [B007L36 CRYP70... 4641N:Cryptography:400pts](RACTF/B007L36_CRYP70..._4641N)  
 - [Vandalism:Web:250pts](RACTF/Vandalism)  
 
-🥇OSINT,Web  
+🏅OSINT,Web  
 
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  

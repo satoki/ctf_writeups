@@ -7,7 +7,6 @@ Can you work out where this picture was taken? One of the guys thought it might 
 # Solution
 OSINT問題のようだ。  
 地図上の座標を特定してやればよい。  
-まずは画像をよく見ると以下の部分が目につく。  
 Google画像検索を行うと(cable-stayed bridge)と認識される。  
 橋が二本あり、メインの柱のてっぺんは金色か黄色、もう一つは柱がはしご状の形をしているものを探す。  
 GoogleImages  
