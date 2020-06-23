@@ -8,6 +8,7 @@ Login
 [site1.png](../Entrypoint/site/site.png)  
 `'`でエラーが出たので、SQLインジェクションを試みる。  
 `' OR 't'='t`ではxxslayer420としてログインしてしまう。  
+ではこれ以外のユーザーでのログインを試みる。  
 ユーザー名がxxslayer420以外を指定する`' OR username!='xxslayer420`である。  
 するとAdminでのログインが成功する。  
 Welcome, jimmyTehAdmin  
