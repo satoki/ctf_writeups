@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# panda-facts:web:412pts
 I just found a hate group targeting my favorite animal. Can you try and find their secrets? We gotta take them down!  
 Site: [panda-facts.2020.redpwnc.tf](https://panda-facts.2020.redpwnc.tf/)  
 [index.js](index.js)  

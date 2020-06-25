@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# CaaSiNO:misc:402pts
 Who needs regex for sanitization when we have VMs?!?!  
 The flag is at /ctf/flag.txt  
 nc 2020.redpwnc.tf 31273  

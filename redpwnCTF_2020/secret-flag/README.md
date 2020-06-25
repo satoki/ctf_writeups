@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# secret-flag:pwn:348pts
 There's a super secret flag in printf that allows you to LEAK the data at an address??  
 nc 2020.redpwnc.tf 31826  
 [secret-flag](secret-flag)  

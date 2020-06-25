@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# coffer-overflow-0:pwn:179pts
 Can you fill up the coffers? We even managed to find the source for you.  
 nc 2020.redpwnc.tf 31199  
 [coffer-overflow-0](coffer-overflow-0)　　　　[coffer-overflow-0.c](coffer-overflow-0.c)  

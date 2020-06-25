@@ -1,4 +1,4 @@
-# <!--XXXXXXXXXX-->
+# inspector-general:web:112pts
 My friend made a new webpage, can you [find a flag?](https://redpwn.net/)  
 
 # Solution

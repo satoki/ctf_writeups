@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# static-static-hosting:web:434pts
 Seeing that my last website was a success, I made a version where instead of storing text, you can make your own custom websites! If you make something cool, send it to me [here](https://admin-bot.redpwnc.tf/submit?challenge=static-static-hosting)  
 Site: [static-static-hosting.2020.redpwnc.tf](https://static-static-hosting.2020.redpwnc.tf/)  
 Note: The site is entirely static. Dirbuster will not be useful in solving it.  

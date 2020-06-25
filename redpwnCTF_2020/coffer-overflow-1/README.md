@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# coffer-overflow-1:pwn:282pts
 The coffers keep getting stronger! You'll need to use the source, Luke.  
 nc 2020.redpwnc.tf 31255  
 [coffer-overflow-1](coffer-overflow-1)　　　　[coffer-overflow-1.c](coffer-overflow-1.c)  

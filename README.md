@@ -4,22 +4,22 @@
 
 ## redpwnCTF 2020 (2020/06/21)
 [redpwnCTF 2020](redpwnCTF_2020)  
-XXXX Points  <!--XXXXXXXXXX-->
-- [inspector-general:web:XXXXpts](redpwnCTF_2020/inspector-general)  <!--XXXXXXXXXX-->
-- [login:web:XXXXpts](redpwnCTF_2020/login)  <!--XXXXXXXXXX-->
-- [static-pastebin:web:XXXXpts](redpwnCTF_2020/static-pastebin)  <!--XXXXXXXXXX-->
-- [coffer-overflow-0:pwn:XXXXpts](redpwnCTF_2020/coffer-overflow-0)  <!--XXXXXXXXXX-->
-- [coffer-overflow-1:pwn:XXXXpts](redpwnCTF_2020/coffer-overflow-1)  <!--XXXXXXXXXX-->
-- [coffer-overflow-2:pwn:XXXXpts](redpwnCTF_2020/coffer-overflow-2)  <!--XXXXXXXXXX-->
-- [secret-flag:pwn:XXXXpts](redpwnCTF_2020/secret-flag)  <!--XXXXXXXXXX-->
-- [CaaSiNO:misc:XXXXpts](redpwnCTF_2020/CaaSiNO)  <!--XXXXXXXXXX-->
-- [4k-rsa:crypto:XXXXpts](redpwnCTF_2020/4k-rsa)  <!--XXXXXXXXXX-->
-- [12-shades-of-redpwn:crypto:XXXXpts](redpwnCTF_2020/12-shades-of-redpwn)  <!--XXXXXXXXXX-->
-- [pseudo-key:crypto:XXXXpts](redpwnCTF_2020/pseudo-key)  <!--XXXXXXXXXX-->
-- [static-static-hosting:web:XXXXpts](redpwnCTF_2020/static-static-hosting)  <!--XXXXXXXXXX-->
-- [panda-facts:web:XXXXpts](redpwnCTF_2020/panda-facts)  <!--XXXXXXXXXX-->
-- [the-library:pwn:XXXXpts](redpwnCTF_2020/the-library)  <!--XXXXXXXXXX-->
-- [itsy-bitsy:crypto:XXXXpts](redpwnCTF_2020/itsy-bitsy)  <!--XXXXXXXXXX-->
+5013 Points  
+- [inspector-general:web:112pts](redpwnCTF_2020/inspector-general)  
+- [login:web:148pts](redpwnCTF_2020/login)  
+- [static-pastebin:web:373pts](redpwnCTF_2020/static-pastebin)  
+- [coffer-overflow-0:pwn:179pts](redpwnCTF_2020/coffer-overflow-0)  
+- [coffer-overflow-1:pwn:282pts](redpwnCTF_2020/coffer-overflow-1)  
+- [coffer-overflow-2:pwn:304pts](redpwnCTF_2020/coffer-overflow-2)  
+- [secret-flag:pwn:348pts](redpwnCTF_2020/secret-flag)  
+- [CaaSiNO:misc:402pts](redpwnCTF_2020/CaaSiNO)  
+- [4k-rsa:crypto:389pts](redpwnCTF_2020/4k-rsa)  
+- [12-shades-of-redpwn:crypto:429pts](redpwnCTF_2020/12-shades-of-redpwn)  
+- [pseudo-key:crypto:341pts](redpwnCTF_2020/pseudo-key)  
+- [static-static-hosting:web:434pts](redpwnCTF_2020/static-static-hosting)  
+- [panda-facts:web:412pts](redpwnCTF_2020/panda-facts)  
+- [the-library:pwn:424pts](redpwnCTF_2020/the-library)  
+- [itsy-bitsy:crypto:436pts](redpwnCTF_2020/itsy-bitsy)  
 
 ## RACTF (2020/06/05)
 [RACTF](RACTF)  

@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# login:web:148pts
 I made a cool login page. I bet you can't get in!  
 Site: [login.2020.redpwnc.tf](https://login.2020.redpwnc.tf/)  
 [index.js](index.js)  

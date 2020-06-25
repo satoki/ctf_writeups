@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# 12-shades-of-redpwn:crypto:429pts
 Everyone's favorite guess god Tux just sent me a flag that he somehow encrypted with a color wheel!  
 I don't even know where to start, the wheel looks more like a clock than a cipher... can you help me crack the code?  
 [ciphertext.jpg](ciphertext.jpg)　　　　[color-wheel.jpg](color-wheel.jpg)  

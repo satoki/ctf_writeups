@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# the-library:pwn:424pts
 There's not a lot of useful functions in the binary itself. I wonder where you can get some...  
 nc 2020.redpwnc.tf 31350  
 [the-library](the-library)　　　　[the-library.c](the-library.c)　　　　[libc.so.6](libc.so.6)  

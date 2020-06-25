@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# 4k-rsa:crypto:389pts
 Only n00bz use 2048-bit RSA. True gamers use keys that are at least 4k bits long, no matter how many primes it takes...  
 [4k-rsa-public-key.txt](4k-rsa-public-key.txt)  
 

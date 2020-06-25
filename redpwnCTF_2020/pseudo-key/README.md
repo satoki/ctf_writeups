@@ -1,4 +1,4 @@
-# # <!--XXXXXXXXXX-->
+# pseudo-key:crypto:341pts
 Keys are not always as they seem...  
 Note: Make sure to wrap the plaintext with flag{} before you submit!  
 [pseudo-key-output.txt](pseudo-key-output.txt)　　　　[pseudo-key.py](pseudo-key.py)  
