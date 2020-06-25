@@ -35,10 +35,10 @@ Partial RELRO,No Canary found,NX enabled,No PIE,No RPATH,No RUNPATH,Symbols,No,0
 ```
 nameをオーバーフローさせられるようだ("A"*24はすぐに求まる)。  
 しかし、systemがどこからも呼び出されていないため、retの飛び先をライブラリ内のsystemに飛ばしてやる必要がある。  
-ret2libcとかいうやつらしい。  
+ret2libcとかいうやつらしい(初めてやった)。  
 systemの引数には/bin/shを渡してやりたいため、呼び出し前にrdiレジスタに格納する必要がある。  
 そのため、スタックをレジスタに格納するgadgetを経由する([rp](https://github.com/0vercl0k/rp)で見つける)。  
-gdbでシェルを奪ってみることにする。  
+gdbでシェルを奪ってみる。  
 今後、一部の出力は省略する。  
 ```
 $ wget https://github.com/0vercl0k/rp/releases/download/v1/rp-lin-x64
@@ -115,8 +115,7 @@ $3 = {int (const char *)} 0x7f327ea4f440 <__libc_system>
 libc.so.6のputsのオフセットをret2pltで出力した解決済みputsアドレスから減じることでlibcのベースが得られる。  
 そこにlibc.so.6のsystemのオフセットを足せばよい。  
 getsも使う。  
-まずは必要なアドレスを集める。  
-
+必要なアドレスを集める。  
 ```bash
 $ gdb the-library
 gdb-peda$ disass puts

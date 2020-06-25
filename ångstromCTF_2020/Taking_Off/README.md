@@ -66,7 +66,7 @@ $ gdb --args taking_off 3 9 2 chicken
 ~~~
 gdb-peda$ b *0x400b80
 gdb-peda$ run
-Starting program: /mnt/c/Users/tsato/Desktop/xxx/taking_off 3 9 2 chicken
+Starting program: /taking_off 3 9 2 chicken
 So you figured out how to provide input and command line arguments.
 But can you figure out what input to provide?
 Well, you found the arguments, but what's the password?
