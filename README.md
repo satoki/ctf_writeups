@@ -18,6 +18,7 @@ XXXX Points  <!--XXXXXXXXXX-->
 - [pseudo-key:crypto:XXXXpts](redpwnCTF_2020/pseudo-key)  <!--XXXXXXXXXX-->
 - [static-static-hosting:web:XXXXpts](redpwnCTF_2020/static-static-hosting)  <!--XXXXXXXXXX-->
 - [panda-facts:web:XXXXpts](redpwnCTF_2020/panda-facts)  <!--XXXXXXXXXX-->
+- [the-library:pwn:XXXXpts](redpwnCTF_2020/the-library)  <!--XXXXXXXXXX-->
 
 ## RACTF (2020/06/05)
 [RACTF](RACTF)  
