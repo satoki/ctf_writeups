@@ -15,5 +15,6 @@ Windowsは以下。
 > c.bat|h.bat|a.bat|1.bat|n.bat
 nitic_ctf{cha1n_cha1n_cha1n_cha1n_cha1n_5combo}
 ```
+d.batはダミー。  
 
 ## nitic_ctf{cha1n_cha1n_cha1n_cha1n_cha1n_5combo}
