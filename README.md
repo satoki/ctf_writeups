@@ -2,6 +2,20 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+
+## NITIC CTF (2020/07/19)
+[NITIC CTF](NITIC_CTF)  
+1200 Points  
+- [prime_factorization:PPC:200pts](NITIC_CTF/prime_factorization)  
+- [cha1n:Misc:200pts](NITIC_CTF/cha1n)  
+- [anim:Forensic:200pts](NITIC_CTF/anim)  
+- [Fortran:Reversing:200pts](NITIC_CTF/Fortran)  
+- [shift_only:Crypto:200pts](NITIC_CTF/shift_only)  
+- [8^2:Web:100pts](NITIC_CTF/8^2)  
+- [Dangerous Twitter:Recon:100pts](NITIC_CTF/Dangerous_Twitter)  
+
+🏅PPC,Misc,Forensic,Reversing,Crypto,Web,Recon
+
 ## redpwnCTF 2020 (2020/06/21)
 [redpwnCTF 2020](redpwnCTF_2020)  
 5013 Points  
