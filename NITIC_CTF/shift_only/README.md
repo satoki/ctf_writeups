@@ -35,27 +35,25 @@ def encrypt(text: str, shift: int) -> str:
     res = ""
     for c in text:
         res += shift_table[(shift_table.index(c)-shift)%len(shift_table)]
-    return str(shift) + res
+    return res
 
 flag = "6}bceijnob9h9303h6yg896h0g896h0g896h01b40g896hz"
-while not "nitic_ctf{" in flag:
+while flag[0].isdigit():
 	flag = encrypt(flag[1:], int(flag[0]))
 	print(flag)
 ```
 実行するとflagが得られる。  
 ```bash
 $ python dec_only.py
-6589}cdhi83b3xuxb0sa230bua230bua230buv8yua230bt
-6z2359{bc2x8xror8um7wxu8o7wxu8o7wxu8op2so7wxu8n
-6twxz3489wr2rlil2og1qro2i1qro2i1qro2ijwmi1qro2h
-6nqrtxy23qlwlfcfwiavkliwcvkliwcvkliwcdqgcvkliwb
-6hklnrswxkfqf_9_qc7pefcq9pefcq9pefcq9{ka9pefcq8
-6befhlmqre_k_636k91j}_9k3j}_9k3j}_9k34e73j}_9k2
-68}_bfgkl}6e60x0e3vd563exd563exd563exy}1xd563ew
-62568_aef50}0uru}xp{z0x}r{z0x}r{z0x}rs5vr{z0x}q
-6wz0267}_zu5uolo5rj4tur5l4tur5l4tur5lmzpl4tur5k
-6qtuw0156tozoifizldynolzfynolzfynolzfgtjfynolze
-6knoquvz0nitic_ctf{shift_shift_shift_and_shift}
+589}cdhi83b3xuxb0sa230bua230bua230buv8yua230bt
+346{}cd3y9ysps9vn8xyv9p8xyv9p8xyv9pq3tp8xyv9o
+1378_a0v6vpmp6sk5uvs6m5uvs6m5uvs6mn0qm5uvs6l
+267}_zu5uolo5rj4tur5l4tur5l4tur5lmzpl4tur5k
+459{xs3smjm3ph2rsp3j2rsp3j2rsp3jkxnj2rsp3i
+156tozoifizldynolzfynolzfynolzfgtjfynolze
+45snynhehykcxmnkyexmnkyexmnkyefsiexmnkyd
+1ojujdadug}tijguatijguatijguaboeatijgu_
+nitic_ctf{shift_shift_shift_and_shift}
 ```
 
 ## nitic_ctf{shift_shift_shift_and_shift}

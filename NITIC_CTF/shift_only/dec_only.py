@@ -4,9 +4,9 @@ def encrypt(text: str, shift: int) -> str:
     res = ""
     for c in text:
         res += shift_table[(shift_table.index(c)-shift)%len(shift_table)]
-    return str(shift) + res
+    return res
 
 flag = "6}bceijnob9h9303h6yg896h0g896h0g896h01b40g896hz"
-while not "nitic_ctf{" in flag:
+while flag[0].isdigit():
 	flag = encrypt(flag[1:], int(flag[0]))
 	print(flag)
