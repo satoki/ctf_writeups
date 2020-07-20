@@ -30,7 +30,7 @@ with open("encrypted.flag", "w") as f:
 dec_only.pyで戻すとflagになる。  
 ```python:dec_only.py
 shift_table = "abcdefghijklmnopqrstuvwxyz0123456789{}_"
-def encrypt(text: str, shift: int) -> str:
+def decrypt(text: str, shift: int) -> str:
     assert  0 <= shift <= 9
     res = ""
     for c in text:
@@ -39,7 +39,7 @@ def encrypt(text: str, shift: int) -> str:
 
 flag = "6}bceijnob9h9303h6yg896h0g896h0g896h01b40g896hz"
 while flag[0].isdigit():
-	flag = encrypt(flag[1:], int(flag[0]))
+	flag = decrypt(flag[1:], int(flag[0]))
 	print(flag)
 ```
 実行するとflagが得られる。  
