@@ -2,6 +2,24 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## csictf 2020 (2020/07/17)
+[csictf 2020](csictf_2020)  
+XXX Points  <!--XXX-->
+- [Cascade:Web:XXXpts](csictf_2020/Cascade)  <!--XXX-->
+- [Oreo:Web:XXXpts](csictf_2020/Oreo)  <!--XXX-->
+- [Mr Rami:Web:XXXpts](csictf_2020/Mr_Rami)  <!--XXX-->
+- [Warm Up:Web:XXXpts](csictf_2020/Warm_Up)  <!--XXX-->
+- [Secure Portal:Web:XXXpts](csictf_2020/Secure_Portal)  <!--XXX-->
+- [pwn intended 0x1:Pwn:XXXpts](csictf_2020/pwn_intended_0x1)  <!--XXX-->
+- [pwn intended 0x2:Pwn:XXXpts](csictf_2020/pwn_intended_0x2)  <!--XXX-->
+- [pwn intended 0x3:Pwn:XXXpts](csictf_2020/pwn_intended_0x3)  <!--XXX-->
+- [AKA:Linux:XXXpts](csictf_2020/AKA)  <!--XXX-->
+- [find32:Linux:XXXpts](csictf_2020/find32)  <!--XXX-->
+- [Gradient sky:Forensics:XXXpts](csictf_2020/Gradient_sky)  <!--XXX-->
+- [Archenemy:Forensics:XXXpts](csictf_2020/Archenemy)  <!--XXX-->
+- [Panda:Forensics:XXXpts](csictf_2020/Panda)  <!--XXX-->
+- [Rivest Shamir Adleman:Crypto:XXXpts](csictf_2020/Rivest_Shamir_Adleman)  <!--XXX-->
+
 
 ## NITIC CTF (2020/07/19)
 [NITIC CTF](NITIC_CTF)  

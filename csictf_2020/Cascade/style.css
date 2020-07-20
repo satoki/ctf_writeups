@@ -1,0 +1,13 @@
+body {
+    background-color: purple;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, div, a {
+    /* csictf{w3lc0me_t0_csictf} */
+    color: white;
+    font-size: 3rem;
+}

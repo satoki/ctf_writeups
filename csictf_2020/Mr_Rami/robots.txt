@@ -1,0 +1,5 @@
+# Hey there, you're not a robot, yet I see you sniffing through this file.
+# SEO you later!
+# Now get off my lawn.
+
+Disallow: /fade/to/black
