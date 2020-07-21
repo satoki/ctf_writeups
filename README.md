@@ -22,6 +22,8 @@ XXX Points  <!--XXX-->
 - [Secret Society:Pwn:XXXpts](csictf_2020/Secret_Society)  <!--XXX-->
 - [Feedback:Feedback:XXXpts](csictf_2020/Feedback)  <!--XXX-->
 - [HTB 0x1:Linux:XXXpts](csictf_2020/HTB_0x1)  <!--XXX-->
+- [No DIStractions:Miscellaneous:XXXpts](csictf_2020/No_DIStractions)  <!--XXX-->
+- [Pirates of the Memorial:OSINT:XXXpts](csictf_2020/Pirates_of_the_Memorial)  <!--XXX-->
 
 ## NITIC CTF (2020/07/19)
 [NITIC CTF](NITIC_CTF)  
