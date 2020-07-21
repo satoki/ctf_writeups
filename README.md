@@ -19,7 +19,9 @@ XXX Points  <!--XXX-->
 - [Archenemy:Forensics:XXXpts](csictf_2020/Archenemy)  <!--XXX-->
 - [Panda:Forensics:XXXpts](csictf_2020/Panda)  <!--XXX-->
 - [Rivest Shamir Adleman:Crypto:XXXpts](csictf_2020/Rivest_Shamir_Adleman)  <!--XXX-->
-
+- [Secret Society:Pwn:XXXpts](csictf_2020/Secret_Society)  <!--XXX-->
+- [Feedback:Feedback:XXXpts](csictf_2020/Feedback)  <!--XXX-->
+- [HTB 0x1:Linux:XXXpts](csictf_2020/HTB_0x1)  <!--XXX-->
 
 ## NITIC CTF (2020/07/19)
 [NITIC CTF](NITIC_CTF)  
