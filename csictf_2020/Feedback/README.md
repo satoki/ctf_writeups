@@ -1,4 +1,4 @@
-# Feedback:Feedback:XXXpts<!--XXX-->
+# Feedback:Feedback:10pts
 Thanks a lot for taking part in csictf 2020!  
 [https://forms.gle/a1y8SVwNcpJrjS2T7](https://forms.gle/a1y8SVwNcpJrjS2T7)  
 

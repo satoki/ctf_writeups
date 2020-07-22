@@ -1,4 +1,4 @@
-# HTB 0x1:Linux:XXXpts<!--XXX-->
+# HTB 0x1:Linux:446pts
 I forgot my 'flag.txt' file on the server...  
 Server is at 34.93.37.238.  
 

@@ -1,4 +1,4 @@
-# pwn intended 0x3:Pwn:XXXpts<!--XXX-->
+# pwn intended 0x3:Pwn:313pts
 Teleportation is not possible, or is it?  
 nc chall.csivit.com 30013  
 [pwn-intended-0x3](pwn-intended-0x3)  

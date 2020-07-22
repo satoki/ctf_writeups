@@ -1,4 +1,4 @@
-# find32:Linux:XXXpts<!--XXX-->
+# find32:Linux:276pts
 I should have really named my files better. I thought I've hidden the flag, now I can't find it myself. (Wrap your flag in csictf{})  
 ssh user1@chall.csivit.com -p 30630 Password is find32  
 

@@ -1,4 +1,4 @@
-# pwn intended 0x2:Pwn:XXXpts<!--XXX-->
+# pwn intended 0x2:Pwn:280pts
 Travelling through spacetime!  
 nc chall.csivit.com 30007  
 [pwn-intended-0x2](pwn-intended-0x2)  

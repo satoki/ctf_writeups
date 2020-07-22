@@ -1,4 +1,4 @@
-# Warm Up:Web:XXXpts<!--XXX-->
+# Warm Up:Web:100pts
 If you know, you know; otherwise you might waste a lot of time.  
 [http://chall.csivit.com:30272](http://chall.csivit.com:30272/)  
 

@@ -1,4 +1,4 @@
-# Archenemy:Forensics:XXXpts<!--XXX-->
+# Archenemy:Forensics:368pts
 John likes Arch Linux. What is he hiding?  
 [arched.png](arched.png)  
 

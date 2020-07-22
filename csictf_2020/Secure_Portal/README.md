@@ -1,4 +1,4 @@
-# Secure Portal:Web:XXXpts<!---XXX->
+# Secure Portal:Web:304pts
 This is a super secure portal with a really unusual HTML file. Try to login.  
 [http://chall.csivit.com:30281](http://chall.csivit.com:30281/)  
 

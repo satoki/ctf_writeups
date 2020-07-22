@@ -1,4 +1,4 @@
-# pwn intended 0x1:Pwn:XXXpts<!--XXX-->
+# pwn intended 0x1:Pwn:100pts
 I really want to have some coffee!  
 nc chall.csivit.com 30001  
 [pwn-intended-0x1](pwn-intended-0x1)  

@@ -1,4 +1,4 @@
-# Rivest Shamir Adleman:Crypto:XXXpts<!--XXX-->
+# Rivest Shamir Adleman:Crypto:100pts
 These 3 guys encrypted my flag, but they didn't tell me how to decrypt it.  
 [enc.txt](enc.txt)  
 

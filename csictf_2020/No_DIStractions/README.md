@@ -1,4 +1,4 @@
-# No DIStractions:Miscellaneous:XXXpts<!--XXX-->
+# No DIStractions:Miscellaneous:330pts
 I see all, I read all, but I shall not speak until I am 'commanded' to do so. Ask me, and thou shall recieve.  
 
 # Solution

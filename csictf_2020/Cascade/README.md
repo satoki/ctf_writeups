@@ -1,4 +1,4 @@
-# Cascade:Web:XXXpts<!--XXX-->
+# Cascade:Web:100pts
 Welcome to csictf.  
 [http://chall.csivit.com:30203](http://chall.csivit.com:30203/)  
 

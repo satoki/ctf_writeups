@@ -1,4 +1,4 @@
-# AKA:Linux:XXXpts<!--XXX-->
+# AKA:Linux:100pts
 Cows are following me everywhere I go. Help, I'm trapped!  
 nc chall.csivit.com 30611  
 

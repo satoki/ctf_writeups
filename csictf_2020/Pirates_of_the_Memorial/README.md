@@ -1,4 +1,4 @@
-# Pirates of the Memorial:OSINT:XXXpts<!--XXX-->
+# Pirates of the Memorial:OSINT:332pts
 The original photographer of this picture commented the flag on his post. Find the flag.  
 [storm.jpeg](storm.jpeg)  
 

@@ -1,4 +1,4 @@
-# Gradient sky:Forensics:XXXpts<!--XXX-->
+# Gradient sky:Forensics:100pts
 Gradient sky is a begginer level ctf challenge which is aimed towards rookies.  
 [sky.jpg](sky.jpg)  
 

@@ -1,4 +1,4 @@
-# Oreo:Web:XXXpts<!--XXX-->
+# Oreo:Web:100pts
 My nephew is a fussy eater and is only willing to eat chocolate oreo. Any other flavour and he throws a tantrum.  
 [http://chall.csivit.com:30243](http://chall.csivit.com:30243/)  
 

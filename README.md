@@ -4,26 +4,26 @@
 
 ## csictf 2020 (2020/07/17)
 [csictf 2020](csictf_2020)  
-XXX Points  <!--XXX-->
-- [Cascade:Web:XXXpts](csictf_2020/Cascade)  <!--XXX-->
-- [Oreo:Web:XXXpts](csictf_2020/Oreo)  <!--XXX-->
-- [Mr Rami:Web:XXXpts](csictf_2020/Mr_Rami)  <!--XXX-->
-- [Warm Up:Web:XXXpts](csictf_2020/Warm_Up)  <!--XXX-->
-- [Secure Portal:Web:XXXpts](csictf_2020/Secure_Portal)  <!--XXX-->
-- [pwn intended 0x1:Pwn:XXXpts](csictf_2020/pwn_intended_0x1)  <!--XXX-->
-- [pwn intended 0x2:Pwn:XXXpts](csictf_2020/pwn_intended_0x2)  <!--XXX-->
-- [pwn intended 0x3:Pwn:XXXpts](csictf_2020/pwn_intended_0x3)  <!--XXX-->
-- [AKA:Linux:XXXpts](csictf_2020/AKA)  <!--XXX-->
-- [find32:Linux:XXXpts](csictf_2020/find32)  <!--XXX-->
-- [Gradient sky:Forensics:XXXpts](csictf_2020/Gradient_sky)  <!--XXX-->
-- [Archenemy:Forensics:XXXpts](csictf_2020/Archenemy)  <!--XXX-->
-- [Panda:Forensics:XXXpts](csictf_2020/Panda)  <!--XXX-->
-- [Rivest Shamir Adleman:Crypto:XXXpts](csictf_2020/Rivest_Shamir_Adleman)  <!--XXX-->
-- [Secret Society:Pwn:XXXpts](csictf_2020/Secret_Society)  <!--XXX-->
-- [Feedback:Feedback:XXXpts](csictf_2020/Feedback)  <!--XXX-->
-- [HTB 0x1:Linux:XXXpts](csictf_2020/HTB_0x1)  <!--XXX-->
-- [No DIStractions:Miscellaneous:XXXpts](csictf_2020/No_DIStractions)  <!--XXX-->
-- [Pirates of the Memorial:OSINT:XXXpts](csictf_2020/Pirates_of_the_Memorial)  <!--XXX-->
+4432 Points  
+- [Cascade:Web:100pts](csictf_2020/Cascade)  
+- [Oreo:Web:100pts](csictf_2020/Oreo)  
+- [Mr Rami:Web:211pts](csictf_2020/Mr_Rami)  
+- [Warm Up:Web:100pts](csictf_2020/Warm_Up)  
+- [Secure Portal:Web:304pts](csictf_2020/Secure_Portal)  
+- [pwn intended 0x1:Pwn:100pts](csictf_2020/pwn_intended_0x1)  
+- [pwn intended 0x2:Pwn:280pts](csictf_2020/pwn_intended_0x2)  
+- [pwn intended 0x3:Pwn:313pts](csictf_2020/pwn_intended_0x3)  
+- [AKA:Linux:100pts](csictf_2020/AKA)  
+- [find32:Linux:276pts](csictf_2020/find32)  
+- [Gradient sky:Forensics:100pts](csictf_2020/Gradient_sky)  
+- [Archenemy:Forensics:368pts](csictf_2020/Archenemy)  
+- [Panda:Forensics:427pts](csictf_2020/Panda)  
+- [Rivest Shamir Adleman:Crypto:100pts](csictf_2020/Rivest_Shamir_Adleman)  
+- [Secret Society:Pwn:435pts](csictf_2020/Secret_Society)  
+- [Feedback:Feedback:10pts](csictf_2020/Feedback)  
+- [HTB 0x1:Linux:446pts](csictf_2020/HTB_0x1)  
+- [No DIStractions:Miscellaneous:330pts](csictf_2020/No_DIStractions)  
+- [Pirates of the Memorial:OSINT:332pts](csictf_2020/Pirates_of_the_Memorial)  
 
 ## NITIC CTF (2020/07/19)
 [NITIC CTF](NITIC_CTF)  

@@ -1,4 +1,4 @@
-# Secret Society:Pwn:XXXpts<!--XXX-->
+# Secret Society:Pwn:435pts
 Wanna enter the Secret Society? Well you have to find the secret code first!  
 nc chall.csivit.com 30041  
 [secret-society](secret-society)  
