@@ -18,6 +18,6 @@ Archive:  flag.zip
 総当たりを試してもよい。  
 解凍するとmeme.jpgが出てきた。  
 ![meme.jpg](meme.jpg)  
-フラグが書かれている。  
+flagが書かれている。  
 
 ## csictf{1_h0pe_y0u_don't_s33_m3_here}

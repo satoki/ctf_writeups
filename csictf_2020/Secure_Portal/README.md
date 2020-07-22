@@ -7,7 +7,7 @@ This is a super secure portal with a really unusual HTML file. Try to login.
 Secure Portal  
 [site.png](site/site.png)  
 パスワードを入力するようだが不審な点はない。  
-ソースを見ると以下の記述があった。
+ソースを見ると以下の記述があった。  
 いかにも怪しい。  
 ```html
 ~~~

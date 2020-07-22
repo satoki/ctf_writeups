@@ -5,7 +5,7 @@
 # Solution
 アクセスするとロボットがいる(画像の位置がおかしいが気にしない)。  
 Mr. Rami  
-[site](site/site.png)  
+[site.png](site/site.png)  
 ロボットなのでrobots.txtを見てみると以下のように書かれていた。  
 ```text
 # Hey there, you're not a robot, yet I see you sniffing through this file.
