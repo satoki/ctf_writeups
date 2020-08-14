@@ -36,8 +36,6 @@
 - [8^2:Web:100pts](NITIC_CTF/8^2)  
 - [Dangerous Twitter:Recon:100pts](NITIC_CTF/Dangerous_Twitter)  
 
-🏅PPC,Misc,Forensic,Reversing,Crypto,Web,Recon
-
 ## redpwnCTF 2020 (2020/06/21)
 [redpwnCTF 2020](redpwnCTF_2020)  
 5013 Points  
@@ -90,8 +88,6 @@
 - [B007l3G CRYP70:Cryptography:350pts](RACTF/B007l3G_CRYP70)  
 - [B007L36 CRYP70... 4641N:Cryptography:400pts](RACTF/B007L36_CRYP70..._4641N)  
 - [Vandalism:Web:250pts](RACTF/Vandalism)  
-
-🏅OSINT,Web  
 
 ## HSCTF 7 (2020/06/01)
 [HSCTF 7](HSCTF_7)  
