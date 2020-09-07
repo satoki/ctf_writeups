@@ -2,6 +2,14 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## COMPFEST CTF 2020 (2020/09/06)
+[COMPFEST CTF 2020](COMPFEST_CTF_2020)  
+2583 Points  
+- [Sanity Check:Misc:1pts](COMPFEST_CTF_2020/Sanity_Check)  
+- [Super Judge:Web:757pts](COMPFEST_CTF_2020/Super_Judge)  
+- [Regular Forum Page:Web:864pts](COMPFEST_CTF_2020/Regular_Forum_Page)  
+- [NoPass:Web:961pts](COMPFEST_CTF_2020/NoPass)  
+
 ## csictf 2020 (2020/07/17)
 [csictf 2020](csictf_2020)  
 4432 Points  

@@ -1,0 +1,2 @@
+100
+__import__("hackhack")

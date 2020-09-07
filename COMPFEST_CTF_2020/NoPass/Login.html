@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+      a,a:focus,a:hover{color:#fff}.btn-secondary,.btn-secondary:focus,.btn-secondary:hover{color:#333;text-shadow:none;background-color:#fff;border:.05rem solid #fff}body,html{height:100%;background-color:#333}body{display:-ms-flexbox;display:flex;color:#fff;text-shadow:0 .05rem .1rem rgba(0,0,0,.5);box-shadow:inset 0 0 5rem rgba(0,0,0,.5)}.cover-container{max-width:42em}.masthead{margin-bottom:2rem}.masthead-brand{margin-bottom:0}.nav-masthead .nav-link{padding:.25rem 0;font-weight:700;color:rgba(255,255,255,.5);background-color:transparent;border-bottom:.25rem solid transparent}.nav-masthead .nav-link:focus,.nav-masthead .nav-link:hover{border-bottom-color:rgba(255,255,255,.25)}.nav-masthead .nav-link+.nav-link{margin-left:1rem}.nav-masthead .active{color:#fff;border-bottom-color:#fff}@media (min-width:48em){.masthead-brand{float:left}.nav-masthead{float:right}}.cover{padding:0 1.5rem}.cover .btn-lg{padding:.75rem 1.25rem;font-weight:700}.mastfoot{color:rgba(255,255,255,.5)}.bd-placeholder-img{font-size:1.125rem;text-anchor:middle;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}@media (min-width:768px){.bd-placeholder-img-lg{font-size:3.5rem}}.cmd-text{font-family:'VT323',monospace;font-size:62px;margin:auto 0}.form-signin{width:100%;max-width:420px;padding:15px;margin:auto}.form-label-group{position:relative;margin-bottom:1rem}.form-label-group input,.form-label-group label{height:3.125rem;padding:.75rem}.form-label-group label{position:absolute;top:0;left:0;display:block;width:100%;margin-bottom:0;line-height:1.5;color:#495057;pointer-events:none;cursor:text;border:1px solid transparent;border-radius:.25rem;transition:all .1s ease-in-out}.form-label-group input::-webkit-input-placeholder{color:transparent}.form-label-group input::-moz-placeholder{color:transparent}.form-label-group input:-ms-input-placeholder{color:transparent}.form-label-group input::-ms-input-placeholder{color:transparent}.form-label-group input::placeholder{color:transparent}.form-label-group input:not(:-moz-placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}.form-label-group input:not(:-ms-input-placeholder){padding-top:1.25rem;padding-bottom:.25rem}.form-label-group input:not(:placeholder-shown){padding-top:1.25rem;padding-bottom:.25rem}.form-label-group input:not(:-moz-placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:12px;color:#777}.form-label-group input:not(:-ms-input-placeholder)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:12px;color:#777}.form-label-group input:not(:placeholder-shown)~label{padding-top:.25rem;padding-bottom:.25rem;font-size:12px;color:#777}@supports (-ms-ime-align:auto){.form-label-group{display:-ms-flexbox;display:flex;-ms-flex-direction:column-reverse;flex-direction:column-reverse}.form-label-group label{position:static}.form-label-group input::-ms-input-placeholder{color:#777}}  
+    </style>
+    
+    
+<title>Log in | NoPass</title>
+
+  </head>
+  <body>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="masthead">
+  <div class="inner">
+    <a href="/">
+      <h3 class="masthead-brand" style="font-family: 'VT323', monospace; font-size:36px">NOPASS</h3>
+    </a>
+    <nav class="nav nav-masthead justify-content-center">
+      
+        <a class="nav-link active" href="/login" style="font-family: 'VT323', monospace;font-size:24px">Login</a>
+      
+    </nav>
+  </div>
+</header>
+      
+<form class="form-signin" action="/login" method="POST" enctype="application/x-www-form-urlencoded">
+  <div class="text-center mb-4">
+    <svg xmlns="http://www.w3.org/2000/svg" width="215" viewBox="0 0 128 128">
+      <g style="fill:#ffffff">
+        <path d="M121.25,8.739H6.75A6.758,6.758,0,0,0,0,15.489v85.528a6.233,6.233,0,0,0,6.226,6.226H42.048v6.268a5.756,5.756,0,0,0,5.75,5.75H80.2a5.756,5.756,0,0,0,5.75-5.75v-6.268h35.822A6.233,6.233,0,0,0,128,101.017V15.489A6.758,6.758,0,0,0,121.25,8.739Zm-38.8,104.772a2.253,2.253,0,0,1-2.25,2.25H47.8a2.252,2.252,0,0,1-2.25-2.25V87.166a2.252,2.252,0,0,1,2.25-2.25H80.2a2.253,2.253,0,0,1,2.25,2.25ZM66.671,67.518H61.329a5.756,5.756,0,0,0-5.75,5.75v.2h-4.5v-.2a10.261,10.261,0,0,1,10.25-10.25h5.342a10.261,10.261,0,0,1,10.25,10.25v8.147h-4.5V73.268A5.756,5.756,0,0,0,66.671,67.518Zm57.829,33.5a2.729,2.729,0,0,1-2.726,2.726H85.952V87.166h0a5.752,5.752,0,0,0-5.531-5.739V73.268a13.765,13.765,0,0,0-13.75-13.75H61.329a13.765,13.765,0,0,0-13.75,13.75v1.949a1.749,1.749,0,0,0,1.75,1.75h8a1.75,1.75,0,0,0,1.75-1.75V73.268a2.252,2.252,0,0,1,2.25-2.25h5.342a2.253,2.253,0,0,1,2.25,2.25v8.147H47.8a5.757,5.757,0,0,0-5.75,5.75h0v16.577H6.226A2.729,2.729,0,0,1,3.5,101.017v-69.9h121Zm0-73.4H3.5V15.489a3.254,3.254,0,0,1,3.25-3.25h114.5a3.254,3.254,0,0,1,3.25,3.25Z"/>
+        <path d="M118.25,18.176H49.687a1.75,1.75,0,0,0,0,3.5H118.25a1.75,1.75,0,0,0,0-3.5Z"/>
+        <path d="M14.377,18.176H9.75a1.75,1.75,0,0,0,0,3.5h4.627a1.75,1.75,0,0,0,0-3.5Z"/>
+        <path d="M27.69,18.176H23.062a1.75,1.75,0,0,0,0,3.5H27.69a1.75,1.75,0,0,0,0-3.5Z"/>
+        <path d="M41,18.176H36.375a1.75,1.75,0,0,0,0,3.5H41a1.75,1.75,0,0,0,0-3.5Z"/>
+        <path d="M29.774,53.441H34.13a3.754,3.754,0,0,0,3.75-3.75V41.364a3.754,3.754,0,0,0-3.75-3.75H29.774a3.754,3.754,0,0,0-3.75,3.75v8.327A3.754,3.754,0,0,0,29.774,53.441Zm-.25-12.077a.25.25,0,0,1,.25-.25H34.13a.25.25,0,0,1,.25.25v8.327a.25.25,0,0,1-.25.25H29.774a.25.25,0,0,1-.25-.25Z"/>
+        <path d="M45.8,53.441h4.356a3.754,3.754,0,0,0,3.75-3.75V41.364a3.754,3.754,0,0,0-3.75-3.75H45.8a3.754,3.754,0,0,0-3.75,3.75v8.327A3.754,3.754,0,0,0,45.8,53.441Zm-.25-12.077a.25.25,0,0,1,.25-.25h4.356a.25.25,0,0,1,.25.25v8.327a.25.25,0,0,1-.25.25H45.8a.25.25,0,0,1-.25-.25Z"/>
+        <path d="M77.846,53.441H82.2a3.754,3.754,0,0,0,3.75-3.75V41.364a3.754,3.754,0,0,0-3.75-3.75H77.846a3.754,3.754,0,0,0-3.75,3.75v8.327A3.754,3.754,0,0,0,77.846,53.441ZM77.6,41.364a.25.25,0,0,1,.25-.25H82.2a.25.25,0,0,1,.25.25v8.327a.25.25,0,0,1-.25.25H77.846a.25.25,0,0,1-.25-.25Z"/>
+        <path d="M109.894,53.441h4.356a3.755,3.755,0,0,0,3.75-3.75V41.364a3.755,3.755,0,0,0-3.75-3.75h-4.356a3.754,3.754,0,0,0-3.75,3.75v8.327A3.754,3.754,0,0,0,109.894,53.441Zm-.25-12.077a.25.25,0,0,1,.25-.25h4.356a.25.25,0,0,1,.25.25v8.327a.25.25,0,0,1-.25.25h-4.356a.25.25,0,0,1-.25-.25Z"/>
+        <path d="M13.75,75.342h4.356a3.754,3.754,0,0,0,3.75-3.75V63.265a3.754,3.754,0,0,0-3.75-3.75H13.75A3.754,3.754,0,0,0,10,63.265v8.327A3.754,3.754,0,0,0,13.75,75.342ZM13.5,63.265a.25.25,0,0,1,.25-.25h4.356a.25.25,0,0,1,.25.25v8.327a.251.251,0,0,1-.25.25H13.75a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M29.774,75.342H34.13a3.754,3.754,0,0,0,3.75-3.75V63.265a3.754,3.754,0,0,0-3.75-3.75H29.774a3.754,3.754,0,0,0-3.75,3.75v8.327A3.754,3.754,0,0,0,29.774,75.342Zm-.25-12.077a.25.25,0,0,1,.25-.25H34.13a.25.25,0,0,1,.25.25v8.327a.251.251,0,0,1-.25.25H29.774a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M93.869,75.342h4.358a3.755,3.755,0,0,0,3.75-3.75V63.265a3.755,3.755,0,0,0-3.75-3.75H93.869a3.755,3.755,0,0,0-3.75,3.75v8.327A3.755,3.755,0,0,0,93.869,75.342Zm-.25-12.077a.25.25,0,0,1,.25-.25h4.358a.251.251,0,0,1,.25.25v8.327a.251.251,0,0,1-.25.25H93.869a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M13.75,97.243h4.356a3.754,3.754,0,0,0,3.75-3.75V85.165a3.754,3.754,0,0,0-3.75-3.75H13.75A3.754,3.754,0,0,0,10,85.165v8.328A3.754,3.754,0,0,0,13.75,97.243ZM13.5,85.165a.25.25,0,0,1,.25-.25h4.356a.25.25,0,0,1,.25.25v8.328a.251.251,0,0,1-.25.25H13.75a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M29.774,97.243H34.13a3.754,3.754,0,0,0,3.75-3.75V85.165a3.754,3.754,0,0,0-3.75-3.75H29.774a3.754,3.754,0,0,0-3.75,3.75v8.328A3.754,3.754,0,0,0,29.774,97.243Zm-.25-12.078a.25.25,0,0,1,.25-.25H34.13a.25.25,0,0,1,.25.25v8.328a.251.251,0,0,1-.25.25H29.774a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M93.869,97.243h4.358a3.755,3.755,0,0,0,3.75-3.75V85.165a3.755,3.755,0,0,0-3.75-3.75H93.869a3.755,3.755,0,0,0-3.75,3.75v8.328A3.755,3.755,0,0,0,93.869,97.243Zm-.25-12.078a.25.25,0,0,1,.25-.25h4.358a.251.251,0,0,1,.25.25v8.328a.251.251,0,0,1-.25.25H93.869a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M109.894,97.243h4.356a3.755,3.755,0,0,0,3.75-3.75V85.165a3.755,3.755,0,0,0-3.75-3.75h-4.356a3.754,3.754,0,0,0-3.75,3.75v8.328A3.754,3.754,0,0,0,109.894,97.243Zm-.25-12.078a.25.25,0,0,1,.25-.25h4.356a.25.25,0,0,1,.25.25v8.328a.251.251,0,0,1-.25.25h-4.356a.251.251,0,0,1-.25-.25Z"/>
+        <path d="M11.75,49.941a1.75,1.75,0,0,0,0,3.5h8.356a1.75,1.75,0,0,0,0-3.5H17.678V39.364a1.75,1.75,0,0,0-2.833-1.375l-4.178,3.294a1.75,1.75,0,1,0,2.166,2.749l1.345-1.06v6.969Z"/>
+        <path d="M107.894,75.342h8.356a1.75,1.75,0,0,0,0-3.5h-2.429V61.265a1.75,1.75,0,0,0-2.833-1.375l-4.177,3.294a1.75,1.75,0,0,0,2.166,2.749l1.344-1.06v6.969h-2.427a1.75,1.75,0,0,0,0,3.5Z"/>
+        <path d="M59.822,49.941a1.75,1.75,0,0,0,0,3.5h8.357a1.75,1.75,0,0,0,0-3.5H65.75V39.364a1.75,1.75,0,0,0-2.833-1.375l-4.179,3.294a1.75,1.75,0,0,0,2.167,2.749l1.345-1.06v6.969Z"/>
+        <path d="M91.869,49.941a1.75,1.75,0,0,0,0,3.5h8.358a1.75,1.75,0,0,0,0-3.5H97.8V39.364a1.75,1.75,0,0,0-2.833-1.375l-4.179,3.294a1.75,1.75,0,0,0,2.166,2.749L94.3,42.971v6.97Z"/>
+        <path d="M64,90.317a6.538,6.538,0,0,0-1.75,12.839v5.453a1.75,1.75,0,0,0,3.5,0v-5.453A6.538,6.538,0,0,0,64,90.317ZM64,99.9a3.042,3.042,0,1,1,3.042-3.042A3.046,3.046,0,0,1,64,99.9Z"/>
+      </g>
+    </svg>
+    <div style="font-family: 'VT323', monospace;font-size:24px;color:#FF6347;text-align: center;">
+      
+    </div>
+  </div>
+  <div class="form-label-group">
+    <input type="text" id="inputUsername" class="form-control" placeholder="Username" name="username" maxlength="100" required autofocus>
+    <label for="inputUsername" style="text-shadow: none">Username</label>
+  </div>
+  <button class="btn btn-lg btn-block" type="submit" style="font-family: 'VT323', monospace;font-size:24px; background-color:#63de00;"><strong>&gt; LOGIN_</strong></button>
+</form>
+
+  
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+      
+    </div>
+  </body>
+</html>
