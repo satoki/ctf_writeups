@@ -7,7 +7,7 @@ I think the token is saved in database
 
 # Solution
 アクセスすると[NoPass.html](NoPass.html)がある。  
-LoginページではUsernameのみでログインできるようだ。 
+LoginページではUsernameのみでログインできるようだ。  
 Login  
 [site.png](site/site.png)  
 ただし重複はブロックされるので、adminでのログインはできないようだ。  
