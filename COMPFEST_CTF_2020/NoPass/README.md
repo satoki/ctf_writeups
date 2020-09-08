@@ -8,7 +8,7 @@ I think the token is saved in database
 # Solution
 アクセスすると[NoPass.html](NoPass.html)がある。  
 LoginページではUsernameのみでログインできるようだ。  
-Login  
+Log in | NoPass  
 [site.png](site/site.png)  
 ただし重複はブロックされるので、adminでのログインはできないようだ。  
 abc0123でログインすると、[Dashboard.html](Dashboard.html)と[Flag.html](Flag.html)が表示されるが、flagは無いようだ。  
