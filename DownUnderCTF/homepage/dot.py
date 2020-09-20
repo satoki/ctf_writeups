@@ -1,0 +1,30 @@
+import re
+from operator import itemgetter
+
+lol = "00101000000010000010111101100001101001011101000101101110100001100011111101101010"\
+"1010001111000111101000110010000001000000010010001000011111011101001111101001110111101010"\
+"0110011110010111100011011110001010000010001100110110000101011001110101010001011101001001"\
+"0110000011011110001010110011001011111001110010011101100011110000110111111001000011010101"\
+"0100000000101000111110101000111001111100111000010001000100110"
+
+html =  open("logo.txt").readlines()
+
+#print(len(lol))
+#print(len(html))
+
+text = list()
+
+for i in range(len(html)):
+	s = re.search("cx=\"(?P<cx>[0-9]*?)\" cy=\"(?P<cy>[0-9]*?)\" fill", html[i])
+	text.append((int(s.group("cx")), int(s.group("cy")), lol[i]))
+
+text_x_y = sorted(text, key=itemgetter(0, 1))
+text_y_x = sorted(text, key=itemgetter(1, 0))
+
+for i in text_x_y:
+	print(i[2],end="")
+print()
+
+for i in text_y_x:
+	print(i[2],end="")
+print()
