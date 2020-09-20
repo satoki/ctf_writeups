@@ -2,7 +2,7 @@
 Welcome to DUCTF!  
 ssh ductf@chal.duc.tf -p 30301  
 Password: ductf  
-Epilepsy warning  
+**Epilepsy warning**  
 
 # Solution
 sshするとターミナル画面いっぱいにカラフルな文字が表示される。  
