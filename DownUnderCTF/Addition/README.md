@@ -28,8 +28,8 @@ main.pyをreadする。
 ```python
 open("main.py","rb").read()
 ```
-整形すると以下になる。  
 [site3.png](site/site3.png)  
+整形すると以下になる。  
 ```python:main.py
 from flask_wtf import FlaskForm
 from flask import Flask, render_template, request

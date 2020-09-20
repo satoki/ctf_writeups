@@ -4,7 +4,7 @@ Files: [added_protection](https://play.duc.tf/files/995069740ac93fad823bc7962695
 [added_protection](added_protection)  
 
 # Solution
-ファイルが渡されるので実行するが以下のようになるだけである。  
+ファイルが渡されるので実行するが、以下のようになるだけである。  
 ```bash
 $ ./added_protection
 size of code: 130

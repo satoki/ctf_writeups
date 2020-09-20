@@ -17,7 +17,7 @@ gelato_elgatoというアカウント名だ。
 これをツイッターで検索すると以下の[アカウント](https://twitter.com/gelato_elgato)が出てきた。  
 ![image4.png](images/image4.png)  
 call me theresaらしい。  
-再度Instagramに戻り、フォロワーをサーチすると`emwaters92`が[ヒット](https://www.instagram.com/emwaters92/)した。  
+再度Instagramに戻り、フォロワーをサーチするとemwaters92が[ヒット](https://www.instagram.com/emwaters92/)した。  
 投稿に同じ猫が写っている。  
 ![image5.png](images/image5.png)  
 名前がEmily Watersでアカウントがemwaters92なのでEmily T Watersのようだ。  

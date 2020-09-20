@@ -10,7 +10,7 @@ DownUnderCTF
 [site1.png](site/site1.png)  
 マウスオーバーによってロゴの色が変わる。  
 [site2.png](site/site2.png)  
-ソースを見るとscripts/splash.jsなるファイルがあった。  
+ソースを見るとsplash.jsなるファイルがあった。  
 中に以下のような記述がある。  
 ```JavaScript
 ~~~
@@ -34,7 +34,7 @@ DownUnderCTF
 ~~~
 ```
 そのままASCIIには変換できないようだ。  
-というのも、ロゴの点はこのビット順に着色されているが、cxとxyで座標が指定されている。
+というのも、ロゴの点はこのビット順に着色されているが、cxとxyで座標が指定されている。  
 以下のdot.pyで座標順にビットを並び替える。  
 ファイルlogo.txtにはhtmlのロゴ部分を抜き出して記述した。  
 ```python:dot.py
