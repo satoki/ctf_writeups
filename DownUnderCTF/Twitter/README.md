@@ -14,4 +14,4 @@ $ python
 b'DUCTF{https://www.youtube.com/watch?v=XfR9iY5y94s}'
 ```
 
-## DUCTF{https\://www.youtube.com/watch?v=XfR9iY5y94s}
+## DUCTF{https&#58;//www.youtube.com/watch?v=XfR9iY5y94s}
