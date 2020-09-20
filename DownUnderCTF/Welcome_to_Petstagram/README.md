@@ -13,12 +13,13 @@ PetstagramからInstagramを怪しんで検索する。
 投稿に飼い主(mum)のYouTubeリンクがあった。  
 ![image2.png](images/image2.png)  
 gelato_elgatoというアカウント名だ。  
-これをツイッターで検索すると以下のアカウントが[出て](https://twitter.com/gelato_elgato)きた。  
 ![image3.png](images/image3.png)  
-call me theresaらしい。  
-再度Instagramに戻り、フォロワーをサーチすると``が[ヒット](https://www.instagram.com/emwaters92/)した。  
-投稿に同じ猫が写っている。  
+これをツイッターで検索すると以下の[アカウント](https://twitter.com/gelato_elgato)が出てきた。  
 ![image4.png](images/image4.png)  
+call me theresaらしい。  
+再度Instagramに戻り、フォロワーをサーチすると`emwaters92`が[ヒット](https://www.instagram.com/emwaters92/)した。  
+投稿に同じ猫が写っている。  
+![image5.png](images/image5.png)  
 名前がEmily Watersでアカウントがemwaters92なのでEmily T Watersのようだ。  
 Tがtheresaである可能性が高い。  
 flagを指定されたとおりに整形する。  
