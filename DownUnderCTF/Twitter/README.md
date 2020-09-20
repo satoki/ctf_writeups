@@ -4,7 +4,7 @@ Check out our Twitter! Find the post with the flag! You can give us a follow if 
 # Solution
 公式の[Twitter](https://twitter.com/DownUnderCTF)を見てみる。  
 それらしきツイートがあるがbase64エンコードされているようだ。  
-![twitter.png](image/twitter.png)  
+![twitter.png](images/twitter.png)  
 デコードする。  
 ```bash
 $ python
