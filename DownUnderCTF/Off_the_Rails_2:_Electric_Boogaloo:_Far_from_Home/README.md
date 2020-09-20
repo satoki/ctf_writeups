@@ -3,6 +3,7 @@ Okay so I'm starting to think I may have got on the wrong train again and now it
 Please tell me the name of the station in lower case flag format, with any spaces replaced by underscores.  
 Attached files:  
 - no_pain_no_train.png (sha256: 5d4189012db8bc5522bce945b9311c474bc63c77fe25b7d15497997919cd81b7)  
+
 [no_pain_no_train.png](no_pain_no_train.png)  
 
 # Solution
