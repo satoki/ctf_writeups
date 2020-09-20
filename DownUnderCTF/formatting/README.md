@@ -4,7 +4,7 @@ Files: [formatting](https://play.duc.tf/files/235a555e84c8fe3cdbd0bb4c90389583/f
 [formatting](formatting)  
 
 # Solution
-ファイルが渡されるので実行するが以下のようになるだけである。  
+ファイルが渡されるので実行するが、以下のようになるだけである。  
 stringsでも完全なものは出てこないようだ。  
 ```bash
 $ ./formatting
@@ -29,7 +29,7 @@ d1d_You_Just_ltrace_
 ;*3$"
 ~~~
 ```
-stringsで得られたダミーの先頭が消えているのが気になる。  
+実行時にstringsで得られたダミーの先頭が消えているのが気になる。  
 数字も不明である。  
 gdbで解析する(一部出力は省略)。  
 ```bash
@@ -37,7 +37,7 @@ $ gdb ./formatting
 gdb-peda$ start
 gdb-peda$ n 40
 ```
-![gdbpeda.png](images/[gdbpeda.png])  
+![gdbpeda.png](images/gdbpeda.png)  
 stackにflagがあった。  
 
 ## DUCTF{d1d_You_Just_ltrace_296faa2990acbc36}
