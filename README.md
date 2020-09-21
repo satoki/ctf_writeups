@@ -2,6 +2,19 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## MaidakeCTF2020 (2020/09/21)
+[MaidakeCTF2020](MaidakeCTF2020)  
+2000 Points  
+- [ひらがな64:Crypt:300pts](MaidakeCTF2020/ひらがな64)  
+- [🐭🐭🐭🐭:Misc:200pts](MaidakeCTF2020/🐭🐭🐭🐭)  
+- [爆速:Web:200pts](MaidakeCTF2020/爆速)  
+- [SVG:Misc:100pts](MaidakeCTF2020/SVG)  
+- [残像:Web:200pts](MaidakeCTF2020/残像)  
+- [社内用検索エンジン:Web:300pts](MaidakeCTF2020/社内用検索エンジン)  
+- [やらかし:Web:300pts](MaidakeCTF2020/やらかし)  
+- [SVG 2nd:Misc:200pts](MaidakeCTF2020/SVG_2nd)  
+- [焼肉W:Misc:200pts](MaidakeCTF2020/焼肉W)  
+
 ## DownUnderCTF (2020/09/18)
 [DownUnderCTF](DownUnderCTF)  
 2466 Points  

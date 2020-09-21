@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>焼肉W</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="%E7%84%BC%E8%82%89W_files/jquery.js"></script>
+<link rel="stylesheet" href="%E7%84%BC%E8%82%89W_files/bootstrap.css">
+<style>
+.rotation {
+    margin: 0 auto;
+    -webkit-animation: rotation 0.01s linear infinite;
+    animation: rotation 0.01s linear infinite;
+}
+@-webkit-keyframes rotation {
+    0% { -webkit-transform: rotateX(0deg) rotate(0deg); }
+    100% { -webkit-transform: rotateX(0deg) rotate(360deg); }
+}
+@keyframes rotation {
+    0% { transform: rotateX(0deg) rotate(0deg); }
+    100% { transform: rotateX(0deg) rotate(360deg); }
+}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="page-header" id="banner">
+		<div class="row my-2">
+			<div class="col-12">
+				<h2 class="text-center mx-1 mt-5">焼肉W</h2>
+				<div class="mt-5">
+					<font size="5rem">
+						<p id="error" style="display: none;"><font color="#F00">javascriptを有効にしてください</font></p>
+						<script type="text/javascript"> error.style.display = "none"; </script>
+					</font>
+				</div>
+				<p class="lead text-center mx-1 mt-1" id="result"></p>
+			</div>
+		</div>
+	</div>
+	<section class="bs-docs-section clearfix">
+		<div class="row">
+			<div class="col-12 my-5 text-center">
+				<img class="row mx-auto mb-5" src="%E7%84%BC%E8%82%89W_files/manga_niku.png" id="niku" width="300">
+				<button class="btn btn-danger col-8 col-lg-4 mx-auto mt-5 py-3" type="submit" id="status">焼く</button>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container mt-5">
+			<p class="text-muted text-center">Copyright © aokakes All Rights Reserved.</p>
+		</div>
+	</footer>
+</div>
+<script>
+$(function () {
+	let sec = 0;
+	let startTime = 0;
+	let endTime = 0;
+	let bakingTime = 0;
+
+	$('#status').on('click', function(){
+		const status = $('#status');
+		if (status.text() == '焼く') {
+			startTime = new Date().getTime();
+	
+			$('#niku').addClass('rotation');
+			$('#status').removeClass('btn-danger');
+			$('#status').addClass('btn-primary');
+			status.text('焼き上げる');
+		} else if (status.text() == '焼き上げる') {
+			endTime = new Date().getTime();
+			bakingTime = (endTime - startTime) / 1000;
+
+			$.ajax({
+				type: 'POST',
+				url: 'check.php',
+				data: {baking_time: bakingTime},
+				timeout: 100
+			}).done(function(data) {
+				if (data.match(/MaidakeCTF/)) alert('上手に焼けました！！\n'+data);
+			})
+
+			$('#niku').removeClass('rotation');
+			$('#status').removeClass('btn-primary');
+			$('#status').addClass('btn-danger');
+			status.text('焼く');
+		}
+	});
+});
+</script>
+
+
+</body></html>
