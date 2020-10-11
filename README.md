@@ -2,6 +2,13 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## DamCTF (2020/10/10)
+[DamCTF](DamCTF)  
+XXXX Points  <!--XXXX-->
+- [finger-warmup (beginner):web:XXXXpts](DamCTF/finger-warmup_(beginner))  <!--XXXX-->
+- [side-channel:misc:XXXXpts](DamCTF/side-channel)  <!--XXXX-->
+- [hacker-camp:web:XXXXpts](DamCTF/hacker-camp)  <!--XXXX-->
+
 ## MaidakeCTF2020 (2020/09/21)
 [MaidakeCTF2020](MaidakeCTF2020)  
 2000 Points  
