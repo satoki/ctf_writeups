@@ -4,10 +4,10 @@
 
 ## DamCTF (2020/10/10)
 [DamCTF](DamCTF)  
-XXXX Points  <!--XXXX-->
-- [finger-warmup (beginner):web:XXXXpts](DamCTF/finger-warmup_(beginner))  <!--XXXX-->
-- [side-channel:misc:XXXXpts](DamCTF/side-channel)  <!--XXXX-->
-- [hacker-camp:web:XXXXpts](DamCTF/hacker-camp)  <!--XXXX-->
+921 Points  
+- [finger-warmup (beginner):web:160pts](DamCTF/finger-warmup_(beginner))  
+- [side-channel:misc:390pts](DamCTF/side-channel)  
+- [hacker-camp:web:371pts](DamCTF/hacker-camp)  
 
 ## MaidakeCTF2020 (2020/09/21)
 [MaidakeCTF2020](MaidakeCTF2020)  

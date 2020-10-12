@@ -1,4 +1,4 @@
-# side-channel:misc:XXXXpts
+# side-channel:misc:390pts
 We built a super-secure password checker.  
 Can you guess what my password is?  
 This challenge does NOT require brute forcing, you can get the flag with one connection.  
@@ -82,6 +82,7 @@ f
 c
 [*] Switching to interactive mode
 dam{d0nT_d3l4y_th3_pRoC3sSiNg}
+~~~
 ```
 flagが得られた。  
 

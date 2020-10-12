@@ -1,4 +1,4 @@
-# hacker-camp:web:XXXXpts
+# hacker-camp:web:371pts
 Sponsored challenge provided by [HackerOne](https://www.hackerone.com/). Questions/issues go to captainGeech.  
 Natasha Drew wants to go to Hacker Camp but doesn't have the grades she needs. Hack into the student portal and change her grades so she can attend.  
 [hacker-camp.chals.damctf.xyz](https://hacker-camp.chals.damctf.xyz/)  

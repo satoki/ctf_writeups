@@ -1,4 +1,4 @@
-# finger-warmup (beginner):web:XXXXpts
+# finger-warmup (beginner):web:160pts
 A finger warmup to prepare for the rest of the CTF, good luck!  
 You may find [this](https://realpython.com/python-requests/) or [this](https://programminghistorian.org/en/lessons/intro-to-beautiful-soup) to be helpful.  
 [finger-warmup.chals.damctf.xyz](https://finger-warmup.chals.damctf.xyz/)  
