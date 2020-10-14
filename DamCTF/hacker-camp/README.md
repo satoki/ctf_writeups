@@ -78,7 +78,12 @@ app.min.jsを見てみる。
 ソースの以下からthis.dataset.idがbase64された名前(アンダーバー区切り)であることがわかる。  
 ```html
 ~~~
-<td data-id="TmFuY2llX0JyZXR0" class="student-link">Brett, Nancie</td>
+                                                <tr>
+                            <td data-id="TmFuY2llX0JyZXR0" class="student-link">Brett, Nancie</td>
+                            <td class="text-center">B</td>
+                            <td class="text-center">B</td>
+                            <td class="text-center">B</td>
+                        </tr>
 ~~~
 ```
 `https://hacker-camp.chals.damctf.xyz/update-student/TmFuY2llX0JyZXR0`にアクセスすると以下のようであった。  
