@@ -11,7 +11,7 @@ site
 <a href="un5vmavt8u5t5op1u94h">click here, if you are patient enough I will give you the flag</a>
 ```
 クリックするとソースは以下に変化した。  
-```html:un5vmavt8u5t5op1u94h
+```html
 <a href="bz3nokz7rkmxtef7v5u0v">click here, if you are patient enough I will give you the flag</a>
 ```
 毎回クリックするとhrefが変わるようだ。  
