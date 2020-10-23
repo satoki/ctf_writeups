@@ -8,6 +8,8 @@ Unlock Hint for 30 points
 Another security contractor told us that the password of the ZIP file may be a single word that was recently added to a well-known dictionary.  
 Unlock Hint for 30 points  
 We already told you how we create our check digits …  
+Unlock Hint for 60 points  
+A security team pinpointed the possible words to open the ZIP file to [https://www.merriam-webster.com/words-at-play/new-words-in-the-dictionary](https://www.merriam-webster.com/words-at-play/new-words-in-the-dictionary)  
 
 # Solution
 URLに飛ぶとlicenses.zipをダウンロードできる。  
