@@ -13,7 +13,7 @@ ladder-password.pngが配布される。
 「ladder logic online」で[ググる](https://www.google.com/search?q=ladder+logic+online)。  
 [PLC Fiddle](https://www.plcfiddle.com/)で作れるようだ。  
 同じものを作成した。  
-![by_satoki.png](by_satoki.png)  
+![by_satoki.png](images/by_satoki.png)  
 r1からr10は0011100011となった。  
 
 ## 0011100011

@@ -18,8 +18,8 @@ var _0xb30f=['qep','0k5','app','ati','kro','fu5','tes','+(\x20','\x20+\x20','^([
 ~~~
 ```
 JavaScriptが入っているようだ。  
-取り出してscriptタグで実行してみる。  
-`http://127.0.0.1/0001.php?c=`へ移動するが、コンソールに以下のようにflagが出力されていた。  
+取り出してhtmlファイル内のscriptタグで実行してみる。  
+リダイレクトが行われるようで、`http://127.0.0.1/0001.php?c=`へ移動するが、コンソールには以下のようにflagが出力されていた。  
 ![flag.png](images/flag.png)  
 
 ## syskronCTF{l00k5l1k30bfu5c473dj5}

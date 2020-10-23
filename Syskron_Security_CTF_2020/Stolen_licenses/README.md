@@ -11,7 +11,7 @@ We already told you how we create our check digits …
 
 # Solution
 URLに飛ぶとlicenses.zipをダウンロードできる。  
-※ファイルサイズの問題でlicenses.zipを分割しています(`cat licenses.zip-?? > licenses.zip`で戻ります)。  
+※ファイルサイズの問題でlicenses.zipを分割している(`cat licenses.zip-?? > licenses.zip`で戻せる)。  
 ```text
 4976949efc274d86772d13d85dc21b1b7254bec5  licenses.zip
 4159939e7f745dece978e211088da90aae46d787  licenses.zip-00

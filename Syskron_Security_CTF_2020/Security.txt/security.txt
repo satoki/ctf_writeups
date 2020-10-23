@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Canonical URL
+Canonical: https://www.senork.de/.well-known/security.txt
+
+# Our security policy
+Policy: https://www.senork.de/security/
+
+# Our security acknowledgments page
+Acknowledgments: https://www.senork.de/security/#acknowledgments
+
+# Our security address
+mailto:psirt@bb-industry.cz
+
+# Our OpenPGP key
+Encryption: https://www.senork.de/openpgp.asc
+
+# Preferred languages
+Preferred-Languages: en, cs
+
+# Expiring date of this file
+Expires: Thu, 31 Dec 2020 20:00:00 +0100
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQQb0Dqaer1Y3W4NxowpcUAVAB/owgUCX1IefAAKCRApcUAVAB/o
+wspjAQDDgE/cHebpoJQKIFVQukVWoNThA+53Pv7nHaZg2e9KvQD+Lroerub4IjPE
+7941IBbFnsiYR9eObsAyh6+sLxZRrwc=
+=q4VU
+-----END PGP SIGNATURE-----
