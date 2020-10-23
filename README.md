@@ -2,6 +2,18 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## Syskron Security CTF 2020 (2020/10/21)
+[Syskron Security CTF 2020](Syskron_Security_CTF_2020)  
+1150 Points  
+- [Deadly malware:Trivia:25pts](Syskron_Security_CTF_2020/Deadly_malware)  
+- [Change:Tuesday:200pts](Syskron_Security_CTF_2020/Change)  
+- [DoS attack:Monday:100pts](Syskron_Security_CTF_2020/DoS_attack)  
+- [Security framework:Trivia:25pts](Syskron_Security_CTF_2020/Security_framework)  
+- [Security.txt:Tuesday:200pts](Syskron_Security_CTF_2020/Security.txt)  
+- [Leak audit:Tuesday:200pts](Syskron_Security_CTF_2020/Leak_audit)  
+- [Stolen licenses:Wednesday:300pts](Syskron_Security_CTF_2020/Stolen_licenses)  
+- [Ladder password:Monday:100pts](Syskron_Security_CTF_2020/Ladder_password)  
+
 ## DamCTF (2020/10/10)
 [DamCTF](DamCTF)  
 921 Points  
