@@ -1,0 +1,33 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+body {
+    color: white;
+    background: black;
+}
+
+
+.tablink {
+    background-color: #6b5151;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 16px;
+    font-size: 20px;
+    width: 50%;
+}
+.tablink:hover {
+    background: #ac8585;
+}
+
+.tabcontent {
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Inspecting other people's code is a good way to learn. nactf{1nspect1ng_sp13s_4_lyf3} */

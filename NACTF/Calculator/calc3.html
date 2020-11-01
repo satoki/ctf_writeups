@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Calculator</title>
+</head>
+<body class="black">
+<h1 class="center red-text" style="padding-bottom: 75px">The Best and Most Secure Calculator Ever</h1>
+<div class="container">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Calculator</title>
+</head>
+<body class="black">
+<h1 class="center red-text" style="padding-bottom: 75px">The Best and Most Secure Calculator Ever</h1>
+<div class="container">
+    <?php
+    $flag = "nactf{ev1l_eval}";
+    if (isset($_POST["input"])) {
+        $input = $_POST["input"];
+        echo '<div class="center white-text" style="padding-bottom: 50px"><h3>' . $input . " = " . eval("return ($input);") . '</h3></div>';
+    }
+    ?>
+    <form action="index.php" method="post">
+        <div class="input-field">
+            <input placeholder="Type any expression!" name="input" type="text" class="white-text">
+        </div>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</div>
+</body>
+</html><div class="center white-text" style="padding-bottom: 50px"><h3>system("cat index.php") = </html></h3></div>    <form action="index.php" method="post">
+        <div class="input-field">
+            <input placeholder="Type any expression!" name="input" type="text" class="white-text">
+        </div>
+        <input type="submit" value="Submit" class="btn">
+    </form>
+</div>
+</body>
+</html>

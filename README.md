@@ -2,6 +2,17 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## NACTF (2020/10/30)
+[NACTF](NACTF)  
+0000 Points  
+- [Inspect:Web:50pts](NACTF/Inspect)  
+- [Missing Image:Web:75pts](NACTF/Missing_Image)  
+- [Forms:Web:125pts](NACTF/Forms)  
+- [Login:Web:175pts](NACTF/Login)  
+- [Cookie Recipe:Web:150pts](NACTF/Cookie_Recipe)  
+- [Greeter:Binary Exploitation:150pts](NACTF/Greeter)  
+- [Calculator:Web:150pts](NACTF/Calculator)  
+
 ## Syskron Security CTF 2020 (2020/10/21)
 [Syskron Security CTF 2020](Syskron_Security_CTF_2020)  
 1150 Points  
