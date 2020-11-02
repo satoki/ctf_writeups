@@ -22,6 +22,8 @@
 - [Dr. J's Vegetable Factory #1 🥕:General Skills:50pts](NACTF/Dr._J's_Vegetable_Factory_#1_🥕)  
 - [Dr. J's Vegetable Factory #2 🥕:General Skills:150pts](NACTF/Dr._J's_Vegetable_Factory_#2_🥕)  
 - [Random Number Generator:Cryptography:250pts](NACTF/Random_Number_Generator)  
+- [Dr. J's Vegetable Factory #3 🥕:General Skills:175pts](NACTF/Dr._J's_Vegetable_Factory_#3_🥕)  
+- [Turnips 2:Forensics:150pts](NACTF/Turnips_2)  
 
 ## Syskron Security CTF 2020 (2020/10/21)
 [Syskron Security CTF 2020](Syskron_Security_CTF_2020)  
