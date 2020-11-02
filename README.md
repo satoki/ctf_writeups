@@ -4,7 +4,7 @@
 
 ## NACTF (2020/10/30)
 [NACTF](NACTF)  
-0000 Points  
+2125 Points  
 - [Inspect:Web:50pts](NACTF/Inspect)  
 - [Missing Image:Web:75pts](NACTF/Missing_Image)  
 - [Forms:Web:125pts](NACTF/Forms)  
@@ -12,6 +12,16 @@
 - [Cookie Recipe:Web:150pts](NACTF/Cookie_Recipe)  
 - [Greeter:Binary Exploitation:150pts](NACTF/Greeter)  
 - [Calculator:Web:150pts](NACTF/Calculator)  
+- [Gummies:Forensics:50pts](NACTF/Gummies)  
+- [Meta-morphosis:Forensics:75pts](NACTF/Meta-morphosis)  
+- [Turnips:Forensics:100pts](NACTF/Turnips)  
+- [Secret Message:Forensics:100pts](NACTF/Secret_Message)  
+- [Error 0:Cryptography:150pts](NACTF/Error_0)  
+- [Arithmetic:General Skills:150pts](NACTF/Arithmetic)  
+- [Zip Madness:General Skills:175pts](NACTF/Zip_Madness)  
+- [Dr. J's Vegetable Factory #1 🥕:General Skills:50pts](NACTF/Dr._J's_Vegetable_Factory_#1_🥕)  
+- [Dr. J's Vegetable Factory #2 🥕:General Skills:150pts](NACTF/Dr._J's_Vegetable_Factory_#2_🥕)  
+- [Random Number Generator:Cryptography:250pts](NACTF/Random_Number_Generator)  
 
 ## Syskron Security CTF 2020 (2020/10/21)
 [Syskron Security CTF 2020](Syskron_Security_CTF_2020)  
