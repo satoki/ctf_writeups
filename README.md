@@ -4,7 +4,7 @@
 
 ## NACTF (2020/10/30)
 [NACTF](NACTF)  
-2125 Points  
+2450 Points  
 - [Inspect:Web:50pts](NACTF/Inspect)  
 - [Missing Image:Web:75pts](NACTF/Missing_Image)  
 - [Forms:Web:125pts](NACTF/Forms)  
