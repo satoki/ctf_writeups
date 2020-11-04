@@ -12,7 +12,7 @@ config、descriptionと順に見ていくがflagは無いようである。
 6b3c94c0b90a897f246f0f32dec3f5fd3e40abb5
 e975d678f209da09fff763cd297a6ed8dd77bb35
 ```
-./git/objectsの構成はハッシュの先頭二桁がディレクトリ名に、残りがファイル名になる。  
+.git/objectsの構成はハッシュの先頭二桁がディレクトリ名に、残りがファイル名になる。  
 https://gitgood.2020.chall.actf.co/.git/objects/6b/3c94c0b90a897f246f0f32dec3f5fd3e40abb5  
 https://gitgood.2020.chall.actf.co/.git/objects/e9/75d678f209da09fff763cd297a6ed8dd77bb35  
 上記URLからファイルを取得し、zlib_dec.pyでzlib.decompressを行う。  
@@ -46,7 +46,7 @@ Initial commit
 b630430d9d393a6b143af2839fd24ac2118dba79
 9402d143d3d7998247c95597b63598ce941e7bcb
 ```
-再度./git/objectsを見に行き、zlib.decompressを行う。  
+再度.git/objectsを見に行き、zlib.decompressを行う。  
 https://gitgood.2020.chall.actf.co/.git/objects/b6/30430d9d393a6b143af2839fd24ac2118dba79  
 https://gitgood.2020.chall.actf.co/.git/objects/94/02d143d3d7998247c95597b63598ce941e7bcb  
 ```python:zlib_dec.py(差分1)
