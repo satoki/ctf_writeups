@@ -4,7 +4,7 @@
 
 ## NACTF (2020/10/30)
 [NACTF](NACTF)  
-2700 Points  
+3000 Points  
 - [Inspect:Web:50pts](NACTF/Inspect)  
 - [Missing Image:Web:75pts](NACTF/Missing_Image)  
 - [Forms:Web:125pts](NACTF/Forms)  
@@ -25,6 +25,7 @@
 - [Dr. J's Vegetable Factory #3 🥕:General Skills:175pts](NACTF/Dr._J's_Vegetable_Factory_#3_🥕)  
 - [Turnips 2:Forensics:150pts](NACTF/Turnips_2)  
 - [Static:Forensics:250pts](NACTF/Static)  
+- [dROPit:Binary Exploitation:300pts](NACTF/dROPit)  
 
 ## Syskron Security CTF 2020 (2020/10/21)
 [Syskron Security CTF 2020](Syskron_Security_CTF_2020)  
