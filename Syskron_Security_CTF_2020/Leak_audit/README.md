@@ -4,7 +4,7 @@ We found an old dump of our employee database on the dark net! Please check the 
     2. Are there any employees that use the same password? (If true, send us the password for further investigation.)  
     3. In 2017, we switched to bcrypt to securely store the passwords. How many records are protected with bcrypt?  
 Flag format: answer1_answer2_answer3 (e.g., 1000_passw0rd_987).  
-View Hint  
+Hint  
 Knowing SQL doesn't hurt.  
 [BB-inDu57rY-P0W3R-L34k3r2.tar.gz](BB-inDu57rY-P0W3R-L34k3r2.tar.gz)  
 
