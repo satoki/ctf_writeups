@@ -42,7 +42,7 @@ for i in range(size):
     if (size % (i+1)) == 0:
         cv2.imwrite("data/flag_{}_{}.png".format(i+1, int((size / (i+1)))), numpy.reshape(flag, [int(i+1), int(size / (i+1)), -1]))
 ```
-実行後、dataフォルダ内の画像を見ていくと以下が見られる。  
+実行後、dataフォルダ内の画像を見ていくと、以下の画像が目にとまる。  
 flag_30_1100.png  
 ![flag_30_1100.png](data/flag_30_1100.png)  
 flagが描かれていた。  
