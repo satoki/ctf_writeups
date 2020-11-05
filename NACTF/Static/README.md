@@ -44,7 +44,7 @@ for i in range(size):
 ```
 実行後、dataフォルダ内の画像を見ていくと以下が見られる。  
 flag_30_1100.png  
-![flag_30_1100.png][data/flag_30_1100.png]  
+![flag_30_1100.png](data/flag_30_1100.png)  
 flagが描かれていた。  
 
 ## nactf{p1x3l5}

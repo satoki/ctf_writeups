@@ -24,7 +24,7 @@ wgetしてソースコードを見ると以下の記述がある。
 </body>
 </html>
 ```
-正解のフォームのみsubmitが`correct_login`となる(idで検索すればよい)。
+正解のフォームのみsubmitが`correct_login`となる(idで検索して、正解のフォームを使用してもよい)。  
 usernameが`admin`、passwordが`password123`でありsubmitに`correct_login`が入ったものをPOSTする。  
 ```bash
 $ curl -X POST -d "username=admin&password=password123&submit=correct_login" https://forms.challenges.nactf.com/ | grep nactf

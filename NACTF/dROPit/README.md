@@ -80,7 +80,7 @@ $ ls
 [*] Closed connection to challenges.ctfd.io port 30261
 [*] Got EOF while sending in interactive
 ```
-libcのバージョンが違うようでシェルが取れていないようだ。  
+libcのバージョンが違い、シェルが取れていないようだ。  
 ```bash
 $ /lib/x86_64-linux-gnu/libc.so.6
 GNU C Library (Ubuntu GLIBC 2.27-3ubuntu1.2) stable release version 2.27.
@@ -94,7 +94,8 @@ For bug reporting instructions, please see:
 <https://bugs.launchpad.net/ubuntu/+source/glibc/+bugs>.
 ```
 `__libc_start_main`が`0x7f2bbd33abc0`なので[https://libc.rip](https://libc.rip/)を使う。  
-![libcdb.png](images/libcdb.png)が得られる。  
+以下が得られる。  
+![libcdb.png](images/libcdb.png)  
 2.32のような気がするので、[pkgs.org (libc6_2.32-0ubuntu3_amd64.deb)](https://ubuntu.pkgs.org/20.10/ubuntu-main-amd64/libc6_2.32-0ubuntu3_amd64.deb.html)からダウンロードする。  
 ```bash
 $ wget http://archive.ubuntu.com/ubuntu/pool/main/g/glibc/libc6_2.32-0ubuntu3_amd64.deb
@@ -148,6 +149,6 @@ flag.txt
 $ cat flag.txt
 nactf{r0p_y0ur_w4y_t0_v1ct0ry_698jB84iO4OH1cUe}
 ```
-実行するとシェルがとれる。  
+実行するとシェルがとれるので、flag.txtの中を読み取るとflagが書かれていた。  
 
 ## nactf{r0p_y0ur_w4y_t0_v1ct0ry_698jB84iO4OH1cUe}

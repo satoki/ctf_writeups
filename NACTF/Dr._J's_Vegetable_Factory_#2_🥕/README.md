@@ -6,7 +6,7 @@ It seems like there are too many vegetables to sort by hand this time. But not t
 Check out the example script if you're unsure of how to connect to the server with code! [example.py](example.py)  
 
 # Solution
-[Dr. J's Vegetable Factory #1 🥕](../Dr._J's_Vegetable_Factory_#1_🥕)と同じようだ。  
+[Dr. J's Vegetable Factory #1 🥕](../Dr._J's_Vegetable_Factory_%231_🥕)と同じようだ。  
 TheVeryHungryCaterpillar.pyの`io.sendline("1")`を`io.sendline("2")`に置き換えたTheVeryHungryCaterpillar2.pyで自動化する。  
 ```bash
 $ python TheVeryHungryCaterpillar2.py

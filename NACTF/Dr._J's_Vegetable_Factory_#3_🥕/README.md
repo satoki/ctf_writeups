@@ -7,8 +7,8 @@ Hint
 This problem boils down to the same thing as #2. Try bubble sort!  
 
 # Solution
-[Dr. J's Vegetable Factory #1 🥕](../Dr._J's_Vegetable_Factory_#1_🥕)や[Dr. J's Vegetable Factory #2 🥕](../Dr._J's_Vegetable_Factory_#2_🥕)と同じようだ。  
-TheVeryHungryCaterpillar.pyを編集した、以下のTheVeryHungryCaterpillar3.pyで自動化する。  
+[Dr. J's Vegetable Factory #1 🥕](../Dr._J's_Vegetable_Factory_%231_🥕)や[Dr. J's Vegetable Factory #2 🥕](../Dr._J's_Vegetable_Factory_%232_🥕)と同じようだ。  
+TheVeryHungryCaterpillar2.pyのbs関数と問題番号指定`io.sendline("2")`を編集した、以下のTheVeryHungryCaterpillar3.pyで自動化する。  
 ```python:TheVeryHungryCaterpillar3.py
 from pwn import *
 
