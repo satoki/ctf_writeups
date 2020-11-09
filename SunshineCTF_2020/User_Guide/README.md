@@ -2,6 +2,7 @@
 While bored during the holidays because the Wi-Fi at your family's house is infuriatingly slow, you decided to go poking around through the garage. You come across a dusty cardboard box containing a very unusual computerized device along with some program cartridges. The first cartridge is labelled "PEGASUS User Guide". Why not pop it in, power the machine up, and see what happens?  
 
 =====  
+
 PEGASUS User Guide program file:  
 - [PEGASUS_User_Guide.peg](PEGASUS_User_Guide.peg)  
 
