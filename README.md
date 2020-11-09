@@ -2,6 +2,22 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## SunshineCTF 2020 (2020/11/07)
+[SunshineCTF 2020](SunshineCTF_2020)  
+373 Points  
+- [Welcome!:Misc:1pts](SunshineCTF_2020/Welcome!)  
+- [Disboard Round 2:Misc:2pts](SunshineCTF_2020/Disboard_Round_2)  
+- [Password Pandemonium:Web:100pts](SunshineCTF_2020/Password_Pandemonium)  
+- [Hotel Door Puzzle:Reversing:100pts](SunshineCTF_2020/Hotel_Door_Puzzle)  
+- [User Guide:PEGASUS:10pts](SunshineCTF_2020/User_Guide)  
+- [RTFM:PEGASUS:10pts](SunshineCTF_2020/RTFM)  
+- [Magically Delicious:Crypto:100pts](SunshineCTF_2020/Magically_Delicious)  
+- [speedrun-00:Speedrun:10pts](SunshineCTF_2020/speedrun-00)  
+- [speedrun-01:Speedrun:10pts](SunshineCTF_2020/speedrun-01)  
+- [speedrun-04:Speedrun:10pts](SunshineCTF_2020/speedrun-04)  
+- [speedrun-02:Speedrun:10pts](SunshineCTF_2020/speedrun-02)  
+- [speedrun-05:Speedrun:10pts](SunshineCTF_2020/speedrun-05)  
+
 ## NACTF (2020/10/30)
 [NACTF](NACTF)  
 3000 Points  
