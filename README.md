@@ -2,6 +2,39 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## WaniCTF 2020 (2020/11/21)
+[WaniCTF 2020](WaniCTF_2020)  
+XXXX Points  <!--XXXX-->
+- [Veni, vidi:Crypto:pts](WaniCTF_2020/Veni,_vidi)  <!--XXXX-->
+- [exclusive:Crypto:pts](WaniCTF_2020/exclusive)  <!--XXXX-->
+- [Basic RSA:Crypto:pts](WaniCTF_2020/Basic_RSA)  <!--XXXX-->
+- [DevTools_1:Web:pts](WaniCTF_2020/DevTools_1)  <!--XXXX-->
+- [DevTools_2:Web:pts](WaniCTF_2020/DevTools_2)  <!--XXXX-->
+- [strings:Reversing:pts](WaniCTF_2020/strings)  <!--XXXX-->
+- [simple:Reversing:pts](WaniCTF_2020/simple)  <!--XXXX-->
+- [netcat:PWN:pts](WaniCTF_2020/netcat)  <!--XXXX-->
+- [complex:Reversing:pts](WaniCTF_2020/complex)  <!--XXXX-->
+- [var rewrite:PWN:pts](WaniCTF_2020/var_rewrite)  <!--XXXX-->
+- [binsh address:PWN:pts](WaniCTF_2020/binsh_address)  <!--XXXX-->
+- [Simple Memo:Web:pts](WaniCTF_2020/Simple_Memo)  <!--XXXX-->
+- [Find a Number:Misc:pts](WaniCTF_2020/Find_a_Number)  <!--XXXX-->
+- [MQTT Challenge:Misc:pts](WaniCTF_2020/MQTT_Challenge)  <!--XXXX-->
+- [logged_flag:Forensics:pts](WaniCTF_2020/logged_flag)  <!--XXXX-->
+- [ALLIGATOR_01:Forensics:pts](WaniCTF_2020/ALLIGATOR_01)  <!--XXXX-->
+- [ALLIGATOR_02:Forensics:pts](WaniCTF_2020/ALLIGATOR_02)  <!--XXXX-->
+- [chunk_eater:Forensics:pts](WaniCTF_2020/chunk_eater)  <!--XXXX-->
+- [ALLIGATOR_03:Forensics:pts](WaniCTF_2020/ALLIGATOR_03)  <!--XXXX-->
+- [zero_size_png:Forensics:pts](WaniCTF_2020/zero_size_png)  <!--XXXX-->
+- [striped table:Web:pts](WaniCTF_2020/striped_table)  <!--XXXX-->
+- [SQL Challenge 1:Web:pts](WaniCTF_2020/SQL_Challenge_1)  <!--XXXX-->
+- [SQL Challenge 2:Web:pts](WaniCTF_2020/SQL_Challenge_2)  <!--XXXX-->
+- [ret rewrite:PWN:pts](WaniCTF_2020/ret_rewrite)  <!--XXXX-->
+- [got rewriter:PWN:pts](WaniCTF_2020/got_rewriter)  <!--XXXX-->
+- [rop func call:PWN:pts](WaniCTF_2020/rop_func_call)  <!--XXXX-->
+- [one gadget rce:PWN:pts](WaniCTF_2020/one_gadget_rce)  <!--XXXX-->
+- [LCG crack:Crypto:pts](WaniCTF_2020/LCG_crack)  <!--XXXX-->
+- [l0g0n:Crypto:pts](WaniCTF_2020/l0g0n)  <!--XXXX-->
+
 ## SunshineCTF 2020 (2020/11/07)
 [SunshineCTF 2020](SunshineCTF_2020)  
 373 Points  

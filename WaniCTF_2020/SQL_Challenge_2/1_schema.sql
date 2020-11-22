@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS anime;
+
+CREATE TABLE anime (
+    name VARCHAR(32) NOT NULL,
+    years VARCHAR(32) NOT NULL,
+    PRIMARY KEY (name)
+);

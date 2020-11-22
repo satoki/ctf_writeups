@@ -1,0 +1,61 @@
+@import url(sanitize.css);
+body {
+    background-color: #f0f0f0;
+    padding: 100px;
+    font-size: 14px;
+    color: #666;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+header {
+    background-color: rgb(11, 194, 109);
+    padding: 10px;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.year h1 {
+    font-size: 18px;
+    margin: 0 10px 10px 0;
+}
+
+.year ul {
+    padding: 0;
+    margin: 0;
+    list-style: inside;
+    border: 2px skyblue;
+}
+
+.year li {
+    width: 50%;
+    padding: 5px 10px;
+    float: left;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.list table {
+    width: 100%;
+    padding: 5px 10px;
+    
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
