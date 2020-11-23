@@ -14,7 +14,7 @@ The シンプル メモ張
 [site.png](site/site.png)  
 メモは以下のようになっている。  
 [memos](site/memos)  
-flag.txtにファイルが隠されているようだ。  
+flag.txtに秘密が隠されているようだ。  
 配られたreader.phpを見ると以下のようであった。  
 ```php:reader.php
 <?php

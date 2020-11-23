@@ -17,6 +17,7 @@ nkt/hogeやnkt/hugaもあるようだ。
 nkt/flagが怪しい。  
 nkt/hoge,huga,flag  
 [site2.png](site/site2.png)  
+フェイクのようだ。  
 エスパー以外解けないと思っていたが、`#`ですべてのトピックをサブスクライブできるらしい。  
 flag  
 [flag.png](site/flag.png)  

@@ -33,7 +33,7 @@ Volatility Foundation Volatility Framework 2.6
 INFO    : volatility.debug    : Determining profile based on KDBG search...
           Suggested Profile(s) : Win7SP1x86_23418, Win7SP0x86, Win7SP1x86
                      AS Layer1 : IA32PagedMemoryPae (Kernel AS)
-                     AS Layer2 : FileAddressSpace (/mnt/c/Users/tsato/Desktop/ctffff/ttt/ALLIGATOR.raw)
+                     AS Layer2 : FileAddressSpace (/ALLIGATOR.raw)
                       PAE type : PAE
                            DTB : 0x185000L
                           KDBG : 0x82754de8L
@@ -47,6 +47,6 @@ $ volatility -f ALLIGATOR.raw --profile=Win7SP1x86_23418 pstree | grep evil.exe
 Volatility Foundation Volatility Framework 2.6
 . 0x84dd6b28:evil.exe                                3632   2964      1     21 2020-10-26 03:01:55 UTC+0000
 ```
-2020-10-26 03:01:55 UTC+0000らしいので整形する。  
+2020-10-26 03:01:55 UTC+0000らしいので形式通りに整形する。  
 
 ## FLAG{2020-10-26_03:01:55_UTC+0000}

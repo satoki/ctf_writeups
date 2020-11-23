@@ -5,6 +5,7 @@
 
 # Solution
 angrで殴る。  
+IDAで正解不正解のアドレスを探す。  
 ![IDA.png](images/IDA.png)  
 以下のcomplex_angr.pyで殴った。  
 ```python:complex_angr.py

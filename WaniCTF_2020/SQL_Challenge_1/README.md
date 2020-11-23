@@ -37,7 +37,7 @@ index.phpを見ると以下の部分でSQLインジェクションが可能で�
 ```
 禁止文字以外を使ってTrueにしてやればよい。  
 `1!=1`により常にTrueとすることができる。  
-[https://sql1.wanictf.org/index.php?year=1!=1](https://sql1.wanictf.org/index.php?year=1!=1)で全データが列挙され、その中にflagがあった。  
+`https://sql1.wanictf.org/index.php?year=1!=1`で全データが列挙され、その中にflagがあった。  
 flag  
 [flag.png](site/flag.png)  
 
