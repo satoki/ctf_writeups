@@ -1,4 +1,4 @@
-# got rewriter:PWN:pts
+# got rewriter:PWN:104pts
 nc got.wanictf.org 9004  
 - global offset table (GOT)の仕組みを理解する必要があります。  
 - objdump -d -M intel ./pwn04 | less  

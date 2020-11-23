@@ -1,4 +1,4 @@
-# complex:Reversing:pts
+# complex:Reversing:111pts
 この問題は「simple」問題よりも複雑なようです。  
 ツールの使い方をさらに調べつつ、トライしてください!  
 [complex](complex)  

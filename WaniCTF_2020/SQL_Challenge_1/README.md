@@ -1,4 +1,4 @@
-# SQL Challenge 1:Web:pts
+# SQL Challenge 1:Web:102pts
 問題ページ： [https://sql1.wanictf.org/index.php?year=2011](https://sql1.wanictf.org/index.php?year=2011)  
 今まで見たアニメのリストをデータベースに登録したよ。間違えて秘密の情報（FLAG）もデータベースに登録しちゃったけど、たぶん誰にも見られないし大丈夫だよね。  
 (Hint)  

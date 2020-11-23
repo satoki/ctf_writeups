@@ -4,36 +4,36 @@
 
 ## WaniCTF 2020 (2020/11/21)
 [WaniCTF 2020](WaniCTF_2020)  
-XXXX Points  <!--XXXX-->
-- [Veni, vidi:Crypto:pts](WaniCTF_2020/Veni,_vidi)  <!--XXXX-->
-- [exclusive:Crypto:pts](WaniCTF_2020/exclusive)  <!--XXXX-->
-- [Basic RSA:Crypto:pts](WaniCTF_2020/Basic_RSA)  <!--XXXX-->
-- [DevTools_1:Web:pts](WaniCTF_2020/DevTools_1)  <!--XXXX-->
-- [DevTools_2:Web:pts](WaniCTF_2020/DevTools_2)  <!--XXXX-->
-- [strings:Reversing:pts](WaniCTF_2020/strings)  <!--XXXX-->
-- [simple:Reversing:pts](WaniCTF_2020/simple)  <!--XXXX-->
-- [netcat:PWN:pts](WaniCTF_2020/netcat)  <!--XXXX-->
-- [complex:Reversing:pts](WaniCTF_2020/complex)  <!--XXXX-->
-- [var rewrite:PWN:pts](WaniCTF_2020/var_rewrite)  <!--XXXX-->
-- [binsh address:PWN:pts](WaniCTF_2020/binsh_address)  <!--XXXX-->
-- [Simple Memo:Web:pts](WaniCTF_2020/Simple_Memo)  <!--XXXX-->
-- [Find a Number:Misc:pts](WaniCTF_2020/Find_a_Number)  <!--XXXX-->
-- [MQTT Challenge:Misc:pts](WaniCTF_2020/MQTT_Challenge)  <!--XXXX-->
-- [logged_flag:Forensics:pts](WaniCTF_2020/logged_flag)  <!--XXXX-->
-- [ALLIGATOR_01:Forensics:pts](WaniCTF_2020/ALLIGATOR_01)  <!--XXXX-->
-- [ALLIGATOR_02:Forensics:pts](WaniCTF_2020/ALLIGATOR_02)  <!--XXXX-->
-- [chunk_eater:Forensics:pts](WaniCTF_2020/chunk_eater)  <!--XXXX-->
-- [ALLIGATOR_03:Forensics:pts](WaniCTF_2020/ALLIGATOR_03)  <!--XXXX-->
-- [zero_size_png:Forensics:pts](WaniCTF_2020/zero_size_png)  <!--XXXX-->
-- [striped table:Web:pts](WaniCTF_2020/striped_table)  <!--XXXX-->
-- [SQL Challenge 1:Web:pts](WaniCTF_2020/SQL_Challenge_1)  <!--XXXX-->
-- [SQL Challenge 2:Web:pts](WaniCTF_2020/SQL_Challenge_2)  <!--XXXX-->
-- [ret rewrite:PWN:pts](WaniCTF_2020/ret_rewrite)  <!--XXXX-->
-- [got rewriter:PWN:pts](WaniCTF_2020/got_rewriter)  <!--XXXX-->
-- [rop func call:PWN:pts](WaniCTF_2020/rop_func_call)  <!--XXXX-->
-- [one gadget rce:PWN:pts](WaniCTF_2020/one_gadget_rce)  <!--XXXX-->
-- [LCG crack:Crypto:pts](WaniCTF_2020/LCG_crack)  <!--XXXX-->
-- [l0g0n:Crypto:pts](WaniCTF_2020/l0g0n)  <!--XXXX-->
+2998 Points  
+- [Veni, vidi:Crypto:101pts](WaniCTF_2020/Veni,_vidi)  
+- [exclusive:Crypto:101pts](WaniCTF_2020/exclusive)  
+- [Basic RSA:Crypto:102pts](WaniCTF_2020/Basic_RSA)  
+- [DevTools_1:Web:100pts](WaniCTF_2020/DevTools_1)  
+- [DevTools_2:Web:101pts](WaniCTF_2020/DevTools_2)  
+- [strings:Reversing:101pts](WaniCTF_2020/strings)  
+- [simple:Reversing:101pts](WaniCTF_2020/simple)  
+- [netcat:PWN:101pts](WaniCTF_2020/netcat)  
+- [complex:Reversing:111pts](WaniCTF_2020/complex)  
+- [var rewrite:PWN:101pts](WaniCTF_2020/var_rewrite)  
+- [binsh address:PWN:102pts](WaniCTF_2020/binsh_address)  
+- [Simple Memo:Web:101pts](WaniCTF_2020/Simple_Memo)  
+- [Find a Number:Misc:101pts](WaniCTF_2020/Find_a_Number)  
+- [MQTT Challenge:Misc:103pts](WaniCTF_2020/MQTT_Challenge)  
+- [logged_flag:Forensics:101pts](WaniCTF_2020/logged_flag)  
+- [ALLIGATOR_01:Forensics:102pts](WaniCTF_2020/ALLIGATOR_01)  
+- [ALLIGATOR_02:Forensics:102pts](WaniCTF_2020/ALLIGATOR_02)  
+- [chunk_eater:Forensics:102pts](WaniCTF_2020/chunk_eater)  
+- [ALLIGATOR_03:Forensics:104pts](WaniCTF_2020/ALLIGATOR_03)  
+- [zero_size_png:Forensics:107pts](WaniCTF_2020/zero_size_png)  
+- [striped table:Web:101pts](WaniCTF_2020/striped_table)  
+- [SQL Challenge 1:Web:102pts](WaniCTF_2020/SQL_Challenge_1)  
+- [SQL Challenge 2:Web:105pts](WaniCTF_2020/SQL_Challenge_2)  
+- [ret rewrite:PWN:103pts](WaniCTF_2020/ret_rewrite)  
+- [got rewriter:PWN:104pts](WaniCTF_2020/got_rewriter)  
+- [rop func call:PWN:109pts](WaniCTF_2020/rop_func_call)  
+- [one gadget rce:PWN:113pts](WaniCTF_2020/one_gadget_rce)  
+- [LCG crack:Crypto:105pts](WaniCTF_2020/LCG_crack)  
+- [l0g0n:Crypto:111pts](WaniCTF_2020/l0g0n)  
 
 ## SunshineCTF 2020 (2020/11/07)
 [SunshineCTF 2020](SunshineCTF_2020)  

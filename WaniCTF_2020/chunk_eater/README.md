@@ -1,4 +1,4 @@
-# chunk_eater:Forensics:pts
+# chunk_eater:Forensics:102pts
 pngの必須チャンクをワニ博士が食べてしまいました！  
 [PNGファイルフォーマット](https://www.setsuki.com/hsp/ext/png.htm)  
 [eaten.png](eaten.png)  

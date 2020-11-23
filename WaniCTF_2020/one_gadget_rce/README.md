@@ -1,4 +1,4 @@
-# one gadget rce:PWN:pts
+# one gadget rce:PWN:113pts
 nc rce.wanictf.org 9007  
 - ROPを使ったlibcのロードアドレスのリークを理解する必要があります。  
 - libc上にあるone gadget RCE (Remote Code Execution)の探し方と呼び出し方を理解する必要があります。  

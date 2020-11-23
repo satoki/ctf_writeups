@@ -1,4 +1,4 @@
-# netcat:PWN:pts
+# netcat:PWN:101pts
 nc netcat.wanictf.org 9001  
 - netcat (nc)と呼ばれるコマンドを使うだけです。  
 - つないだら何も表示されなくても知っているコマンドを打ってみましょう。  

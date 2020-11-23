@@ -1,4 +1,4 @@
-# binsh address:PWN:pts
+# binsh address:PWN:102pts
 nc binsh.wanictf.org 9003  
 - 文字列はメモリのどこかに配置されています。  
 - strings -tx ./pwn03 | less  

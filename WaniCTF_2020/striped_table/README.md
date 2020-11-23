@@ -1,4 +1,4 @@
-# striped table:Web:pts
+# striped table:Web:101pts
 テーブルの行の背景色をストライプにする作業をしてもらったら、こんなことになってしまいました!  
 ページにjavascript`alert(19640503)`を埋め込み実行させるとフラグが得られます。  
 [https://striped.wanictf.org/?source](https://striped.wanictf.org/?source)にアクセスするとソースが閲覧できます。  

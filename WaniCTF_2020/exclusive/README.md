@@ -1,4 +1,4 @@
-# exclusive:Crypto:pts
+# exclusive:Crypto:101pts
 XORを使った暗号です🔐  
 [encrypt.py](encrypt.py)　　　　[output.txt](output.txt)  
 

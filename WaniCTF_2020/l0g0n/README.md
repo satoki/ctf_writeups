@@ -1,4 +1,4 @@
-# l0g0n:Crypto:pts
+# l0g0n:Crypto:111pts
 🕵️‍♂️  
 nc l0g0n.wanictf.org 50002  
 [server.py](server.py)  
@@ -32,7 +32,7 @@ def main():
 ~~~
 ```
 入力が空である場合にifの条件が真となってしまう。  
-以下のようにハックする。  
+以下のようにエンターを入力しまくり、ハックする。  
 ```bash
 $ nc l0g0n.wanictf.org 50002
 Challenge (hex) >
@@ -57,6 +57,6 @@ Credential (hex) >
 OK! b'FLAG{4_b@d_IV_leads_t0_CVSS_10.0__z3r01090n}'
 Challenge (hex) > ^C
 ```
-flagが得られた。  
+flagがたくさん得られた。  
 
 ## FLAG{4_b@d_IV_leads_t0_CVSS_10.0__z3r01090n}

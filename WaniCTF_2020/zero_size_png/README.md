@@ -1,4 +1,4 @@
-# zero_size_png:Forensics:pts
+# zero_size_png:Forensics:107pts
 この画像のサイズは本当に0×0ですか？  
 [PNG イメージヘッダ(IHDR)](https://www.setsuki.com/hsp/ext/chunk/IHDR.htm)  
 [dyson.png](dyson.png)  

@@ -1,4 +1,4 @@
-# SQL Challenge 2:Web:pts
+# SQL Challenge 2:Web:105pts
 問題ページ： [https://sql2.wanictf.org/index.php?year=2011](https://sql2.wanictf.org/index.php?year=2011)  
 やっぱり前のページは危ない気がするからページを作り直したよ。これで大丈夫だね。  
 (Hint)  

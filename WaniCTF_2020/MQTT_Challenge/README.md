@@ -1,4 +1,4 @@
-# MQTT Challenge:Misc:pts
+# MQTT Challenge:Misc:103pts
 問題ページ： [https://mqtt.wanictf.org](https://mqtt.wanictf.org/)  
 噂の軽量プロトコル「MQTT」をテストするページを作ったよ。どこかに秘密のトピックがあるから探してみてね。  
 (Hint)  

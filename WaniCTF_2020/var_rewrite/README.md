@@ -1,4 +1,4 @@
-# var rewrite:PWN:pts
+# var rewrite:PWN:101pts
 nc var.wanictf.org 9002  
 - stackの仕組みを理解する必要があります。  
 - ローカル変数はstackに積まれます。  

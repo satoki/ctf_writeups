@@ -1,4 +1,4 @@
-# Veni, vidi:Crypto:pts
+# Veni, vidi:Crypto:101pts
 SYNT{fvzcyr_pynffvpny_pvcure}  
 
 # Solution

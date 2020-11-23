@@ -1,4 +1,4 @@
-# Simple Memo:Web:pts
+# Simple Memo:Web:101pts
 問題ページ：[https://simple.wanictf.org/](https://simple.wanictf.org/)  
 flag.txtというファイルに私の秘密を隠したが、 完璧にサニタイズしたため辿りつける訳がない。  
 (Hint) ディレクトリトラバーサルという脆弱性です。  

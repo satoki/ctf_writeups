@@ -1,4 +1,4 @@
-# DevTools_1:Web:pts
+# DevTools_1:Web:100pts
 ブラウザの開発者ツールを使ってソースコードをのぞいてみましょう！  
 [https://devtools1.wanictf.org](https://devtools1.wanictf.org/)  
 

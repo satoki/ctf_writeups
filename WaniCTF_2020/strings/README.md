@@ -1,4 +1,4 @@
-# strings:Reversing:pts
+# strings:Reversing:101pts
 この問題ではLinuxのELF実行ファイル(バイナリ)である「strings」が配布されています。このバイナリは入力文字列をチェックし、正しいものかどうか判定する機能をもっています。  
 試しにFAKE{this_is_fake}と入力するとIncorrectと表示され、間違っている入力文字列であると示してくれます。  
 このバイナリが「正しい」と判定してくれる文字列を見つけ出してください。  

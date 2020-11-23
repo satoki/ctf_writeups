@@ -1,4 +1,4 @@
-# Find a Number:Misc:pts
+# Find a Number:Misc:101pts
 隠された数字を当てるとフラグが表示されます.  
 数字は0以上500000以下であることが保証されています．  
 nc number.wanictf.org 60000  

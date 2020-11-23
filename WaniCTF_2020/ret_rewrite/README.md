@@ -1,4 +1,4 @@
-# ret rewrite:PWN:pts
+# ret rewrite:PWN:103pts
 nc ret.wanictf.org 9005  
 - stackの仕組みを学びましょう。  
 - 関数の戻りアドレスはstackに積まれます。  

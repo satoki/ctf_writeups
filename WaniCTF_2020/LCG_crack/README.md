@@ -1,4 +1,4 @@
-# LCG crack:Crypto:pts
+# LCG crack:Crypto:105pts
 安全な暗号は安全な乱数から  
 nc lcg.wanictf.org 50001  
 [server.py](server.py)  

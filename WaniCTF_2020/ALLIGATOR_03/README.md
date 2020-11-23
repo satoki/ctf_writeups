@@ -1,4 +1,4 @@
-# ALLIGATOR_03:Forensics:pts
+# ALLIGATOR_03:Forensics:104pts
 Dr.WANIはいつも同じパスワードを使うらしいです。  
 Dr.WANIのパソコンから入手したパス付のzipファイルを開けて、博士の秘密を暴いてしまいましょう。  
 (ALLIGATOR_01で配布されているファイルを使ってください)  

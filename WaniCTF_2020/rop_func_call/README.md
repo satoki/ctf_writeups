@@ -1,4 +1,4 @@
-# rop func call:PWN:pts
+# rop func call:PWN:109pts
 nc rop.wanictf.org 9006  
 - x64の関数呼び出しと、Return Oriented Programming (ROP)を理解する必要があります。  
 - x64の関数呼び出しでは第一引数がRDI、第二引数がRSI、第三引数がRDXに設定する必要があります。  

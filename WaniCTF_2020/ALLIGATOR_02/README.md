@@ -1,4 +1,4 @@
-# ALLIGATOR_02:Forensics:pts
+# ALLIGATOR_02:Forensics:102pts
 コマンドプロンプトの実行履歴からFLAGを見つけてください。  
 (ALLIGATOR_01で配布されているファイルを使ってください)  
 
