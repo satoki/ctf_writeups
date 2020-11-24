@@ -21,6 +21,6 @@ nkt/hoge,huga,flag
 エスパー以外解けないと思っていたが、`#`ですべてのトピックをサブスクライブできるらしい。  
 flag  
 [flag.png](site/flag.png)  
-`top/secret/himitu/daiji/mitara/dame/zettai/flag`を予測すればいいだけだった(汗)  
+`top/secret/himitu/daiji/mitara/dame/zettai/flag`を予測すればいいだけだった(汗)。  
 
 ## FLAG{mq77_w1ld_c4rd!!!!_af5e29cb23}

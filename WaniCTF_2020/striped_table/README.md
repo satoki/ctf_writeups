@@ -6,8 +6,11 @@
 
 # Solution
 URLにアクセスするとメモが投稿できるサイトがある。  
+投稿すると背景色がストライプになった。  
 メモアプリ  
 [site.png](site/site.png)  
+開発者ツールのコンソールでalert(19640503)を実行しても検出される。  
+![condole.png](images/condole.png)  
 ソースも見られるようだ。  
 以下に注目する。  
 ```html

@@ -39,7 +39,7 @@ CREATE TABLE anime (
     PRIMARY KEY (name)
 );
 ```
-`years=0`は暗黙の型変換により、数字として解釈できる文字列以外がTrueになる(実際はクエリを適当に入れて`years=False`を発見した)。  
+`years=0`は暗黙の型変換により、数字として解釈できる文字列以外がTrueになる(最初はクエリを適当に入れて`years=False`を発見した)。  
 `https://sql2.wanictf.org/index.php?year=0`でyearsが数字として解釈できないflagが表示された。  
 flag  
 [flag.png](site/flag.png)  
