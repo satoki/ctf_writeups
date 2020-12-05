@@ -8,6 +8,7 @@ findit.mp3が配られる。
 波形などには何も隠されていないようだ。  
 聞いてみると様々な種類の音が録音されている。  
 途中でよく聞くモールス信号が流れてくるので、カットして[Morse Code Adaptive Audio Decoder](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)でデコードしてみる。  
+![m.png](images/m.png)  
 `LOLM0RS3I5FUNN`とデコードされた。  
 指定された通りの形式に整形するとflagとなった。  
 
