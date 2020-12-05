@@ -89,7 +89,7 @@ echo "Final stage is complete Where da flag homie? 💩\n";
 ~~~
 header("Content-Type: " . $flag);
 ```
-配列を渡すと`substr`、`sha1`共に空文字列が返ってくるため比較部分をバイパスできる。  
+配列を渡すと`substr`、`sha1`共にNULLが返ってくるため比較部分をバイパスできる。  
 Content-Typeに隠されているようなので表示するオプションをつける。  
 以下のようにクエリを設定した。  
 ```bash

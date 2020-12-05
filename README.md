@@ -2,6 +2,18 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## Shakti CTF (2020/12/04)
+[Shakti CTF](Shakti_CTF)  
+600 Points  
+- [AuthEN:Web Exploitation:50pts](Shakti_CTF/AuthEN)  
+- [Ador:Web Exploitation:50pts](Shakti_CTF/Ador)  
+- [Biscuits:Web Exploitation:50pts](Shakti_CTF/Biscuits)  
+- [Hidd3n:Steganography:100pts](Shakti_CTF/Hidd3n)  
+- [Invisible:Steganography:50pts](Shakti_CTF/Invisible)  
+- [Wooooww:Misc:100pts](Shakti_CTF/Wooooww)  
+- [Doors:Web Exploitation:100pts](Shakti_CTF/Doors)  
+- [PharAway:Web Exploitation:100pts](Shakti_CTF/PharAway)  
+
 ## CTF 313 (2020/12/03)
 [CTF 313](CTF_313)  
 45 Points  
