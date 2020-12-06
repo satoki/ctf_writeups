@@ -4,17 +4,17 @@
 
 ## taskCTF20 (2020/12/06)
 [taskCTF20](taskCTF20)  
-XXXX Points  
-- [welcome:Misc:10pts](taskCTF20/welcome)  <!--1-->
-- [Caesar Cipher Translator:Web:XXXXpts](taskCTF20/Caesar_Cipher_Translator)  <!--XXXX--><!--1-->
-- [guess \`?v=\`:Misc:10pts](taskCTF20/guess_`%3Fv=`)  <!--0-->
-- [grass flag:Misc:10pts](taskCTF20/grass_flag)  <!--0-->
-- [social hacking:Misc:10pts](taskCTF20/social_hacking)  <!--0-->
-- [OSINT 3:Misc:50pts](taskCTF20/OSINT_3)  <!--2-->
-- [Evil Eval:Web:XXXXpts](taskCTF20/Evil_Eval)  <!--XXXX--><!--0-->
-- [Gacha:Web:XXXXpts](taskCTF20/Gacha)  <!--XXXX--><!--0-->
-- [OSINT 2:Misc:40pts](taskCTF20/OSINT_2)  <!--1-->
-- [アンケート:Misc:0pts](taskCTF20/アンケート)  <!--0-->
+392 Points  
+- [welcome:Misc:10pts](taskCTF20/welcome)  
+- [Caesar Cipher Translator:Web:88pts](taskCTF20/Caesar_Cipher_Translator)  
+- [guess \`?v=\`:Misc:10pts](taskCTF20/guess_`%3Fv=`)  
+- [grass flag:Misc:10pts](taskCTF20/grass_flag)  
+- [social hacking:Misc:10pts](taskCTF20/social_hacking)  
+- [OSINT 3:Misc:50pts](taskCTF20/OSINT_3)  
+- [Evil Eval:Web:86pts](taskCTF20/Evil_Eval)  
+- [Gacha:Web:90pts](taskCTF20/Gacha)  
+- [OSINT 2:Misc:38pts](taskCTF20/OSINT_2)  
+- [アンケート:Misc:0pts](taskCTF20/アンケート)  
 
 ## Shakti CTF (2020/12/04)
 [Shakti CTF](Shakti_CTF)  

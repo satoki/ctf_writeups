@@ -1,4 +1,4 @@
-# Gacha:Web:XXXXpts
+# Gacha:Web:90pts
 ガチャを作ったらしいけど, そのseedの使い方間違ってない？  
 [http://34.82.49.144:3334/](http://34.82.49.144:3334/)  
 [main.go](main.go)  
