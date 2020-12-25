@@ -1,0 +1,3 @@
+flag lenght: 30
+block size: 5
+encrypted(your flag): b'aW4kYHpQUDt+dUVuC0tSamoWX0RjexFBT307HzwI'
