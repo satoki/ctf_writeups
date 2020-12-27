@@ -49,7 +49,7 @@ for i2 in alph:
 tpe.shutdown()
 ```
 実行すると、Rを一文字目で指定したときに文字が赤色に変わる。  
-![wait.png](image/wait.png)  
+![wait.png](images/wait.png)  
 ```bash
 $ ./a.out
 Input flag ( HINT: ^HarekazeCTF\{ID[A-Z]{4}X\}$ )
