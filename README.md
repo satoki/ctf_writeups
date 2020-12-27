@@ -2,6 +2,17 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## Harekaze mini CTF 2020 (2020/12/26)
+[Harekaze mini CTF 2020](Harekaze_mini_CTF_2020)  
+1020 Points  
+- [Welcome:Misc:91pts](Harekaze_mini_CTF_2020/Welcome)  
+- [What time is it now?:Web:123pts](Harekaze_mini_CTF_2020/What_time_is_it_now%3F)  
+- [Easy Flag Checker:Reversing:130pts](Harekaze_mini_CTF_2020/Easy_Flag_Checker)  
+- [Shellcode:Pwn:154pts](Harekaze_mini_CTF_2020/Shellcode)  
+- [rsa:Crypto:186pts](Harekaze_mini_CTF_2020/rsa)  
+- [Wait:Reversing:157pts](Harekaze_mini_CTF_2020/Wait)  
+- [NM Game:Misc:179pts](Harekaze_mini_CTF_2020/NM_Game)  
+
 ## KosenXm4sCTF (2020/12/24)
 [KosenXm4sCTF](KosenXm4sCTF)  
 1832 Points  
