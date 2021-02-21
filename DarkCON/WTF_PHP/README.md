@@ -22,7 +22,7 @@ disable_functionsを見る。
 ![df.png](images/df.png)  
 任意コード実行できるものが軒並み使用不可となっている。  
 しかし、`glob`や`file_get_contents`は使用できる。  
-以下のglob.phpで問題に指定されている/etcをすべて見る。  
+以下のglob.phpで問題文で指定されている/etc内をすべて見る。  
 ```php:glob.php
 <?php
 echo "glob.php";

