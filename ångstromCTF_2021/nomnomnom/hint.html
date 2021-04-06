@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv='Content-Security-Policy' content="script-src 'nonce-e08c5a82d66ae10192f69ec62920788f'">
+		<title>snek nomnomnom</title>
+	</head>
+	<body>
+		
+		<h2>snek goes <em>nomnomnom</em></h2><br />
+		Check out this score of 42! <br />
+		<a href='/'>Play!</a> <button id='reporter'>Report.</button> <br />
+		<br />
+		This score was set by <marquee>helvetica standard</marquee>
+		<script nonce='e08c5a82d66ae10192f69ec62920788f'>
+function report() {
+	fetch('/report/hint', {
+		method: 'POST'
+	})
+}
+
+document.getElementById('reporter').onclick = () => { report() }
+		</script> 
+		
+	</body>
+</html>
