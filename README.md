@@ -5,7 +5,7 @@
 
 ## ångstromCTF 2021 (2021/04/03)
 [ångstromCTF 2021](ångstromCTF_2021)  
-1060 Points  
+1260 Points  
 - [Archaic:Misc:50pts](ångstromCTF_2021/Archaic)  
 - [Jar:Web:70pts](ångstromCTF_2021/Jar)  
 - [Sea of Quills:Web:70pts](ångstromCTF_2021/Sea_of_Quills)  
@@ -17,6 +17,10 @@
 - [Sanity Checks:Binary:80pts](ångstromCTF_2021/Sanity_Checks)  
 - [stickystacks:Binary:90pts](ångstromCTF_2021/stickystacks)  
 - [Float On:Misc:130pts](ångstromCTF_2021/Float_On)  
+- [FREE FLAGS!!1!!:Rev:50pts](ångstromCTF_2021/FREE_FLAGS!!1!!)  
+- [Exclusive Cipher:Crypto:40pts](ångstromCTF_2021/Exclusive_Cipher)  
+- [Keysar v2:Crypto:40pts](ångstromCTF_2021/Keysar_v2)  
+- [sosig:Crypto:70pts](ångstromCTF_2021/sosig)  
 
 ## DarkCON (2021/02/20)
 [DarkCON](DarkCON)  
