@@ -2,6 +2,17 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## BCACTF 2.0 (2021/06/11)
+[BCACTF 2.0](BCACTF_2.0)  
+1450 Points  
+- [Wasm Protected Site 1:webex:100pts](BCACTF_2.0/Wasm_Protected_Site_1)  
+- [Agent Gerald:webex:125pts](BCACTF_2.0/Agent_Gerald)  
+- [Movie-Login-2:webex:150pts](BCACTF_2.0/Movie-Login-2)  
+- [Movie-Login-3:webex:200pts](BCACTF_2.0/Movie-Login-3)  
+- [Regular Website:webex:200pts](BCACTF_2.0/Regular_Website)  
+- [Wasm Protected Site 2:webex:250pts](BCACTF_2.0/Wasm_Protected_Site_2)  
+- [L10N Poll:webex:300pts](BCACTF_2.0/L10N_Poll)  
+- [Welcome to the Casino:misc:125pts](BCACTF_2.0/Welcome_to_the_Casino)  
 
 ## ångstromCTF 2021 (2021/04/03)
 [ångstromCTF 2021](ångstromCTF_2021)  
