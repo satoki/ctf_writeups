@@ -4,7 +4,7 @@
 
 ## BCACTF 2.0 (2021/06/11)
 [BCACTF 2.0](BCACTF_2.0)  
-1450 Points  
+1550 Points  
 - [Wasm Protected Site 1:webex:100pts](BCACTF_2.0/Wasm_Protected_Site_1)  
 - [Agent Gerald:webex:125pts](BCACTF_2.0/Agent_Gerald)  
 - [Movie-Login-2:webex:150pts](BCACTF_2.0/Movie-Login-2)  
@@ -13,6 +13,7 @@
 - [Wasm Protected Site 2:webex:250pts](BCACTF_2.0/Wasm_Protected_Site_2)  
 - [L10N Poll:webex:300pts](BCACTF_2.0/L10N_Poll)  
 - [Welcome to the Casino:misc:125pts](BCACTF_2.0/Welcome_to_the_Casino)  
+- [A Fun Game:rev:100pts](BCACTF_2.0/A_Fun_Game)  
 
 ## ångstromCTF 2021 (2021/04/03)
 [ångstromCTF 2021](ångstromCTF_2021)  

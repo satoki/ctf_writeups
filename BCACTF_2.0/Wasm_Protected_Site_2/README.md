@@ -73,7 +73,7 @@ wgetしてstringsでは何も入手できない。
   (data (i32.const 1000) "bjsxPKMH|\227N\1bD\043b]PR\19e%\7f/;\17")
 )
 ```
-要約すると、`((暗号文の文字のindex * 9) & 127) ^ 暗号文の文字`を行って復号し、入力文字と比較している。  
+要約すると、`暗号文の文字 ^ ((暗号文の文字のindex * 9) & 127)`を行って復号し、入力文字と比較している。  
 暗号文が見にくいので、コンソールを用いてサイト内のjsの一部分を実行しメモリの中身を数値で見る。  
 ```JavaScript
 > console.log(memory = new Uint8Array(wasm.instance.exports.memory.buffer).toString())

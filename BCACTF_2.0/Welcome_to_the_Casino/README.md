@@ -1,6 +1,7 @@
 # Welcome to the Casino:misc:150pts
 Can you get three-of-a-kind on this slot machine? Let's find out!  
 `nc misc.bcactf.com 49156` [Copy](https://play.bcactf.com/challenges/73da2ad6-8fd1-4026-9e6a-058f9dd581dd/solve#)  
+  
 Hint 1 of 4  
 There's got to be a faster way than to connect manually, right?  
 Hint 2 of 4  
