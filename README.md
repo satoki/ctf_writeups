@@ -2,6 +2,15 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## HSCTF 8 (2021/06/14)
+[HSCTF 8](HSCTF_8)  
+XXXX Points  <!--X-->
+- [NRC:web:Xpts](HSCTF_8/NRC)  <!--X-->
+- [grading:web:Xpts](HSCTF_8/grading)  <!--X-->
+- [message-board:web:Xpts](HSCTF_8/message-board)  <!--X-->
+- [digits-of-pi:web:Xpts](HSCTF_8/digits-of-pi)  <!--X-->
+- [digits-of-pi-2:web:Xpts](HSCTF_8/digits-of-pi-2)  <!--X-->
+
 ## BCACTF 2.0 (2021/06/11)
 [BCACTF 2.0](BCACTF_2.0)  
 1550 Points  

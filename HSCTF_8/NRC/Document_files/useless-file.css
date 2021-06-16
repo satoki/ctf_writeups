@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.small {
+    margin-top: 50vh;
+    font-size: 0.5rem;
+}
+
+/* cause i disabled it in index.js */
+/* no right click = n.r.c. */
+/* flag{keyboard_shortcuts_or_taskbar} */
