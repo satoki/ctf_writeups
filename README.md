@@ -10,6 +10,7 @@ XXXX Points  <!--X-->
 - [message-board:web:Xpts](HSCTF_8/message-board)  <!--X-->
 - [digits-of-pi:web:Xpts](HSCTF_8/digits-of-pi)  <!--X-->
 - [digits-of-pi-2:web:Xpts](HSCTF_8/digits-of-pi-2)  <!--X-->
+- [big-blind:web:Xpts](HSCTF_8/big-blind)  <!--X-->
 
 ## BCACTF 2.0 (2021/06/11)
 [BCACTF 2.0](BCACTF_2.0)  
