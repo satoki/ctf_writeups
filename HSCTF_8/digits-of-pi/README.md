@@ -12,5 +12,6 @@ Sourceに何か書かれていそうである。
 flag  
 [flag.png](site/flag.png)  
 SourceのO401にflagが書かれていた。  
+ちなみに自身で編集できるシートを新規作成して、`=IMPORTRANGE("1y7AxYvBwJ1DeapnhV401w0T5HzQNIfrN1WeQFbnwbIE","Source!A:Z")`でも取得できる。  
 
 ## flag{hidden_sheets_are_not_actually_hidden}
