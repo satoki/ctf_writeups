@@ -40,7 +40,7 @@ systemの引数には/bin/shを渡してやりたいため、呼び出し前にr
 そのため、スタックをレジスタに格納するgadgetを経由する([rp](https://github.com/0vercl0k/rp)で見つける)。  
 gdbでシェルを奪ってみる。  
 今後、一部の出力は省略する。  
-```
+```bash
 $ wget https://github.com/0vercl0k/rp/releases/download/v1/rp-lin-x64
 $ ./rp-lin-x64 -f the-library -r 1 | grep "pop rdi ; ret  ;"
 0x00400733: pop rdi ; ret  ;  (1 found)
