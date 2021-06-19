@@ -4,13 +4,13 @@
 
 ## HSCTF 8 (2021/06/14)
 [HSCTF 8](HSCTF_8)  
-XXXX Points  <!--X-->
-- [NRC:web:Xpts](HSCTF_8/NRC)  <!--X-->
-- [grading:web:Xpts](HSCTF_8/grading)  <!--X-->
-- [message-board:web:Xpts](HSCTF_8/message-board)  <!--X-->
-- [digits-of-pi:web:Xpts](HSCTF_8/digits-of-pi)  <!--X-->
-- [digits-of-pi-2:web:Xpts](HSCTF_8/digits-of-pi-2)  <!--X-->
-- [big-blind:web:Xpts](HSCTF_8/big-blind)  <!--X-->
+2115 Points  
+- [NRC:web:107pts](HSCTF_8/NRC)  
+- [grading:web:397pts](HSCTF_8/grading)  
+- [message-board:web:305pts](HSCTF_8/message-board)  
+- [digits-of-pi:web:388pts](HSCTF_8/digits-of-pi)  
+- [digits-of-pi-2:web:474pts](HSCTF_8/digits-of-pi-2)  
+- [big-blind:web:444pts](HSCTF_8/big-blind)  
 
 ## BCACTF 2.0 (2021/06/11)
 [BCACTF 2.0](BCACTF_2.0)  

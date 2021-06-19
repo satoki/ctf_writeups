@@ -1,4 +1,4 @@
-# grading:web:Xpts<!--X-->
+# grading:web:397pts
 Did you attend online school this year?  
 Good, because you'll need to register at [grading.hsc.tf](https://grading.hsc.tf/login) and get an A on "simple quiz" to find the flag.  
 Server code is attached.  
@@ -51,7 +51,7 @@ IDはinputのnameであるようだ。
 })
 ~~~
 ```
-`formID`経由で締め切りを取得しチェックした後に`ID`で問題を選択し、解答を保存している。  
+`formID`経由で締め切りを取得しチェックした後に、`ID`で問題を選択し解答を保存している。  
 つまり`formID`を現在締め切られていないもの、かつ`ID`は締め切りを過ぎたものにすれば締め切りチェックを回避できる。  
 締め切りを過ぎた問題のIDは以下のようであった。  
 ```html

@@ -1,4 +1,4 @@
-# big-blind:web:Xpts<!--X-->
+# big-blind:web:444pts
 [https://big-blind.hsc.tf](https://big-blind.hsc.tf/)  
 
 # Solution
