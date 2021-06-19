@@ -10,7 +10,7 @@ Digits of pi 2.0
 文字列`flag`での検索を行ってもそれらしいものは発見できない。  
 データ自体は引っ張ってきているため、通信内容を読めばよさそうだと考える。  
 ブラウザの開発者ツールのネットワークからレスポンスの中身を浚う。  
-![flag.png](site/flag.png)  
+![flag.png](images/flag.png)  
 `m4k3_sur3_t0_r3str1ct_y0ur_imp0rtr4ng3s`なる怪しい文字列が見つかった。  
 形式どおりに整形するとflagとなった。  
 
