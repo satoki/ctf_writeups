@@ -2,6 +2,34 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## setodaNote CTF (2021/08/21)
+[setodaNote CTF](setodaNote_CTF)  
+3320 Points  
+- [Redirect:Web:150pts](setodaNote_CTF/Redirect)  
+- [Mx.Flag:Web:150pts](setodaNote_CTF/Mx.Flag)  
+- [Estimated:Web:120pts](setodaNote_CTF/Estimated)  
+- [tkys_royale:Web:120pts](setodaNote_CTF/tkys_royale)  
+- [Mistake:Web:100pts](setodaNote_CTF/Mistake)  
+- [puni_puni:Web:80pts](setodaNote_CTF/puni_puni)  
+- [Header:Web:50pts](setodaNote_CTF/Header)  
+- [Body:Web:30pts](setodaNote_CTF/Body)  
+- [tkys_let_die:Pwn:100pts](setodaNote_CTF/tkys_let_die)  
+- [Helloworld:Rev:50pts](setodaNote_CTF/Helloworld)  
+- [Passcode:Rev:120pts](setodaNote_CTF/Passcode)  
+- [Host:Network:30pts](setodaNote_CTF/Host)  
+- [Nothing:Misc:120pts](setodaNote_CTF/Nothing)  
+- [Redacted:Misc:150pts](setodaNote_CTF/Redacted)  
+- [MITRE:OSINT:100pts](setodaNote_CTF/MITRE)  
+- [lets_bake:Crypto:150pts](setodaNote_CTF/lets_bake)  
+- [1989:Pwn:200pts](setodaNote_CTF/1989)  
+- [identify_the_source:OSINT:250pts](setodaNote_CTF/identify_the_source)  
+- [Shellcode:Pwn:300pts](setodaNote_CTF/Shellcode)  
+- [Digdig:Network:200pts](setodaNote_CTF/Digdig)  
+- [tkys_not_enough:Network:250pts](setodaNote_CTF/tkys_not_enough)  
+- [WEARECIA:Crypto:300pts](setodaNote_CTF/WEARECIA)  
+- [CSIRT_asks_you_02:Forensics:200pts](setodaNote_CTF/CSIRT_asks_you_02)  
+- [Thank_you_for_playing:Misc:0pts](setodaNote_CTF/Thank_you_for_playing)  
+
 ## HSCTF 8 (2021/06/14)
 [HSCTF 8](HSCTF_8)  
 2115 Points  
