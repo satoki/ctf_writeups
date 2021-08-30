@@ -1,0 +1,1 @@
+flag{You_are_the_Laughing_Man,_aren't_you?}

@@ -1,0 +1,3 @@
+// flag{Mr_Flag_hiding_in_the_favicon}
+console.table({place: "favicon.png", png: "false", flag: "true", Look: "me"});
+
