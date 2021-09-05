@@ -2,6 +2,20 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## NITIC CTF 2 (2021/09/05)
+[NITIC CTF 2](NITIC_CTF_2)  
+2200 Points  
+- [web_meta:Web:100pts](NITIC_CTF_2/web_meta)  
+- [long flag:Web:200pts](NITIC_CTF_2/long_flag)  
+- [pwn monster 1:Pwn:200pts](NITIC_CTF_2/pwn_monster_1)  
+- [pwn monster 2:Pwn:300pts](NITIC_CTF_2/pwn_monster_2)  
+- [Excel:Misc:100pts](NITIC_CTF_2/Excel)  
+- [image_conv:Misc:200pts](NITIC_CTF_2/image_conv)  
+- [password:Web:300pts](NITIC_CTF_2/password)  
+- [pwn monster 3:Pwn:300pts](NITIC_CTF_2/pwn_monster_3)  
+- [protected:Rev:200pts](NITIC_CTF_2/protected)  
+- [password fixed:Web:300pts](NITIC_CTF_2/password_fixed)  
+
 ## setodaNote CTF (2021/08/21)
 [setodaNote CTF](setodaNote_CTF)  
 3320 Points  
