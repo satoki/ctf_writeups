@@ -2,6 +2,11 @@
 参加したCTFの解法をまとめる。  
 上から新しいもの、解けた順になっている。  
 
+## 作問
+- [SECCON Beginners CTF 2021](https://github.com/satoki/ctf4b_2021_satoki_writeups)  
+- [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
+
+
 ## NITIC CTF 2 (2021/09/05)
 [NITIC CTF 2](NITIC_CTF_2)  
 2200 Points  
