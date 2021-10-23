@@ -13,7 +13,7 @@ Facebookに[公式アカウント](https://www.facebook.com/uniofadelaide)があ
 卒業式なので写真が上がっていると考え、服装で探す。  
 [まったく同じ写真](https://www.facebook.com/uniofadelaide/photos/pcb.10160215127565400/10160215126625400)が載っていた。  
 ここから名前が`Stefania Swart`と分かる。  
-同じくFacebookで検索すると[本人のアカウント]()が分かり、その勤務先に`Africola`とある。  
+同じくFacebookで検索すると[本人のアカウント](https://www.facebook.com/stefania.swart)が分かり、その勤務先に`Africola`とある。  
 これがflagだった。  
 
 ## Africola
