@@ -6,6 +6,21 @@
 - [SECCON Beginners CTF 2021](https://github.com/satoki/ctf4b_2021_satoki_writeups)  
 - [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
 
+## Open xINT CTF 2021 (2021/10/23)
+[Open xINT CTF 2021](Open_xINT_CTF_2021)  
+2600 Points  
+- [WHOIS:WEB:50pts](Open_xINT_CTF_2021/WHOIS)  
+- [past cetificate:WEB:100pts](Open_xINT_CTF_2021/past_cetificate)  
+- [Village:Paralympic:300pts](Open_xINT_CTF_2021/Village)  
+- [Afganistan:PLACE:500pts](Open_xINT_CTF_2021/Afganistan)  
+- [JELLY FISH:FORENSICS:100pts](Open_xINT_CTF_2021/JELLY_FISH)  
+- [Plate:WEB:150pts](Open_xINT_CTF_2021/Plate)  
+- [TOKYO2020:BUS:150pts](Open_xINT_CTF_2021/TOKYO2020)  
+- [DISK:PLACE:300pts](Open_xINT_CTF_2021/DISK)  
+- [e-bike:WEB:250pts](Open_xINT_CTF_2021/e-bike)  
+- [waitress:WEB:200pts](Open_xINT_CTF_2021/waitress)  
+- [dissertation:WEB:200pts](Open_xINT_CTF_2021/dissertation)  
+- [soar to new heights:BUS:300pts](Open_xINT_CTF_2021/soar_to_new_heights)  
 
 ## NITIC CTF 2 (2021/09/05)
 [NITIC CTF 2](NITIC_CTF_2)  
