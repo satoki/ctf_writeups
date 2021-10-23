@@ -6,7 +6,7 @@ I came from Singapore to cover Tokyo Olympics. I'm going to take a shuttle bus b
 
 # Solution
 
-バスの Wi-Fi を特定すればよいらしい。  
+バスのWi-Fiのパスワードを特定すればよいらしい。  
 ツイートしている人を探そうと考え、`オリンピック バス wifi`で Twitter 検索する。  
 ![sushi.png](images/sushi.png)  
 [ツイート](https://twitter.com/gon_nasukko/status/1426093237517705216)より SSID が`Sushi2020`とわかる。  

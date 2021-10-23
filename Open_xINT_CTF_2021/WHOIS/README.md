@@ -25,6 +25,6 @@ Registrant State/Province: Capital Region
 Registrant Country: IS
 ~~~
 ```
-Updated Dateを提出するとフラグとなる。  
+Updated Dateを提出するとflagとなる。  
 
 ## 2021-10-20T16:04:20.0Z

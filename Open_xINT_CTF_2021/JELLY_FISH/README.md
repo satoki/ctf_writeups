@@ -7,13 +7,9 @@ What is the boot time of the smartphone that took this picture? (Answer in JST)
 [IMG_2650.HEIC](IMG_2650.HEIC)  
 
 # Solution
-exifを見てやると何かわかりそうなのでexiftoolに食わせる。  
+exifを見てやると何かわかりそうなので、exiftoolに食わせる。  
 ```bash
 $ exiftool IMG_2650.HEIC
-ExifTool Version Number         : 11.88
-File Name                       : IMG_2650.HEIC
-Directory                       : .
-File Size                       : 2.0 MB
 ~~~
 Run Time Since Power Up         : 4 days 1:49:02
 Aperture                        : 1.8
@@ -31,7 +27,7 @@ Modify Date                     : 2021:10:02 13:41:09+09:00
 Run Time Since Power Up         : 4 days 1:49:02
 Create Date                     : 2021:10:02 13:41:09.853+09:00
 ```
-計算すると`2021/09/28 11:52:07`となる。  
+日本時間を計算し、指定されたとおりに整形すると`2021/09/28 11:52:07`となる。  
 これがflagだった。  
 
 ## 2021/09/28 11:52:07

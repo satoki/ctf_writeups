@@ -6,7 +6,7 @@ A school named after me has finally opened. I can't see off the children on the 
 # Solution
 バスの写真が渡される。  
 ![schoolbus.JPG](schoolbus.JPG)  
-遠くの看板を拡大すると`Cold Splings V***** V*****`と読める。  
+遠くの看板を拡大すると`Cold Splings V????? V?????`と読める。  
 問題文から`cold springs school opening ceremony`と検索すると以下がヒットする。  
 ![cs.png](images/cs.png)  
 人の名前を冠していそうだ。  

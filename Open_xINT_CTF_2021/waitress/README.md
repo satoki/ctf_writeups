@@ -12,8 +12,8 @@ I graduated the university on September 24, 2021! I'll still be working at the r
 Facebookに[公式アカウント](https://www.facebook.com/uniofadelaide)があるようだ。  
 卒業式なので写真が上がっていると考え、服装で探す。  
 [まったく同じ写真](https://www.facebook.com/uniofadelaide/photos/pcb.10160215127565400/10160215126625400)が載っていた。  
-ここから名前が`Stefania Swart`と分かる。  
-同じくFacebookで検索すると[本人のアカウント](https://www.facebook.com/stefania.swart)が分かり、その勤務先に`Africola`とある。  
+ここから名前が`Stefania Swart`とわかる。  
+同じくFacebookで検索すると[本人のアカウント](https://www.facebook.com/stefania.swart)がわかり、その勤務先に`Africola`とある。  
 これがflagだった。  
 
 ## Africola
