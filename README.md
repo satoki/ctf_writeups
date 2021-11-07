@@ -6,6 +6,18 @@
 - [SECCON Beginners CTF 2021](https://github.com/satoki/ctf4b_2021_satoki_writeups)  
 - [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
 
+## WaniCTF 2021 (2021/11/05)
+[WaniCTF 2021](WaniCTF_2021)  
+1799 Points  
+- [sourcemap:Web:158pts](WaniCTF_2021/sourcemap)  
+- [POST Challenge:Web:181pts](WaniCTF_2021/POST_Challenge)  
+- [nearest:Misc:221pts](WaniCTF_2021/nearest)  
+- [partition01:Forensics:177pts](WaniCTF_2021/partition01)  
+- [NoSQL:Web:224pts](WaniCTF_2021/NoSQL)  
+- [traversal:Web:285pts](WaniCTF_2021/traversal)  
+- [Styled memo:Web:350pts](WaniCTF_2021/Styled_memo)  
+- [partition02:Forensics:203pts](WaniCTF_2021/partition02)  
+
 ## Open xINT CTF 2021 (2021/10/23)
 [Open xINT CTF 2021](Open_xINT_CTF_2021)  
 2600 Points  
