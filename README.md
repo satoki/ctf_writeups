@@ -6,6 +6,19 @@
 - [SECCON Beginners CTF 2021](https://github.com/satoki/ctf4b_2021_satoki_writeups)  
 - [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
 
+## Thor 2021 CTF (2021/11/26)
+[Thor 2021 CTF](Thor_2021_CTF)  
+XXXX Points  
+- [Break the logic:Web:pts](Thor_2021_CTF/Break_the_logic)  
+- [Phpbaby:Web:pts](Thor_2021_CTF/Phpbaby)  
+- [Tricks 1:Web:pts](Thor_2021_CTF/Tricks_1)  
+- [How to read read without read:Web:pts](Thor_2021_CTF/How_to_read_read_without_read)  
+- [Tricks 2:Web:pts](Thor_2021_CTF/Tricks_2)  
+- [You Shall Not EVAL:Web:pts](Thor_2021_CTF/You_Shall_Not_EVAL)  
+- [Poison:Web:pts](Thor_2021_CTF/Poison)  
+- [CVEmaster:Forensics:pts](Thor_2021_CTF/CVEmaster)  
+- [Email Hunt:OSINT:pts](Thor_2021_CTF/Email_Hunt)  
+
 ## WaniCTF 2021 (2021/11/05)
 [WaniCTF 2021](WaniCTF_2021)  
 1799 Points  
