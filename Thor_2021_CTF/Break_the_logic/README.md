@@ -1,4 +1,4 @@
-# Break the logic:Web:pts
+# Break the logic:Web:652pts
 Listen to the old man!  
 [Click here](https://ch1.sbug.se/)  
 

@@ -1,4 +1,4 @@
-# Tricks 2:Web:pts
+# Tricks 2:Web:270pts
 Another round of PHP Tricks, good luck.  
 [Click here](https://ch6.sbug.se/)  
 

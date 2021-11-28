@@ -1,4 +1,4 @@
-# Poison:Web:pts
+# Poison:Web:682pts
 Bypass some stuff and get the flag!  
 [Click here](https://ch4.sbug.se/)  
 

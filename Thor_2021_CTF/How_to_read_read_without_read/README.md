@@ -1,4 +1,4 @@
-# How to read read without read:Web:pts
+# How to read read without read:Web:630pts
 Can you bypass their WAF 😉 they are so confident about it.  
 [Click here](https://ch2.sbug.se/)  
 

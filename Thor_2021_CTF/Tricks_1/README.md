@@ -1,4 +1,4 @@
-# Tricks 1:Web:pts
+# Tricks 1:Web:120pts
 A couple of PHP tricks, give it a try.  
 [Click here](https://ch5.sbug.se/)  
 

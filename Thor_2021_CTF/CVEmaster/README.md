@@ -1,4 +1,4 @@
-# CVEmaster:Forensics:pts
+# CVEmaster:Forensics:467pts
 "A hacker is targeting our HR portals and deleting our files. He also tried to hack one of our   
 new websites but fortunately, he was not successful this time. We believe that the hacker is a   
 script kiddie and using a known exploit. Can you find the hacker's IP address and the name of   

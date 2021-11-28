@@ -1,4 +1,4 @@
-# You Shall Not EVAL:Web:pts
+# You Shall Not EVAL:Web:782pts
 You must defeat and pass through many enemies to get to it, and even then, what you desire could only be called upon with great hardship  
 [Click here](https://ch7.sbug.se/)  
 

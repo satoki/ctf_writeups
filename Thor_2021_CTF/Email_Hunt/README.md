@@ -1,4 +1,4 @@
-# Email Hunt:OSINT:pts
+# Email Hunt:OSINT:682pts
 I want to find the PGP Public Key of someone's ProtonMail account, but all I got is a useless document he shared with me (https://docs.google.com/spreadsheets/d/1iBRs347v5xXICdgHm4-sQBEFozbqhTABPIespxSBI20).  
 Can you help me find it?  
   
