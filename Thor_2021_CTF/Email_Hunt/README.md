@@ -17,7 +17,7 @@ Flag: SBCTF{aBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBYz}
 
 # Solution
 Emailを見つける問題のようだ。  
-スプレッドシートURLが提示されているので、見るがシートからは何も情報が得られない。  
+スプレッドシートURLが提示されているので見るが、シートからは何も情報が得られない。  
 Googleから情報を得る手法として[GHunt](https://github.com/mxrch/GHunt)が知られている。  
 ![ghunt.png](images/ghunt.png)  
 GHuntより`priv4te3mail0fmr.8@gmail.com`が入手できた。  
