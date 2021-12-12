@@ -31,7 +31,7 @@ Cはsystemをするだけなので問題はない。
 ```c
 //\
 /*
-main(){system("cat flag");}
+main(){system("cat f*");}
 #if 0
 //*/
 package main
