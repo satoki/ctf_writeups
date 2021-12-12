@@ -19,8 +19,7 @@ Cはかなり自由が利きそうなので、まずはGoのコードについ�
 package main
 import(."fmt"
 ."os/exec")
-func main(){
-o,_:=Command("cat","flag").Output()
+func main(){o,_:=Command("cat","flag").Output()
 Print(string(o))}
 //\
 /*
@@ -38,8 +37,7 @@ main(){system("cat flag");}
 package main
 import(."fmt"
 ."os/exec")
-func main(){
-o,_:=Command("cat","flag").Output()
+func main(){o,_:=Command("cat","flag").Output()
 Print(string(o))}
 //\
 /*
