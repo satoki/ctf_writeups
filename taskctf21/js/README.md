@@ -8,7 +8,7 @@ $ curl 34.145.29.222:30009 -X POST -d '{"want_flag": "XXXX(ここに文字列が
 [dist.zip](dist.zip)  
 
 # Solution
-jsfuck問のようだ。  
+JSFuck問のようだ。  
 文字列"yes"を作ってPOSTしてやる。  
 [Wikipedia](https://ja.wikipedia.org/wiki/JSFuck)にアルファベット一覧がある。  
 `y`、`e`、`s`を使用する。  
