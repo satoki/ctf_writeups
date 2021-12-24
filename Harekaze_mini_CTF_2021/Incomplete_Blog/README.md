@@ -69,7 +69,7 @@ $ node
 > parseInt("　-1",10)
 -1
 ```
-あとは`全角スペース-(10000-1337)`で133番目の記事が閲覧できる。  
+あとは`全角スペース-(10000-1337)`で1337番目の記事が閲覧できる。  
 `http://incomplete-blog.harekaze.com/article/%E3%80%80-8663`にアクセスしてやればよい。  
 [flag.png](site/flag.png)  
 flagが得られた。  
