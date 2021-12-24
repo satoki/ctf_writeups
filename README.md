@@ -7,6 +7,13 @@
 - [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
 - [IMCTF 2021](https://github.com/satoki/imctf_2021_satoki_writeups)  
 
+## Harekaze mini CTF 2021 (2021/12/24)
+[Harekaze mini CTF 2021](Harekaze_mini_CTF_2021)  
+623 Points  
+- [Welcome:Welcome:100pts](Harekaze_mini_CTF_2021/Welcome)  
+- [Incomplete Blog:Web:201pts](Harekaze_mini_CTF_2021/Incomplete_Blog)  
+- [Osoraku Secure Note:Web:322pts](Harekaze_mini_CTF_2021/Osoraku_Secure_Note)  
+
 ## taskctf21 (2021/12/12)
 [taskctf21](taskctf21)  
 220 Points  
