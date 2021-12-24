@@ -31,5 +31,6 @@ $ echo "ZmxhZz1IYXJla2F6ZUNURntjaHIxc3RtNHNfNGx3NHlzX3JlbTFuZHNfbWVfMGZfNG00ZzRt
 flag=HarekazeCTF{chr1stm4s_4lw4ys_rem1nds_me_0f_4m4g4m1}
 ```
 デコードするとflagであった。  
+ちなみにfirst bloodだった。  
 
 ## HarekazeCTF{chr1stm4s_4lw4ys_rem1nds_me_0f_4m4g4m1}
