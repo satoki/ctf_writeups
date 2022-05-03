@@ -124,7 +124,8 @@ $ ./get_uid.sh
 0.24935041633189403
 ```
 これらを設定し、50000個の乱数生成するよう編集したxs128p_uid.pyを実行し、辞書を作成する。  
-(スクリプトの実装が不明であり、ローカルでは193行目を`if browser != 'chrome':`に変更した辞書、問題サーバでは変更していない辞書でクラックできた。)  
+スクリプトの実装を読んでおらず、適切な編集でないため、一定数以上の未来の乱数生成後に過去の乱数が周期的に表示されていることに注意する。  
+193行目を`if browser != 'chrome':`に変更することで逆の振る舞いに調節可能である。  
 ```bash
 $ diff xs128p.py xs128p_uid.py
 149,150c149,150
@@ -159,6 +160,6 @@ uidについてはユーザが存在しなければ`user.restricted`がfalseと�
 `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIwLjUyNTg3MjY4NTMwNDI5OTQiLCJpYXQiOjE2NTE0MDEzNzd9.AxE6xLl3WD9qbMaUvXKN6e7hDCvvlRC3Pq2wciGw910`が得られたので、設定してアクセスする。  
 flag  
 [flag.png](site/flag.png)  
-よくわからないが、flagが得られた。  
+flagが得られた。  
 
 ## actf{is_this_what_uaf_is}
