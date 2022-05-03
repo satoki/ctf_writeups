@@ -1,0 +1,17 @@
+p {
+    text-align: center;
+    font-family: monospace;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
