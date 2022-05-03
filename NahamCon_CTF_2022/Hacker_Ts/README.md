@@ -26,7 +26,7 @@ http://challenge.nahamcon.com:31242/exploit?text=<script>var xhr = new XMLHttpRe
 ```
 ![ssxss.png](images/ssxss.png)  
 サーバーサイドでXSSができることが分かった。  
-あとはSSRFにつなげればよい。  
+SSRFにつなげればよい。  
 URLを`abc`などにするとwkhtmltoimageのエラーが起こったためオリジン制限は厳しくないと考えられる。  
 あとは`http://127.0.0.1:5000/admin`をGETしてやればよい。  
 ```

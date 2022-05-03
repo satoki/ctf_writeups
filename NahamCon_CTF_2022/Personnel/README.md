@@ -50,11 +50,11 @@ if __name__ == "__main__":
 usersをファイルから読み取り、それにフラグを追加しているようだ。  
 さらにそれを正規表現で検索している。  
 正規表現の真ん中にnameを追加できるため、フラグが検索に引っかかるようにしてやればよい。  
-[正規表現チェッカー](https://weblabo.oscasierra.net/tools/regex/)などで`flag{testestest}`をチェックする  
+[正規表現チェッカー](https://weblabo.oscasierra.net/tools/regex/)などで`flag{testestest}`をチェックする。  
 `|.*`を挟み込んだ`[A-Z][a-z]*?|.*[a-z]*?\n`でマッチすることがわかる。  
 あとは`|.*`を検索してやればよい。  
 flag  
-[flag.png](site/flag.png)
+[flag.png](site/flag.png)  
 一番下にflagが得られた。  
 
 ## flag{f0e659b45b507d8633065bbd2832c627}

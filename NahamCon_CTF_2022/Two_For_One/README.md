@@ -22,7 +22,7 @@ fetch("https://xxxxxxxxxxxxx.x.pipedream.net");
 ```
 するとリクエストが到達した。  
 XSSが狙えるが、cookieには何も保存されていない。  
-Settingsページでパスワードを変更すればログインできるが変更にはOTPが必要なようで、Usernameも分からない。  
+Settingsページで管理者のパスワードを変更すればログインできるが、変更にはOTPが必要なようで、Usernameも分からない。  
 ここでSettingsページにReset 2FAがあることに気づく。  
 挙動を確認してみるとどうやら`/reset2fa`にPOSTを行っており、otpauth URIが返ってくる。  
 これを奪うことを考える。  
