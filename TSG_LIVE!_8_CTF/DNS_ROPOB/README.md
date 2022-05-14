@@ -1,4 +1,4 @@
-# DNS ROPOB:rev:400pts
+# DNS ROPOB:Rev:400pts
 ランダム化される前でよかった。  
 **注意!** この問題のFlagのフォーマットは**TSGCTF{hogehoge}** です  
 [dns_ropob](dns_ropob)  

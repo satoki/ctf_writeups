@@ -1,4 +1,4 @@
-# Problem on fire:web:200pts
+# Problem on fire:Web:200pts
 たいへん！作問作業が炎上しちゃったよ！みんなで力を合わせてなんとかしよう！  
 [https://challenge-on-fire.web.app/](https://challenge-on-fire.web.app/)  
 [challenge_on_fire.tar.gz](challenge_on_fire.tar.gz)  

@@ -1,4 +1,4 @@
-# bpxover:pwn:100pts
+# bpxover:Pwn:100pts
 C言語のコードの中にはアセンブリも書けるらしいです。え、そんなこと言ってる場合じゃないって？  
 注意：bpxoverとbpxorは関連した問題です。 配布ファイルの差分を見ることをおすすめします。  
 `nc chall.live.ctf.tsg.ne.jp 30006`  

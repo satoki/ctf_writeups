@@ -12,10 +12,10 @@
 ## TSG LIVE! 8 CTF (2022/05/14)
 [TSG LIVE! 8 CTF](TSG_LIVE!_8_CTF)  
 950 Points  
-- [guess:misc:250pts](TSG_LIVE!_8_CTF/guess)  
-- [Problem on fire:web:200pts](TSG_LIVE!_8_CTF/Problem_on_fire)  
-- [DNS ROPOB:rev:400pts](TSG_LIVE!_8_CTF/DNS_ROPOB)  
-- [bpxover:pwn:100pts](TSG_LIVE!_8_CTF/bpxover)  
+- [guess:Misc:250pts](TSG_LIVE!_8_CTF/guess)  
+- [Problem on fire:Web:200pts](TSG_LIVE!_8_CTF/Problem_on_fire)  
+- [DNS ROPOB:Rev:400pts](TSG_LIVE!_8_CTF/DNS_ROPOB)  
+- [bpxover:Pwn:100pts](TSG_LIVE!_8_CTF/bpxover)  
 
 ## ångstromCTF 2022 (2022/04/30)
 [ångstromCTF 2022](ångstromCTF_2022)  

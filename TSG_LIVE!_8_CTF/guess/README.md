@@ -1,4 +1,4 @@
-# guess:misc:250pts
+# guess:Misc:250pts
 CTFで一番大事な能力はguessingだって聞きました。  
 `nc chall.live.ctf.tsg.ne.jp 21234`  
 [guess.tar.gz](guess.tar.gz)  
