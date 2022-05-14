@@ -8,7 +8,7 @@
 Welcome to Firebase Hosting  
 [site.png](site/site.png)  
 タイトルからもわかる通りFirebase系のWeb問題のようだ。  
-おそらく権限周りの脆弱性であることが容易に想像がつく。  
+権限周りの脆弱性であることが容易に想像がつく。  
 配布されたファイルのrulesを見ると以下のようであった。  
 ```
 rules_version = '2';
@@ -27,7 +27,8 @@ service cloud.firestore {
   }
 }
 ```
-adminのみがフラグを読むことができ、自分のユーザ情報を書き込めるためadminになってしまえばよい。  
+adminのみがフラグを読むことができ、自分のみが自分のユーザ情報を書き込める。  
+adminになってしまえばよい。  
 ページからパクって編集した以下のjsをブラウザのコンソールから実行する。  
 ```js
 const auth = firebase.auth();
