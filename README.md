@@ -9,6 +9,22 @@
 - [Ir0nMaiden×WEST-SEC CTF 2022](https://github.com/satoki/imwsctf_2022_satoki_writeups)  
 
 
+## TJCTF 2022 (2022/05/13)
+[TJCTF 2022](TJCTF_2022)  
+XXXX Points  
+- [lamb-sauce:web:XXXXpts](TJCTF_2022/lamb-sauce)  
+- [photoable:web:XXXXpts](TJCTF_2022/photoable)  
+- [game-leaderboard:web:XXXXpts](TJCTF_2022/game-leaderboard)  
+- [ascordle:web:XXXXpts](TJCTF_2022/ascordle)  
+- [analects:web:XXXXpts](TJCTF_2022/analects)  
+- [mmocc:web:XXXXpts](TJCTF_2022/mmocc)  
+- [fruit-store:web:XXXXpts](TJCTF_2022/fruit-store)  
+- [fleecebook:web:XXXXpts](TJCTF_2022/fleecebook)  
+- [portalstrology:web:XXXXpts](TJCTF_2022/portalstrology)  
+- [viewy:web:XXXXpts](TJCTF_2022/viewy)  
+- [jokster:web:XXXXpts](TJCTF_2022/jokster)  
+- [dnu-merch:web:XXXXpts](TJCTF_2022/dnu-merch)  
+
 ## TSG LIVE! 8 CTF (2022/05/14)
 [TSG LIVE! 8 CTF](TSG_LIVE!_8_CTF)  
 950 Points  
