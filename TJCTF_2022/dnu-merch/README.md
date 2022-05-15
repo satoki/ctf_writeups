@@ -1,4 +1,4 @@
-# dnu-merch:web:XXXXpts
+# dnu-merch:web:458pts
 So, since everybody got into DNU during the RD round, we can all buy merch. However, I didn't get honors so I can't buy their super secret flag. I heard that the admin of the site is actually an honors student at DNU, pls sice me.  
 [dnu-merch.tjc.tf](https://dnu-merch.tjc.tf/)  
 [Admin Bot](https://admin-bot.tjctf.org/dnu-merch)  

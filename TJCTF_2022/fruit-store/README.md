@@ -1,4 +1,4 @@
-# fruit-store:web:XXXXpts
+# fruit-store:web:287pts
 :lemonthink:  
 [Instancer](https://instancer.tjctf.org/fruit-store)  
 

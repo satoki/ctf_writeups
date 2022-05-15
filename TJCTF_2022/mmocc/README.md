@@ -1,4 +1,4 @@
-# mmocc:web:XXXXpts
+# mmocc:web:333pts
 Massively multiplayer online cookie clicker!!  
 [mmocc.tjc.tf](https://mmocc.tjc.tf/)  
 

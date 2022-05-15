@@ -1,4 +1,4 @@
-# photoable:web:XXXXpts
+# photoable:web:270pts
 My games always play at like 3 fps, so I thought it'd be more efficient to send individual frames rather than videos. Anyways, I'm sure my website is unhackable, and that you are never gonna find the flag on my server!  
 [photoable.tjc.tf](https://photoable.tjc.tf/)  
 

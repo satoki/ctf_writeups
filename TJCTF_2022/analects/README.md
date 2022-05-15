@@ -1,4 +1,4 @@
-# analects:web:XXXXpts
+# analects:web:246pts
 confucius was a cool guy I think he said some things  
 [analects.tjc.tf](https://analects.tjc.tf/)  
 

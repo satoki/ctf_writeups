@@ -1,4 +1,4 @@
-# game-leaderboard:web:XXXXpts
+# game-leaderboard:web:174pts
 I (superandypancake) signed up for this tournament to win a flag! Unfortunately, I'm not so good. But I'm sure there still is a way to get the flag... right?!?  
 [game-leaderboard.tjc.tf](https://game-leaderboard.tjc.tf/)  
 

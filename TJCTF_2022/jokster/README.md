@@ -1,4 +1,4 @@
-# jokster:web:XXXXpts
+# jokster:web:441pts
 I love jokes. So much, even, that I could no longer think of my own. Because of that, I made this so I could yours!!!  
 [jokster.tjc.tf](https://jokster.tjc.tf/)  
 [Admin Bot](https://admin-bot.tjctf.org/jokster)  

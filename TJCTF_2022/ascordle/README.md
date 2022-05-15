@@ -1,4 +1,4 @@
-# ascordle:web:XXXXpts
+# ascordle:web:198pts
 I found this new worldle clone...  
 [ascordle.tjc.tf](https://ascordle.tjc.tf/)  
 

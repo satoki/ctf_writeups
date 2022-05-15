@@ -1,4 +1,4 @@
-# viewy:web:XXXXpts
+# viewy:web:312pts
 views  
 [Instancer](https://instancer.tjctf.org/viewy)  
 

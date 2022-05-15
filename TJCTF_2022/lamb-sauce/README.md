@@ -1,4 +1,4 @@
-# lamb-sauce:web:XXXXpts
+# lamb-sauce:web:116pts
 where's the lamb sauce  
 [lamb-sauce.tjc.tf](https://lamb-sauce.tjc.tf/)  
 

@@ -1,4 +1,4 @@
-# portalstrology:web:XXXXpts
+# portalstrology:web:361pts
 I applied to DNU this year, and the admission results are coming out on May 17! But I really want to know my decision now though. I heard that other colleges had problems with accidentally leaking college decisions, you think DNU did the same?  
 Unfortunately, I forgot my password too, so you gotta figure that out as well. My username is `superigamerbean`.  
 [dnu-financial-aid.tjc.tf](https://dnu-financial-aid.tjc.tf/)  
