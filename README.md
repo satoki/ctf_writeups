@@ -7,6 +7,7 @@
 - [TsukuCTF 2021](https://github.com/satoki/tsukuctf_2021_satoki_writeups)  
 - [IMCTF 2021](https://github.com/satoki/imctf_2021_satoki_writeups)  
 - [Ir0nMaiden×WEST-SEC CTF 2022](https://github.com/satoki/imwsctf_2022_satoki_writeups)  
+- [SECCON Beginners CTF 2022](https://github.com/satoki/ctf4b_2022_satoki_writeups)  
 
 
 ## TJCTF 2022 (2022/05/13)
