@@ -10,6 +10,18 @@
 - [SECCON Beginners CTF 2022](https://github.com/satoki/ctf4b_2022_satoki_writeups)  
 
 
+## HSCTF 9 (2022/06/05)
+[HSCTF 9](HSCTF_9)  
+3069 Points  
+- [gallery:web:201pts](HSCTF_9/gallery)  
+- [paas:miscellaneous:347pts](HSCTF_9/paas)  
+- [squeal:web:219pts](HSCTF_9/squeal)  
+- [png-wizard:web:423pts](HSCTF_9/png-wizard)  
+- [png-wizard-v2:web:459pts](HSCTF_9/png-wizard-v2)  
+- [markdown-plus-plus:web:480pts](HSCTF_9/markdown-plus-plus)  
+- [hsgtf:web:489pts](HSCTF_9/hsgtf)  
+- [eunectes-murinus:reversing:450pts](HSCTF_9/eunectes-murinus)  
+
 ## TJCTF 2022 (2022/05/13)
 [TJCTF 2022](TJCTF_2022)  
 3574 Points  

