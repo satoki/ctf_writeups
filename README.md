@@ -10,6 +10,12 @@
 - [SECCON Beginners CTF 2022](https://github.com/satoki/ctf4b_2022_satoki_writeups)  
 
 
+## WeCTF 2022 (2022/06/11)
+[WeCTF 2022](WeCTF_2022)  
+1462 Points  
+- [Pkg:Web:616pts](WeCTF_2022/Pkg)  
+- [Pkg (Extra Hard):Web:846pts](WeCTF_2022/Pkg_(Extra_Hard))  
+
 ## HSCTF 9 (2022/06/05)
 [HSCTF 9](HSCTF_9)  
 3069 Points  
