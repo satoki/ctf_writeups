@@ -16,7 +16,7 @@ V44FTEScskUnyxOlSRtWiWqrY6tGOPYtxvNOZxx6rxQD7BAJJncc86enn5FYp53hJDdbCcJDsudy39gr
 ```
 Real Flagは取得できないのでexeを解析する。  
 問題名から[pkg](https://github.com/vercel/pkg)のようだ。  
-梱包されたパッケージはSnapshot filesystemにアクセスでき、そこにアセット各種ファイルが配置されるらしい。  
+梱包されたパッケージはSnapshot filesystemにアクセスでき、そこに各種ファイルが配置されるらしい。  
 天才チームメンバが「[Sunshine CTF 2019 - The Whole Pkg](https://fireshellsecurity.team/sunshine-the-whole-pkg/)」なる類題を見つけてくれた。  
 バイナリファイルの`C:\\snapshot`を書き換えることで、エントリーポイントをローカルのjsファイルに差し替えることができるらしい。  
 書き換えるためのパスを知るために、grepをかける。  
@@ -55,11 +55,10 @@ console.log(data);
 >binaryexpress-win_snapshoo.exe
 30820155020100300d06092a864886f70d01010105000482013f3082013b020100024100986676bc7f0f74451ba334cda8789af88b023c683b1f8b6dd6e0266edb7e1dd2f2bbc39e4d1b0d42cfc5cbb2f4538c2cb7654b86076756e8f10183fb4054d2f5020301000102410084c155135457a1000658404a1a449d327edcfec40924ac6f8d2b8b2f2c728b04f6f103d28a203ec367951752097243192a6d0ad6f9eef317cea0fdc36202c9ed022100eae770f32c77135461aa7d5ada3d14b2670475984c5354b7eff06602ed80690b022100a616383d8d19faad64d14ec99a6ba589b02353078d4db2b110e235d67edd33ff0220041e4ca7a6c6ebaad60f84251ca067857d32e1d0eabda745964a53af877471e30221008a5a1e155ff21138d9afe602d8a8ed67aa1b72f1ea8a9bdd16246a16b8ed897f022049beb187600910cebb9bcc6ba9be94d54dec76aba0ffdbb5ee696595aced7539
 ```
-ファイルのhexが得られたため適当にhex2binしてやればよい。  
+ファイルのhexが得られたため適当にhex2binして、private_key.derに戻してやればよい。  
 derをそのまま読み込んでも複合可能だと思われるが、扱いやすいpemにする。  
 ```bash
-$ openssl rsa -in private_key.der -inform DER -out private_key.pem
- -outform PEM
+$ openssl rsa -in private_key.der -inform DER -out private_key.pem -outform PEM
 writing RSA key
 $ cat private_key.pem
 -----BEGIN RSA PRIVATE KEY-----
