@@ -1,4 +1,4 @@
-# vsCAPTCHA:Web:487pts
+# vsCAPTCHA:Web:482pts
 vsCAPTCHA: the ultimate solution to protect your site from 100% of bots, guaranteed!  
 [https://vscaptcha-twekqonvua-uc.a.run.app](https://vscaptcha-twekqonvua-uc.a.run.app/)  
 Downloads  
