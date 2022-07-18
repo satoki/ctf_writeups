@@ -1,0 +1,119 @@
+:root {--theme-color: #131b1e;}
+.navbar{background-color: var(--theme-color) !important;}
+.jumbotron{background-color: var(--theme-color) !important;}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont,"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;		   
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	line-height: 1.75;
+	background-color:#151e26;
+	color:#ddd;
+}
+
+.category-header > h3{
+	color:#fff;
+}
+
+.static > h1{
+    color:#ddd;
+    padding:2rem 2rem 0 2rem;
+}
+
+.static > p > em{
+    font-weight:bold;
+    color: #efa59a;
+}
+
+
+.static > h2{
+    color:#ddd;
+    font-size:1.5rem;
+    margin:2rem 2rem 0 2rem;
+    border-bottom: 1px dotted #ccc;
+}
+
+.static > h3{
+    font-size:1.5rem;
+    margin:2rem 2rem 0 2rem;
+}
+
+
+.static > p{
+    color:#ccc;
+    padding:1rem 2rem 0 2rem;
+    line-height:  1.8em;
+
+}
+
+.nosolve{
+   color:#ddd;
+}
+
+
+.static > ol{
+    padding-left:3.5rem;
+    padding-top:1rem;
+    color: #ddd;
+}
+
+.static > ul {
+   padding-left:3rem;
+   padding-top:1rem;
+}
+
+.tab-content{
+   color:#666;
+}
+.modal-content{
+   border-radius: 2rem !important;
+   color:#666;
+}
+
+.challenge-button{
+  border-radius:0.75rem !important;
+  background-color:#21282e !important;
+  box-shadow:0 2px 5px 0 #080808 !important;
+}
+
+.solved-challenge{
+  background-color:#1f5c65 !important;
+  border:1px solid #666;
+}
+
+.card-body{
+  color:#666;
+}
+
+a.table-striped{
+  color:#fff !important;
+}
+
+#score-graph{
+  background-color:#eee;
+  border-radius: 1rem;
+  margin:2rem 0rem 2rem 0rem;
+  padding-top:1rem;
+}
+
+.form-control{
+  background-color:#eee !important;
+  color:#666; 
+}
+
+.circlegraph{
+  background-color:#eee !important;
+  border-radius: 1rem;
+  padding:2rem 1rem 2rem 1rem;
+  margin:2rem;
+}
+
+.static-ul{
+  padding-top:0 !important;
+}
+
+.nosolve{
+  color:#000;
+}
+
+

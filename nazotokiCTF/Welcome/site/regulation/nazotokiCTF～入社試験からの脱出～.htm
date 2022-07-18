@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>nazotokiCTF～入社試験からの脱出～</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/fonts.min.css">
+	<link rel="stylesheet" href="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/main.min.css">
+	<link rel="stylesheet" href="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/core.min.css">
+	<link rel="stylesheet" href="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/add.css">
+	
+	
+
+	
+	<script type="text/javascript">
+		var init = {
+			'urlRoot': "",
+			'csrfNonce': "4a55dcf8027e50814165451a9b21b72de585afde6676f2d1737ed8409e9e4633",
+			'userMode': "users",
+			'userId': 0,
+			'userName': "None",
+			'userEmail': "None",
+			'teamId': null, 
+			'teamName': "None",
+			'start': 1658030400,
+			'end': 1658116800,
+			'theme_settings': null
+		}
+	</script>
+	<script src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/hatena.js"></script>
+	<meta property="og:type" content="website">
+<meta property="og:url" content="https://ctf.nazotoki.tech/">
+<meta property="og:title" content="ナゾトキCTF～入社試験からの脱出～">
+<meta property="og:description" content="謎解き要素をミックスした初心者向けCTFイベントです。2022/7/17 (日) 13:00 JST - 2022/7/18 (祝) 13:00 JSTで開催。脱出成功者には賞品が当たります。">
+<meta property="og:image" content="https://ctf.nazotoki.tech/files/dbce1055b2da5e5245f36869367591f9/ogp.png">
+<meta property="og:site_name" content="ナゾトキCTF～入社試験からの脱出～">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nomizooone">
+<meta name="twitter:domain" content="ctf.nazotoki.tech">
+<meta name="twitter:title" content="ナゾトキCTF～入社試験からの脱出～">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a href="https://ctf.nazotoki.tech/" class="navbar-brand" onclick="hatenaClick();">
+            
+	    <img class="img-responsive ctf_logo" src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/question.png" alt="nazotokiCTF～入社試験からの脱出～" height="25">
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars" aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="base-navbars">
+            <ul class="navbar-nav mr-auto">
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ctf.nazotoki.tech/prologue">プロローグ</a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ctf.nazotoki.tech/regulation">ルール</a>
+                    </li>
+                
+
+                
+
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ctf.nazotoki.tech/challenges">モンダイ</a>
+                </li>
+            </ul>
+
+            <hr class="d-sm-flex d-md-flex d-lg-none">
+
+            <ul class="navbar-nav ml-md-auto d-block d-sm-flex d-md-flex">
+                
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://ctf.nazotoki.tech/login">
+                            <span class="d-block" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Login">
+                                <i class="fas fa-sign-in-alt d-none d-md-block d-lg-none"></i>
+                            </span>
+                            <span class="d-sm-block d-md-none d-lg-block">
+                                <i class="fas fa-sign-in-alt pr-1"></i>Login
+                            </span>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+	<main role="main">
+		
+	<div class="container">
+	<div class="static">
+<h1>ルール</h1>
+<h2>CTFってなあに？</h2>
+<p>CTF（シーティーエフ）とは Capture The Flag（キャプチャーザフラッグ） の略で、ここでは情報セキュリティの知識や技能を競うセキュリティコンテストの意味です。「<a href="https://ctf.nazotoki.tech/challenges">モンダイ</a>」ページのお題の中でフラグと呼ばれる文字列（要するに答え）を探すことが目的です。<br>フラグをみつけたら各解答フォームに入力してsubmitボタンをクリックします。正解の場合は表示されている数字と同じ数のポイントを獲得できます。特定の問題を正解しないと表示されない問題があるかもしれません。
+</p>
+
+<h2>解答期間</h2>
+<p>2022/7/17 (日) 13:00 JST - 2022/7/18 (祝) 13:00 JST
+</p>
+
+<h2>当CTFの特殊ルール</h2>
+<p>一般的なCTFとは異なり、フラグはすべて「<em>全角カタカナ4文字</em>」の意味のある単語で統一されています（セキュリティに関係のない言葉かもしれません）<br>一部の問題で導き出される解答は、フラグとなる文字列をわかりやすくするために<em>nazotokiCTF{〇〇〇〇}</em>というようなプレフィクスとカッコ付きの表記がされていることがありますが、<em>submit時に利用するのは中身のカタカナのみ</em>であることにご注意ください。獲得したフラグはメモしておくことをおすすめします。</p>
+ 
+<h2>賞品について</h2>
+  <p>スペシャルスポンサーの<a href="https://sys-guard.com/" target="_blank">システムガーディアン様</a>のご厚意により、このCTF大会には賞品が出ます。</p> 
+
+  <h3>🏆脱出成功賞🏆</h3>
+  <p><em>以下2つの条件を満たした方の中から抽選で10名様にAmazonギフト券（金額ランダム 1,000～3,000円） が当たります</em></p>
+      <ol class="static-ul">
+        <li class="static-ul">解答期間中に脱出成功（※最終問題のフラグを正解すること）すること</li>
+        <ul><li>ヒントを利用しても構いません。ただし、期間終了時点で脱出成功者が多数存在した場合、ヒントを閲覧するために消費したポイントの多寡が抽選に影響する可能性があります</li></ul>
+         <li>解答期間中に最後に表示されるアンケートにご回答いただけていること
+           <ul><li>賞品の送付先住所をご指定いただく必要があります</li><li>個人情報は他の用途には利用しません</li></ul>
+  		</li></ol>
+    <p>※脱出成功者が10名に満たない場合は条件を変更するかもしれません<br>※スピード勝負にしたくないという意図から抽選方式にしてます、ゆるく楽しんでください</p>
+  
+    <h3>🏆盛り上げ感謝賞🏆</h3>
+		  <p><em>以下2つの条件を満たした方の中から抽選で20名様にノベルティが当たります</em></p>
+  		<ol class="static-ul"><li class="static-ul">解答期限終了までの間にTwitterでハッシュダグ<a href="https://twitter.com/share?url=https://ctf.nazotoki.tech&amp;hashtags=nazotokiCTF" target="_blank" class="twitter-hashtags-btn">#nazotokiCTF</a>をつけて何かしら意気込みや感想などをつぶやいていただいていること</li>
+          <ul><li>つぶやく時期、回数、内容は問いません</li></ul>
+          <li>終了後にDMでお送りするアンケートに指定の期日内でご回答いただけること<ul><li>賞品の送付先住所をご指定いただく必要があります</li><li>個人情報は他の用途には利用しません</li></ul></li></ol>
+  
+    <p>※対象者が20名に満たない場合は条件を変更するかもしれません</p>
+  
+<h2>禁止事項</h2>
+<ul>
+    <li>解答期限終了前にネタバレ・WriteUpの共有を不特定多数に対して行うこと（ネタバレにならない程度の感想や終了後のWriteUpは歓迎します）</li>
+    <li>問題サーバやそれに準ずるサーバへの攻撃及び意図的な破壊行為</li>
+    <li>総当りによる解答の送信（目に余る場合はアクセス制限などの対応を行う可能性があります）</li>
+</ul>
+
+
+<h2>よくある質問</h2>
+  <ol>
+    <li>このイベントはシステムガーディアンの採用イベントですか？</li>
+    <ul><li>いいえ。システムガーディアン様には完全なご厚意で賞品のみご提供いただいています</li><li>収集した個人情報の利用目的に関しては<a href="https://ctf.nazotoki.tech/privacy">プライバシーポリシー</a>をご確認ください</li><li>ちなみに主催（のみぞう）も完全に個人的な趣味でこのイベントをやってます。所属組織はまったく関係ありませんし全部一人でやってますんでまぁお手柔らかにヨロシャス</li></ul>
+    <li>友達と参加したいのですがチームを組むことはできますか？
+      <ul><li>申し訳ありません、今回のCTFに関してはいわゆるチーム機能を提供する予定はありません</li><li>ただし、お友達同士であれば個人的に連絡をとっていただいて、フラグや解法を共有いただくことは問題ありません（不特定多数から見えないところでお願いしますね）どうぞご自由にお楽しみください</li><li>共有アカウントを作って一緒にログインするか、お友達と別々のアカウントを作って情報共有のみを行うかはお任せします（おすすめは後者です）</li></ul>
+     </li><li>イベント開催期間中に予定があって参加できないのですが、あとからでも問題を解くことはできますか？</li>
+      <ul><li>できます（予定）。終わったあとも1週間くらいはサーバを落とさずにおいておくつもりなので、もしよかったら登録だけしてご都合のよいときにチャレンジしてみてください</li><li>解答期間が過ぎると脱出成功賞の対象ではなくなってしまいますのでそこだけご了承ください</li></ul>
+     <li>スマホから参加できますか？</li>
+      <ul><li>参加はできます。でもごめんなさい、多分一部の問題を解くにあたってのハードルが相当上がると思います。頑張ればできなくはないかもしれませんが不具合起こったらごめん…一応これCTFなので…</li></ul>
+
+ 
+  </ol>
+  
+<h2>困ったときには</h2>
+<ul>
+    <li>解答に必要な情報を見過ごしている可能性があります。「<a href="https://ctf.nazotoki.tech/prologue">プロローグ</a>」や「<a href="https://ctf.nazotoki.tech/regulation">ルール</a>」や今まで獲得したフラグや解いた問題などを見直してみてください。特に複数人で解いている場合は情報共有が重要です</li>
+    <li>自分がその時点までに獲得したポイントをいくらか消費することでヒントを閲覧することができます。使うもよし、使わないでがんばるもよし</li>
+    <li>不具合などございましたら主催（のみぞう）の <a href="https://twitter.com/nomizooone" target="_blank">TwitterのDM </a>までご連絡ください</li>
+</ul>
+  
+  
+  
+<h2>大切なルール</h2>
+<ul>
+    <li>燃えるゴミは捨ててください</li>
+    <li>ペットボトル</li>
+</ul>
+
+
+</div>
+	</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container text-center">
+			<a href="https://ctfd.io/" class="text-secondary">
+				<small class="text-muted">Powered by CTFd</small>
+			</a>
+		</div>
+	</footer>
+
+	<script defer="defer" src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/vendor.bundle.min"></script>
+	<script defer="defer" src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/core.min"></script>
+	<script defer="defer" src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/helpers.min"></script>
+
+	
+	<script defer="defer" src="nazotokiCTF%EF%BD%9E%E5%85%A5%E7%A4%BE%E8%A9%A6%E9%A8%93%E3%81%8B%E3%82%89%E3%81%AE%E8%84%B1%E5%87%BA%EF%BD%9E_files/main.min"></script>
+	
+
+	
+	
+
+	
+
+	
+
+</body></html>

@@ -10,6 +10,26 @@
 - [SECCON Beginners CTF 2022](https://github.com/satoki/ctf4b_2022_satoki_writeups)  
 
 
+## nazotokiCTF (2022/07/17)
+[nazotokiCTF](nazotokiCTF)  
+772 Points  
+- [Welcome:Tutorial:1pts](nazotokiCTF/Welcome)  
+- [おひつじ座:Riddle - Fire elements:11pts](nazotokiCTF/おひつじ座)  
+- [しし座:Riddle - Fire elements:21pts](nazotokiCTF/しし座)  
+- [いて座:Riddle - Fire elements:31pts](nazotokiCTF/いて座)  
+- [おうし座:Knowledge - Earth elemtnts:12pts](nazotokiCTF/おうし座)  
+- [おとめ座:Knowledge - Earth elemtnts:22pts](nazotokiCTF/おとめ座)  
+- [やぎ座:Knowledge - Earth elemtnts:32pts](nazotokiCTF/やぎ座)  
+- [ふたご座:Web - Air elemtnts:13pts](nazotokiCTF/ふたご座)  
+- [てんびん座:Web - Air elemtnts:23pts](nazotokiCTF/てんびん座)  
+- [みずがめ座:Web - Air elemtnts:33pts](nazotokiCTF/みずがめ座)  
+- [かに座:Misc - Water elements:14pts](nazotokiCTF/かに座)  
+- [さそり座:Misc - Water elements:24pts](nazotokiCTF/さそり座)  
+- [うお座:Misc - Water elements:34pts](nazotokiCTF/うお座)  
+- [へびつかい座:2nd Challenge:100pts](nazotokiCTF/へびつかい座)  
+- [最終問題:Last Challenge:200pts](nazotokiCTF/最終問題)  
+- [Thank you:Congratulations!!:201pts](nazotokiCTF/Thank_you)  
+
 ## vsCTF (2022/07/09)
 [vsCTF](vsCTF)  
 1017 Points  
