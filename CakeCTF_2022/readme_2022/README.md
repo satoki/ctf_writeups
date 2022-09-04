@@ -68,8 +68,8 @@ crw-rw-rw- 1 root root   1, 9 Sep  3 17:27 urandom
 crw-rw-rw- 1 root root   1, 5 Sep  3 17:27 zero
 ```
 `/dev/fd`が`/proc/self/fd`へのシンボリックリンクとなっている。  
-問題のスクリプトは最初にopenしているので、何番かのfdが掴んでいるだろうと予測できる。  
-あとは3以降を適当に試せばよい。  
+問題のスクリプトは最初にフラグが書かれたファイルをopenしているので、何番かのfdが掴んでいるだろうと予測できる。  
+あとは3から適当に試せばよい。  
 ```bash
 $ nc misc.2022.cakectf.com 12022
 filepath: ~sys/fd/3

