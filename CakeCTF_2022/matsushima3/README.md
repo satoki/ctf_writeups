@@ -111,14 +111,13 @@ def future_prediction(user_id, player_hand):
 ```
 これにより、相手の手札とデッキのカードがわかる状態でブラックジャックをプレイできる。  
 効率的な勝ち方は考えられるが、面倒なのでbustしない程度に21に限りなく近くなるまでhitしまくる戦略をとる。  
-以下の適当なスクリプトで行う。  
+以下の適当なスクリプトで行う(よくもまあこんな雑さで動いたなと思っていると、リクエストが速いため同じ手で複数回勝利していた)。  
 ```python
 import sys
 import json
 import time
 import random
 import requests
-
 
 
 # by app.py
@@ -150,7 +149,6 @@ def future_prediction(user_id, player_hand):
     return []
 
 
-
 session = requests.Session()
 r = session.get("http://misc.2022.cakectf.com:10011/user/new")
 user_id = json.loads(r.content)["user_id"]
@@ -166,8 +164,8 @@ while True:
     player_score = calculate_score(player_hand)
     dealer_score = calculate_score(dealer_hand)
 
-    #print(deck)
     #print("+----------New----------+")
+    #print(deck)
     #print(f"PlayerHand:{player_hand} [{player_score}]")
     #print(f"DealerHand:{dealer_hand} [{dealer_score}]")
 

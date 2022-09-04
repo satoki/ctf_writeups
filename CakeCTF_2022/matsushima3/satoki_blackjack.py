@@ -5,7 +5,6 @@ import random
 import requests
 
 
-
 # by app.py
 def calculate_score(cards):
     """Calculate current total of cards"""
@@ -35,7 +34,6 @@ def future_prediction(user_id, player_hand):
     return []
 
 
-
 session = requests.Session()
 r = session.get("http://misc.2022.cakectf.com:10011/user/new")
 user_id = json.loads(r.content)["user_id"]
@@ -51,8 +49,8 @@ while True:
     player_score = calculate_score(player_hand)
     dealer_score = calculate_score(dealer_hand)
 
-    #print(deck)
     #print("+----------New----------+")
+    #print(deck)
     #print(f"PlayerHand:{player_hand} [{player_score}]")
     #print(f"DealerHand:{dealer_hand} [{dealer_score}]")
 
