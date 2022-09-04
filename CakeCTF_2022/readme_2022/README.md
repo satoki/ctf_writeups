@@ -1,4 +1,4 @@
-# readme 2022:misc:135pts
+# readme 2022:misc:133pts
 `nc misc.2022.cakectf.com 12022`  
 
 [readme2022_80ade97026adcb7e3e8f6203ad1eab06.tar.gz](readme2022_80ade97026adcb7e3e8f6203ad1eab06.tar.gz)  

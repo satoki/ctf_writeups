@@ -12,8 +12,8 @@
 
 ## CakeCTF 2022 (2022/09/03)
 [CakeCTF 2022](CakeCTF_2022)  
-853 Points  
-- [readme 2022:misc:135pts](CakeCTF_2022/readme_2022)  
+851 Points  
+- [readme 2022:misc:133pts](CakeCTF_2022/readme_2022)  
 - [CakeGEAR:web:98pts](CakeCTF_2022/CakeGEAR)  
 - [OpenBio:web:135pts](CakeCTF_2022/OpenBio)  
 - [matsushima3:cheat:196pts](CakeCTF_2022/matsushima3)  
