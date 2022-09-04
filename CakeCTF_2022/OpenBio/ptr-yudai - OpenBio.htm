@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style>@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+        <meta charset="UTF-8">
+        <title>ptr-yudai - OpenBio</title>
+        <link rel="stylesheet" href="ptr-yudai%20-%20OpenBio_files/uikit.min.css">
+        <script type="text/javascript" async="" src="ptr-yudai%20-%20OpenBio_files/recaptcha__ja.js" crossorigin="anonymous" integrity="sha384-DMWUI4TOo0k2ptnDHLz7QnieKYappGtxF/9pAeVsUw0evB/MNf59x/lU8caShDR8"></script><script src="ptr-yudai%20-%20OpenBio_files/uikit.min.js"></script>
+        <script src="ptr-yudai%20-%20OpenBio_files/uikit-icons.min.js"></script>
+        <script src="ptr-yudai%20-%20OpenBio_files/jquery.min.js"></script>
+        
+        <script src="ptr-yudai%20-%20OpenBio_files/api.js"></script>
+        
+    </head>
+    <body>
+        <div class="uk-section uk-section-muted uk-flex uk-animation-fade" uk-height-viewport="" style="min-height: calc(100vh);">
+            <div class="uk-container">
+                <h1>
+                    ptr-yudai's Profile
+                    <a id="copy" class="uk-icon-button uk-icon" uk-icon="link" uk-tooltip="Copy link" title="" aria-expanded="false" tabindex="0"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-width="1.1" d="M10.625,12.375 L7.525,15.475 C6.825,16.175 5.925,16.175 5.225,15.475 L4.525,14.775 C3.825,14.074 3.825,13.175 4.525,12.475 L7.625,9.375"></path><path fill="none" stroke="#000" stroke-width="1.1" d="M9.325,7.375 L12.425,4.275 C13.125,3.575 14.025,3.575 14.724,4.275 L15.425,4.975 C16.125,5.675 16.125,6.575 15.425,7.275 L12.325,10.375"></path><path fill="none" stroke="#000" stroke-width="1.1" d="M7.925,11.875 L11.925,7.975"></path></svg></a>
+                    <a id="report" class="uk-icon-button uk-icon" uk-icon="warning" uk-tooltip="Report spam" title="" aria-expanded="false" tabindex="0"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="14" r="1"></circle><circle fill="none" stroke="#000" stroke-width="1.1" cx="10" cy="10" r="9"></circle><path d="M10.97,7.72 C10.85,9.54 10.56,11.29 10.56,11.29 C10.51,11.87 10.27,12 9.99,12 C9.69,12 9.49,11.87 9.43,11.29 C9.43,11.29 9.16,9.54 9.03,7.72 C8.96,6.54 9.03,6 9.03,6 C9.03,5.45 9.46,5.02 9.99,5 C10.53,5.01 10.97,5.44 10.97,6 C10.97,6 11.04,6.54 10.97,7.72 L10.97,7.72 Z"></path></svg></a>
+                </h1>
+                <p class="uk-text-large"><script src="ptr-yudai%20-%20OpenBio_files/angular.min.js"></script>
+</p><div ng-app="" ng-csp="" class="ng-binding ng-scope"></div>
+zunda<p></p>
+            </div>
+        </div>
+        <input type="hidden" id="csrf_token" value="ImZlODYzMzBjYmRjYWIyZTYzNWZmM2FkMzgzYjFmNDUxZjQ4ZjE1Mjci.YxL6AQ.D0kBUnsF6HgieOkzvKIY0TtiGm8">
+    
+    <script nonce="">
+
+     $('#report').click(function(e) {
+         e.preventDefault();
+         grecaptcha.ready(function() {
+             grecaptcha.execute('6LdRTcwhAAAAAOh7L7kEylfV3pggpvmR4bdezlVh', {action: 'submit'}).then(function(recaptcha) {
+                 let username = "ptr-yudai";
+                 let csrf_token = $('#csrf_token').val();
+                 $.post('/api/support/report', { username, csrf_token, recaptcha }, (data) => {
+                     UIkit.modal.alert(data.message);
+                 }).fail(res => {
+                     UIkit.modal.alert(`Unknown error with status: ${res.status}`);
+                 });
+             });
+         });
+     });
+
+     $('#copy').click(function() {
+         let t = $('<input>').attr({
+             value: "http://web1.2022.cakectf.com:8003/profile/ptr-yudai"
+         });
+         t.appendTo($(document.body));
+         t.select();
+         document.execCommand('copy');
+         t.remove();
+     });
+    </script>
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s ease 0s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" src="ptr-yudai%20-%20OpenBio_files/anchor.htm" role="presentation" name="a-wuqw68fyl170" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" width="256" height="60" frameborder="0"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div></body></html>
