@@ -111,7 +111,7 @@ def future_prediction(user_id, player_hand):
 ```
 これにより、相手の手札とデッキのカードがわかる状態でブラックジャックをプレイできる。  
 効率的な勝ち方は考えられるが、面倒なのでbustしない程度に21に限りなく近くなるまでhitしまくる戦略をとり様子を見る。  
-以下の適当なスクリプトで行う。  
+以下のいい加減なスクリプトで行う。  
 ```python
 import sys
 import json
@@ -206,14 +206,14 @@ import requests
 session = requests.Session()
 session.get("http://misc.2022.cakectf.com:10011/user/new")
 while True:
-    res = session.get("http://misc.2022.cakectf.com:10011/game/new").content.decode()
+    res = session.get("http://misc.2022.cakectf.com:10011/game/new").text
     #print(f"player_hand: {json.loads(res)['player_hand']}")
-    res = session.get("http://misc.2022.cakectf.com:10011/game/act", params={"action": "stand"}).content.decode()
-    if "lose" in res:
-        session.get("http://misc.2022.cakectf.com:10011/user/new")
+    res = session.get("http://misc.2022.cakectf.com:10011/game/act", params={"action": "stand"}).text
     if "CakeCTF" in res:
         print(f"flag: {json.loads(res)['flag']}")
         break
+    if "lose" in res:
+        session.get("http://misc.2022.cakectf.com:10011/user/new")
     print(f"money: {json.loads(res)['money']}")
 ```
 適切な性能を持つ回線と端末で実行する。  
