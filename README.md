@@ -11,6 +11,33 @@
 - [TsukuCTF 2022](https://github.com/satoki/tsukuctf_2022_satoki_writeups)  
 
 
+## UECTF2022 (2022/11/18)
+[UECTF2022](UECTF2022)  
+4625 Points  
+- [WELCOME:MISC:10pts](UECTF2022/WELCOME)  
+- [A file:REV:50pts](UECTF2022/A_file)  
+- [caesar:MISC:100pts](UECTF2022/caesar)  
+- [redaction gone wrong 1:MISC:100pts](UECTF2022/redaction_gone_wrong_1)  
+- [RSA:CRYPTO:50pts](UECTF2022/RSA)  
+- [revPython:REV:100pts](UECTF2022/revPython)  
+- [Deleted:FORENSICS:100pts](UECTF2022/Deleted)  
+- [buffer_overflow:PWN:50pts](UECTF2022/buffer_overflow)  
+- [PDF:MISC:400pts](UECTF2022/PDF)  
+- [redaction gone wrong 2:MISC:100pts](UECTF2022/redaction_gone_wrong_2)  
+- [GIF1:MISC:100pts](UECTF2022/GIF1)  
+- [Compare:FORENSICS:100pts](UECTF2022/Compare)  
+- [dotnet:REV:450pts](UECTF2022/dotnet)  
+- [Discord 1:FORENSICS:127pts](UECTF2022/Discord_1)  
+- [captain-hook:REV:323pts](UECTF2022/captain-hook)  
+- [GIF2:MISC:127pts](UECTF2022/GIF2)  
+- [OSINT:MISC:436pts](UECTF2022/OSINT)  
+- [discrete:REV:400pts](UECTF2022/discrete)  
+- [webapi:WEB:100pts](UECTF2022/webapi)  
+- [request-validation:WEB:323pts](UECTF2022/request-validation)  
+- [Discord2:FORENSICS:323pts](UECTF2022/Discord2)  
+- [WHEREAMI:MISC:400pts](UECTF2022/WHEREAMI)  
+- [guess:PWN:356pts](UECTF2022/guess)  
+
 ## SekaiCTF 2022 (2022/09/30)
 [SekaiCTF 2022](SekaiCTF_2022)  
 1349 Points  
