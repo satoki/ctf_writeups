@@ -20,9 +20,9 @@ import time
 import json
 import requests
 
-plus_code = open("mail.txt").read().split("\n")
+plus_codes = open("mail.txt").read().split("\n")
 
-for i in plus_code:
+for i in plus_codes:
     try:
         time.sleep(1)
         res = json.loads(requests.get(f"https://plus.codes/api?address={i}".replace("+", "%2B")).text)
