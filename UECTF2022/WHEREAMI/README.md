@@ -11,7 +11,7 @@ He said it was a "plus code", but I have no idea what plus code is. Is any strin
 # Solution
 なぞの形式のtxtが渡される。  
 試しに先頭の`7RJP2C22+2222222`をGoogle検索すると地図が表示される。  
-「地図　プラス記号　緯度経度」などと詳しく調べると、どうやら座標を表すOpen Location Code(plus codes)というものらしい。  
+「地図　プラス記号　緯度経度」などと詳しく調べると、どうやら座標を表すOpen Location Code(Plus Codes)というものらしい。  
 この時点でなんとなく座標をプロットするとフラグになりそうだとあたりがつく。  
 しかし謎の形式を地図にプロットするすべを持たない。  
 APIで変換できるようなので、以下のidokeido.pyで緯度経度に変換する。  
