@@ -8,7 +8,7 @@ I tried to hide the flag with GIF animation. Huh? Not hidden...? Oh no...
 gifが渡される。  
 ![UEC_Anime.gif](UEC_Anime.gif)  
 一瞬だけ何かが見えるが、おそらくどこかのコマにフラグが書かれていると予測できる。  
-分解してもよいが、頑張ってスクショを連打する。  
+分解してもよいが、頑張ってprt scキーを連打する。  
 ![prt_sc.png](images/prt_sc.png)  
 `E`のあたりでいい感じにflagが得られた。  
 

@@ -5,7 +5,7 @@
 
 # Solution
 pyとtxtが配布される。  
-問題名からシーザー暗号だと推測でき。案の定txtは`2LJ0MF0o&*E&zEhEi&1EKpmm&J3s1Ej)(zlYG`という意味不明な文字であった。  
+問題名からシーザー暗号だと推測でき、案の定txtは`2LJ0MF0o&*E&zEhEi&1EKpmm&J3s1Ej)(zlYG`という意味不明な文字であった。  
 pyを見ると以下のようであった。  
 ```python
 from string import ascii_uppercase,ascii_lowercase,digits,punctuation

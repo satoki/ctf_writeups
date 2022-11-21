@@ -20,7 +20,7 @@ Correct!
 ```
 よくわからないがフラグを入力に取るようであり、`Wrong!`や`Correct!`が見える。  
 angrに食わせればよさそうだ。  
-以下のsolver.pyで行う(スクリプトは[ここ](https://feneshi.co/TSG_LIVE_8_CTF_writeup/)からパク…借りた)。  
+以下のsolver.pyで行う(スクリプトは[ここ](https://feneshi.co/TSG_LIVE_8_CTF_writeup)からパク…借りた)。  
 ```python
 import angr
 import logging
