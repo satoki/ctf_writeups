@@ -1,0 +1,4 @@
+#!/bin/bash
+echo '<br><font size="7"><font color="#0000ff">t</font><font color="#0f00ef">a</font><font color="#1f00df">s</font><font color="#2f00cf">k</font><font color="#3f00bf">さ</font><font color="#4f00af">ん</font> <font color="#6f008f">誕</font><font color="#7f007f">生</font><font color="#8f006f">日</font><font color="#9f005f">お</font><font color="#af004f">め</font><font color="#bf003f">で</font><font color="#cf002f">と</font><font color="#df001f">う</font><font color="#ef000f">！</font><font color="#ff0000">🎂</font></font><br>satokiより' >> ./templates/index.html
+echo -e "\n#satoki" >> ./app.py
+echo -n "flag: `head -1 flag.txt`"

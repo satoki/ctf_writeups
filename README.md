@@ -11,6 +11,15 @@
 - [TsukuCTF 2022](https://github.com/satoki/tsukuctf_2022_satoki_writeups)  
 
 
+## taskctf22 (2022/12/03)
+[taskctf22](taskctf22)  
+1948 Points  
+- [welcome:osint:100pts](taskctf22/welcome)  
+- [robots:web:404pts](taskctf22/robots)  
+- [first:web:469pts](taskctf22/first)  
+- [shellgei:misc:491pts](taskctf22/shellgei)  
+- [anti_detection:misc:484pts](taskctf22/anti_detection)  
+
 ## UECTF2022 (2022/11/18)
 [UECTF2022](UECTF2022)  
 4625 Points  
