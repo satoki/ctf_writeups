@@ -11,6 +11,16 @@
 - [TsukuCTF 2022](https://github.com/satoki/tsukuctf_2022_satoki_writeups)  
 
 
+## KogCTF2023 (2023/04/04)
+[KogCTF2023](KogCTF2023)  
+421 Points  
+- [Wellcome:Wellcome:1pts](KogCTF2023/Wellcome)  
+- [7-Zip:software introduction:50pts](KogCTF2023/7-Zip)  
+- [シーザー暗号:crypto(暗号):50pts](KogCTF2023/シーザー暗号)  
+- [simple_rsa:crypto(暗号):100pts](KogCTF2023/simple_rsa)  
+- [got_shell:Pwn:150pts](KogCTF2023/got_shell)  
+- [reverse_easy:rev:70pts](KogCTF2023/reverse_easy)  
+
 ## taskctf22 (2022/12/03)
 [taskctf22](taskctf22)  
 1948 Points  
