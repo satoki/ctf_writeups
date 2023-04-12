@@ -23,7 +23,7 @@ $ ./a.out
 Starting program
 Enter your name: AAAAAAAAAA
 Hello, AAAAAAAAAA
-back.Exiting!satoki@satoki00:/mnt/c/Users/satok/Downloads/DL$
+back.Exiting!
 $ python -c 'print("A"*100, end="")' | ./a.out
 Starting program
 Enter your name: Hello, AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
