@@ -11,6 +11,24 @@
 - [TsukuCTF 2022](https://github.com/satoki/tsukuctf_2022_satoki_writeups)  
 
 
+## BucketCTF 2023 (2023/04/07)
+[BucketCTF 2023](BucketCTF_2023)  
+5210 Points  
+- [minecraft:MISC:200pts](BucketCTF_2023/minecraft)  
+- [clocks:MISC:358pts](BucketCTF_2023/clocks)  
+- [Auth:WEB:288pts](BucketCTF_2023/Auth)  
+- [Ping check:WEB:228pts](BucketCTF_2023/Ping_check)  
+- [licenseer:REV:454pts](BucketCTF_2023/licenseer)  
+- [LLMagic-1:MISC:420pts](BucketCTF_2023/LLMagic-1)  
+- [LLMagic-2:MISC:432pts](BucketCTF_2023/LLMagic-2)  
+- [Clocks 2:MISC:408pts](BucketCTF_2023/Clocks_2)  
+- [LLMagic-3:MISC:426pts](BucketCTF_2023/LLMagic-3)  
+- [Codewriter-2:MISC:412pts](BucketCTF_2023/Codewriter-2)  
+- [Codewriter-3:MISC:414pts](BucketCTF_2023/Codewriter-3)  
+- [Starting place:PWN:324pts](BucketCTF_2023/Starting_place)  
+- [Never Called:PWN:362pts](BucketCTF_2023/Never_Called)  
+- [Enigma:CRYPTO:484pts](BucketCTF_2023/Enigma)  
+
 ## KogCTF2023 (2023/04/04)
 [KogCTF2023](KogCTF2023)  
 421 Points  
