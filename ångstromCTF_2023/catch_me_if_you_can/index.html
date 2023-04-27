@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <style>
+            body {
+                font-family: "Comic Sans MS", "Comic Sans", cursive;
+            }
+            #flag {
+                border: 2px solid red;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                -moz-user-select: -moz-none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+                animation-name: spin;
+                animation-duration: 3000ms;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear; 
+            }
+
+            @keyframes spin {
+                from {
+                    transform:rotate(0deg);
+                }
+                to {
+                    transform:rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>catch me if you can!</h1>
+        <marquee scrollamount="50" id="flag">actf{y0u_caught_m3!_0101ff9abc2a724814dfd1c85c766afc7fbd88d2cdf747d8d9ddbf12d68ff874}</marquee>
+    </body>
+</html>
