@@ -14,7 +14,7 @@
 
 ## WaniCTF 2023 (2023/05/04)
 [WaniCTF 2023](WaniCTF_2023)  
-2776 Points  
+2769 Points  
 - [IndexedDB:Web:119pts](WaniCTF_2023/IndexedDB)  
 - [64bps:Web:157pts](WaniCTF_2023/64bps)  
 - [Extract Service 1:Web:144pts](WaniCTF_2023/Extract_Service_1)  
@@ -22,12 +22,12 @@
 - [Extract Service 2:Web:191pts](WaniCTF_2023/Extract_Service_2)  
 - [Lambda:Web:245pts](WaniCTF_2023/Lambda)  
 - [Guess:Misc:236pts](WaniCTF_2023/Guess)  
-- [certified1:Web:228pts](WaniCTF_2023/certified1)  
+- [certified1:Web:226pts](WaniCTF_2023/certified1)  
 - [certified2:Web:331pts](WaniCTF_2023/certified2)  
 - [Apocalypse:Forensics:185pts](WaniCTF_2023/Apocalypse)  
-- [machine_loading:Misc:303pts](WaniCTF_2023/machine_loading)  
+- [machine_loading:Misc:300pts](WaniCTF_2023/machine_loading)  
 - [web_assembly:Reversing:213pts](WaniCTF_2023/web_assembly)  
-- [Lua:Reversing:224pts](WaniCTF_2023/Lua)  
+- [Lua:Reversing:222pts](WaniCTF_2023/Lua)  
 
 ## ångstromCTF 2023 (2023/04/22)
 [ångstromCTF 2023](ångstromCTF_2023)  

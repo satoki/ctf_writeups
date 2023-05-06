@@ -1,4 +1,4 @@
-# Lua:Reversing:224pts
+# Lua:Reversing:222pts
 るあ〜  
 Lua~~~  
 

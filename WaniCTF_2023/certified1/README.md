@@ -1,4 +1,4 @@
-# certified1:Web:228pts
+# certified1:Web:226pts
 最近流行りの言語を使った安全なウェブアプリが完成しました！  
 We have released a secure web application using a state-of-the-art language!  
 [https://certified-web.wanictf.org](https://certified-web.wanictf.org/)  
