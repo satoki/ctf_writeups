@@ -8,7 +8,7 @@ An application that takes screenshots of your favorite websites.
 # Solution
 よくあるスクリーンショットアプリだ。  
 ![site.png](site/site.png)  
-ボタンを押すと画像がスクリーンショット画像が返ってくる。  
+URLを指定し、ボタンを押すとサイトの画像が返ってくる。  
 URLは`https://screenshot-web.wanictf.org/api/screenshot?url=https://www.example.com/`であった。  
 配布されたDockerfileより、フラグは`/flag.txt`にあるとわかる。  
 ```Dockerfile
