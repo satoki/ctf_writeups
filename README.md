@@ -12,6 +12,12 @@
 - [Ricerca CTF 2023](https://2023.ctf.ricsec.co.jp/)  <!-- TODO: Add URL -->
 
 
+## DEF CON 31 CTF Qualifier (2023/05/27)
+[DEF CON 31 CTF Qualifier](DEF_CON_31_CTF_Qualifier)  
+126 Points  
+- [Pawan Gupta::24pts](DEF_CON_31_CTF_Qualifier/Pawan_Gupta)  
+- [Prakash Gupta::102pts](DEF_CON_31_CTF_Qualifier/Prakash_Gupta)  
+
 ## WaniCTF 2023 (2023/05/04)
 [WaniCTF 2023](WaniCTF_2023)  
 2769 Points  
