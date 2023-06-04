@@ -10,6 +10,7 @@
 - [SECCON Beginners CTF 2022](https://github.com/satoki/ctf4b_2022_satoki_writeups)  
 - [TsukuCTF 2022](https://github.com/satoki/tsukuctf_2022_satoki_writeups)  
 - [Ricerca CTF 2023](https://ricercasecurity.blogspot.com/2023/06/ricerca-ctf-2023-writeup-web.html)  
+- [SECCON Beginners CTF 2023](https://github.com/satoki/ctf4b_2023_satoki_writeups)  
 
 
 ## DEF CON CTF 2023 Qualifiers (2023/05/27)
