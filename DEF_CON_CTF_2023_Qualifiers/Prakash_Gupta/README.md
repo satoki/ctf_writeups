@@ -1,4 +1,4 @@
-# Prakash Gupta::102pts
+# Prakash Gupta:quals:102pts
 Welcome back, code monkeys! Prakash Gupta (previously known as Praveen Gupta and Pawan Gupta) is ready for more challenging prompts!  
 Your goal is to instruct Prakash Gupta to generate a `base64_decode` function that is "perfectly secure." No backdoor this time!  
 The flag is at `/flag`.  

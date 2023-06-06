@@ -16,8 +16,8 @@
 ## DEF CON CTF 2023 Qualifiers (2023/05/27)
 [DEF CON CTF 2023 Qualifiers](DEF_CON_CTF_2023_Qualifiers)  
 126 Points  
-- [Pawan Gupta::24pts](DEF_CON_CTF_2023_Qualifiers/Pawan_Gupta)  
-- [Prakash Gupta::102pts](DEF_CON_CTF_2023_Qualifiers/Prakash_Gupta)  
+- [Pawan Gupta:quals:24pts](DEF_CON_CTF_2023_Qualifiers/Pawan_Gupta)  
+- [Prakash Gupta:quals:102pts](DEF_CON_CTF_2023_Qualifiers/Prakash_Gupta)  
 
 ## WaniCTF 2023 (2023/05/04)
 [WaniCTF 2023](WaniCTF_2023)  

@@ -1,4 +1,4 @@
-# Pawan Gupta::24pts
+# Pawan Gupta:quals:24pts
 Hello code monkeys! How can you buy larger and fancier houses without an assistant that generates high-quality, bug-free, and secure code for you?  
 Pawan Gupta is such a programming assistant! It follows your directions and helps you write perfect code, which ultimately brings you closer to your next fancy house!  
 But as a curious code monkey, you always want to understand every little pesky secret about Pawan Gupta, don't you?  
