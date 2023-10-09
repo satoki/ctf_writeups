@@ -131,10 +131,10 @@ func LoginController(c echo.Context) error {
 	return resp
 }
 ```
-ユーザ登録時のパスワードは6文字以上である必要があるが、6文字以下のパスワードでログインした場合のみフラグが表示される。  
+ユーザ登録時のパスワードは6文字以上である必要があるが、6文字未満のパスワードでログインした場合のみフラグが表示される。  
 一見すると矛盾しているが、`LoginController`で`password := []rune(user.Password)`していることがわかる。  
 `Registration`の`len`ではバイト数が返るのに対し、こちらでは文字数が返される。  
-つまり、6バイト以上で6文字以下になるものをパスワードとすればよい。  
+つまり、6バイト以上で6文字未満になるものをパスワードとすればよい。  
 日本人なので以下のように行う。  
 ```bash
 $ curl -X POST http://a769a62b4442de42d315a.playat.flagyard.com/registration -d '{"username": "Satoki", "password": "さとき"}'

@@ -15,7 +15,7 @@
 
 ## BlackHat MEA Qualification CTF 2023 (2023/10/08)
 [BlackHat MEA Qualification CTF 2023](BlackHat_MEA_Qualification_CTF_2023)  
-XXX Points  
+110 Points  
 - [Authy:WEB:50pts](BlackHat_MEA_Qualification_CTF_2023/Authy)  
 - [Warm Me Up:WEB:60pts](BlackHat_MEA_Qualification_CTF_2023/Warm_Me_Up)  
 
