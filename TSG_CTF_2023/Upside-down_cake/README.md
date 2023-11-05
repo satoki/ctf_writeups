@@ -81,9 +81,9 @@ too short
 $ curl -X POST -H "Content-Type: application/json" http://34.84.176.251:12349/ -d '{"palindrome":{"length": 1000}}'
 not palindrome
 ```
-応答よりlengthを指定した場合、任意の値の指定に成功しているようだ。  
+応答よりlengthを任意の値に指定できているようだ。  
 次に回文のチェック箇所だが、同じくpalindromeの添え字の数字を`{"palindrome":{"length": 1000, "0": "s", "999": "s"}}`のように指定してやればよい。  
-ただし、lengthが1000である場合、大量の添え字を指定しなければならないため、bodyが100以下であるという条件を満たせない。  
+ただし、lengthが1000である場合、大量の添え字を指定しなければならないためbodyが100以下であるという条件を満たせない。  
 ここで、lengthを文字列にする場合を考える。  
 `string.length < 1000`はfalseであり、`for (const i of Array(string.length).keys())`も0のみのループとなる。  
 注意点として、`string.length - i - 1`がNaNとなるが、NaN自体を添え字として指定してやればよい。  
