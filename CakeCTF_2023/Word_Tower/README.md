@@ -1,4 +1,4 @@
-# Word Tower:cheat:232pts
+# Word Tower:cheat:214pts
 Word Tower is a game in which players use given letter blocks to create animal names.  
 ex) K C A N A W A F E A L S L O P  
 -> SNAKE / ALPACA / WOLF  
