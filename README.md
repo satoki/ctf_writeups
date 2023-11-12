@@ -13,6 +13,11 @@
 - [SECCON Beginners CTF 2023](https://github.com/satoki/ctf4b_2023_satoki_writeups)  
 
 
+## CakeCTF 2023 (2023/11/11)
+[CakeCTF 2023](CakeCTF 2023)  
+232 Points  
+- [Word Tower:cheat:232pts](CakeCTF_2023/Word_Tower)  
+
 ## TSG CTF 2023 (2023/11/04)
 [TSG CTF 2023](TSG_CTF_2023)  
 421 Points  
