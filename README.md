@@ -13,6 +13,13 @@
 - [SECCON Beginners CTF 2023](https://github.com/satoki/ctf4b_2023_satoki_writeups)  
 
 
+## Flatt Security Speedrun CTF #2 (2023/11/25)
+[Flatt Security Speedrun CTF #2](Flatt_Security_Speedrun_CTF_%232)  
+3 Points  
+- [x:web:1pts](Flatt_Security_Speedrun_CTF_%232/x)  
+- [busybox1:web misc:1pts](Flatt_Security_Speedrun_CTF_%232/busybox1)  
+- [busybox2:web misc:1pts](Flatt_Security_Speedrun_CTF_%232/busybox2)  
+
 ## TSG LIVE! 11 CTF (2023/11/25)
 [TSG LIVE! 11 CTF](TSG_LIVE!_11_CTF)  
 250 Points  
