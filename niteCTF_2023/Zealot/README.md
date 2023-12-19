@@ -8,7 +8,7 @@ Follow the commandments and you shall be worthy enough to lift the sword of Zeal
 接続先とバイナリが渡される。  
 IDAで見るとよくあるパスワードチェックのようだ。  
 ![ida.png](images/ida.png)  
-angrで簡単に解けそうなので、以下のようにsolve.pyを実行する。  
+angrで簡単に解けそうなので、以下のようにsolve.pyを書く。  
 ```python
 import angr
 import logging

