@@ -1,4 +1,4 @@
-# Mini Survey:web:XXXXpts
+# Mini Survey:web:480pts
 Please answer this survey for the better of all  
 \- Minnesota Dept of Roads & Railways  
 [http://mini-survey.web.nitectf.live/](http://mini-survey.web.nitectf.live/)  

@@ -1,4 +1,4 @@
-# German shell:rev:XXXXpts
+# German shell:rev:277pts
 Do you have an Albert Einstein in you? If not you better find one cuz you gonna need em else you gunna faint rottin  
 `/var/quantumLava/flag.txt`  
 `nc 35.244.43.8 1337`  

@@ -1,4 +1,4 @@
-# Image Gallery:web:XXXXpts
+# Image Gallery:web:470pts
 View your photo gallery using our super Secure image gallery. we offer free 1 terabyte of storage of high-Quality images, showcased in a personalized custom aLbum.  
 [link](https://imgy-gal.nitectf.live/)  
 [backup link](https://imgy-galll.nitectf.live/)  

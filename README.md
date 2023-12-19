@@ -16,15 +16,16 @@
 
 ## niteCTF 2023 (2023/12/17)
 [niteCTF 2023](niteCTF_2023)  
-XXXX Points  
+2216 Points  
 - [blindjail:misc:50pts](niteCTF_2023/blindjail)  
 - [ERaaS:web:50pts](niteCTF_2023/ERaaS)  
-- [caas renewed:web:XXXXpts](niteCTF_2023/caas_renewed)  
-- [LiteLibrary:web:XXXXpts](niteCTF_2023/LiteLibrary)  
-- [Image Gallery:web:XXXXpts](niteCTF_2023/Image_Gallery)  
+- [caas renewed:web:352pts](niteCTF_2023/caas_renewed)  
+- [LiteLibrary:web:437pts](niteCTF_2023/LiteLibrary)  
+- [Image Gallery:web:470pts](niteCTF_2023/Image_Gallery)  
 - [The road not taken:pwn:50pts](niteCTF_2023/The_road_not_taken)  
-- [Mini Survey:web:XXXXpts](niteCTF_2023/Mini_Survey)  
-- [German shell:rev:XXXXpts](niteCTF_2023/German_shell)  
+- [Mini Survey:web:480pts](niteCTF_2023/Mini_Survey)  
+- [German shell:rev:277pts](niteCTF_2023/German_shell)  
+- [Zealot:rev:50pts](niteCTF_2023/Zealot)  
 
 ## Flatt Security Speedrun CTF #2 (2023/11/25)
 [Flatt Security Speedrun CTF #2](Flatt_Security_Speedrun_CTF_%232)  
