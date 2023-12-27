@@ -21,7 +21,7 @@
 - [PeehPee Deser:MerCTF:410pts](MerCTF_SECCON_2023/PeehPee_Deser)  
 - [EZ XSS:MerCTF:430pts](MerCTF_SECCON_2023/EZ_XSS)  
 - [Secure API:MerCTF:450pts](MerCTF_SECCON_2023/Secure_API)  
-- [Old Ver ?:MerCTF:450pts](MerCTF_SECCON_2023/Old_Ver_?)  
+- [Old Ver ?:MerCTF:450pts](MerCTF_SECCON_2023/Old_Ver_%3F)  
 - [GoN x TiCkets:MerCTF:490pts](MerCTF_SECCON_2023/GoN_x_TiCkets)  
 
 ## niteCTF 2023 (2023/12/17)
