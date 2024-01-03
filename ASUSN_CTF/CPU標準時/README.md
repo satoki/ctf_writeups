@@ -1,4 +1,4 @@
-# CPU標準時:Misc:pts
+# CPU標準時:Misc:171pts
 [CPUのオールナイトニッポン](https://youtu.be/srYTYbPCt88)の冒頭で時刻を言っているけれど、これは日本標準時でいつのことだろう？  
 形式: `YYYYMMDDHHMMSS`  
 

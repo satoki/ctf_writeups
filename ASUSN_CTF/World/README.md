@@ -1,4 +1,4 @@
-# World:OSINT:pts
+# World:OSINT:378pts
 海外に通用するネタを探るために海外向けのTikTokアカウントを作っていたらしい  
 そのidを教えて！  
 

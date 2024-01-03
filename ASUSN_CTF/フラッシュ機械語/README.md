@@ -1,4 +1,4 @@
-# フラッシュ機械語:Reversing:pts
+# フラッシュ機械語:Reversing:300pts
 [セキュリティ芸人のネタ](https://youtu.be/_2NgwNbEYrw)に出てくるフラッシュ機械語  
 `48 31 c0 48 ff c0 48 ff c8`  
 の答えは？  

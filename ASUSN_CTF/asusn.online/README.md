@@ -1,4 +1,4 @@
-# asusn.online:Misc:pts
+# asusn.online:Misc:235pts
 [https://asusn.online](https://asusn.online) というドメインを取得したらしい  
 今はYouTubeにリダイレクトされるが、リダイレクトされる前のページにFlagが隠されているとかいないとか......？  
 

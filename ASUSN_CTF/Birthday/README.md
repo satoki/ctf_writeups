@@ -1,4 +1,4 @@
-# Birthday:OSINT:pts
+# Birthday:OSINT:457pts
 アスースンの誕生日はいつ？  
 `※Facebookにはありません`  
 形式: `YYYYMMDD`  
