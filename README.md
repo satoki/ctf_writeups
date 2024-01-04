@@ -16,19 +16,19 @@
 
 ## ASUSN CTF (2023/12/30)
 [ASUSN CTF](ASUSN_CTF)  
-4079 Points  
+4098 Points  
 - [ようこそ:Welcome:1pts](ASUSN_CTF/ようこそ)  
 - [フラッシュ機械語:Reversing:300pts](ASUSN_CTF/フラッシュ機械語)  
 - [フラッシュ機械語2:Reversing:374pts](ASUSN_CTF/フラッシュ機械語2)  
 - [フラッシュ機械語3:Reversing:418pts](ASUSN_CTF/フラッシュ機械語3)  
-- [アイドル:Crypto:198pts](ASUSN_CTF/アイドル)  
+- [アイドル:Crypto:204pts](ASUSN_CTF/アイドル)  
 - [アイドル2:Crypto:407pts](ASUSN_CTF/アイドル2)  
 - [アイドル3:Crypto:436pts](ASUSN_CTF/アイドル3)  
-- [asusn.online:Misc:235pts](ASUSN_CTF/asusn.online)  
-- [CPU標準時:Misc:171pts](ASUSN_CTF/CPU標準時)  
+- [asusn.online:Misc:240pts](ASUSN_CTF/asusn.online)  
+- [CPU標準時:Misc:176pts](ASUSN_CTF/CPU標準時)  
 - [管理徹底:Misc:337pts](ASUSN_CTF/管理徹底)  
 - [サブチャンネル:OSINT:367pts](ASUSN_CTF/サブチャンネル)  
-- [World:OSINT:378pts](ASUSN_CTF/World)  
+- [World:OSINT:381pts](ASUSN_CTF/World)  
 - [Birthday:OSINT:457pts](ASUSN_CTF/Birthday)  
 - [アンケート:Welcome:0pts](ASUSN_CTF/アンケート)  
 
