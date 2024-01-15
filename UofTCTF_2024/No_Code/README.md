@@ -38,7 +38,8 @@ def execute_code():
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=1337, debug=False)
 ```
-`/execute`にPOSTしたものを`re.match`で検証しているようだ。  
+`/execute`にPOSTしたものを`re.match`で検証して`eval`しているようだ。  
+RCEしたいが、一見すると何のコードも実行できない。  
 ここで`.*[\x20-\x7E]+.*`は改行にマッチしないことに気づく。  
 `re.match`は先頭がマッチするかどうかなので、先頭に改行を挟めば以降は任意のコードを記述できる。  
 以下のように行う。  

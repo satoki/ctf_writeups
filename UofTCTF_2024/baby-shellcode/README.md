@@ -8,7 +8,7 @@ What programming language, you ask? Well... I said it's the language that machin
 [baby-shellcode](baby-shellcode)  
 
 # Solution
-次はshellcodeのようだ。  
+shellcode問題のようだ。  
 ```bash
 $ ./baby-shellcode
 a
