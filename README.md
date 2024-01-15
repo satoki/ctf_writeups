@@ -14,6 +14,20 @@
 - [TsukuCTF 2023](https://github.com/satoki/tsukuctf_2023_satoki_writeups)  
 
 
+## UofTCTF 2024 (2024/01/13)
+[UofTCTF 2024](UofTCTF_2024)  
+2678 Points  
+- [Voice Changer:Web:232pts](UofTCTF_2024/Voice_Changer)  
+- [The Varsity:Web:293pts](UofTCTF_2024/The_Varsity)  
+- [Guestbook:Web:442pts](UofTCTF_2024/Guestbook)  
+- [No Code:Web:362pts](UofTCTF_2024/No_Code)  
+- [Baby's First Pyjail:Jail:100pts](UofTCTF_2024/Baby's_First_Pyjail)  
+- [basic-overflow:Pwn:100pts](UofTCTF_2024/basic-overflow)  
+- [baby-shellcode:Pwn:159pts](UofTCTF_2024/baby-shellcode)  
+- [patched-shell:Pwn:250pts](UofTCTF_2024/patched-shell)  
+- [EnableMe:Forensics:358pts](UofTCTF_2024/EnableMe)  
+- [nothing-to-return:Pwn:382pts](UofTCTF_2024/nothing-to-return)  
+
 ## ASUSN CTF (2023/12/30)
 [ASUSN CTF](ASUSN_CTF)  
 4098 Points  
