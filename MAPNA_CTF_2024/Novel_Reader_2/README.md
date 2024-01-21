@@ -1,4 +1,4 @@
-# Novel Reader 2:Web:pts
+# Novel Reader 2:Web:46pts
 Submit the second flag of "Novel Reader" here  
 
 # Solution

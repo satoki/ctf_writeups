@@ -1,4 +1,4 @@
-# Novel reader:Web:pts
+# Novel reader:Web:42pts
 We have many fun novels for ya...  
 [Docker environment](novel-reader_d78366cb079727a6bd3809219df9bc7835d17fd1.txz)  
 ```

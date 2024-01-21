@@ -1,4 +1,4 @@
-# Flag Holding:Web:pts
+# Flag Holding:Web:28pts
 Hopefully you know how web works...  
 ```
 http://18.184.219.56:8080/

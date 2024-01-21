@@ -1,4 +1,4 @@
-# Tampered:Forensics:pts
+# Tampered:Forensics:72pts
 Our MAPNA **[flags](tampered_6fb083f974d05371cef19c0e585ba5c59da23aa8.txz)** repository was compromised, with attackers introducing one invalid flag. Can you identify the counterfeit flag?  
 **Note:** Forgot the flag format in the rules pages, just find the tampered one.  
 **You are not allowed to brute-force the flag in scoreboard, this will result in your team being blocked.**  

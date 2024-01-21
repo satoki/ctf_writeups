@@ -1,4 +1,4 @@
-# Advanced JSON Cutifier:Web:pts
+# Advanced JSON Cutifier:Web:59pts
 My homework was to write a JSON beautifier. Just Indenting JSON files was too boring that's why I decided to add some features to my project using a popular (More than 1k stars on GitHub!! ) library to make my project more exciting.  
 **Important: You can't read any file other than `/flag.txt` on the remote environment.**  
 [Attachment](player_a466f9f2a43ac42473015d72342c262e8d4b9519.txz)  

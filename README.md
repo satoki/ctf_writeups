@@ -16,12 +16,12 @@
 
 ## MAPNA CTF 2024 (2024/01/20)
 [MAPNA CTF 2024](MAPNA_CTF_2024)  
-XXXX Points  
-- [Flag Holding:Web:pts](MAPNA_CTF_2024/Flag_Holding)  
-- [Novel reader:Web:pts](MAPNA_CTF_2024/Novel_reader)  
-- [Novel Reader 2:Web:pts](MAPNA_CTF_2024/Novel_Reader_2)  
-- [Advanced JSON Cutifier:Web:pts](MAPNA_CTF_2024/Advanced_JSON_Cutifier)  
-- [Tampered:Forensics:pts](MAPNA_CTF_2024/Tampered)  
+247 Points  
+- [Flag Holding:Web:28pts](MAPNA_CTF_2024/Flag_Holding)  
+- [Novel reader:Web:42pts](MAPNA_CTF_2024/Novel_reader)  
+- [Novel Reader 2:Web:46pts](MAPNA_CTF_2024/Novel_Reader_2)  
+- [Advanced JSON Cutifier:Web:59pts](MAPNA_CTF_2024/Advanced_JSON_Cutifier)  
+- [Tampered:Forensics:72pts](MAPNA_CTF_2024/Tampered)  
 
 ## UofTCTF 2024 (2024/01/13)
 [UofTCTF 2024](UofTCTF_2024)  
