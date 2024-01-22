@@ -43,7 +43,7 @@ def readNovel(name):
 ~~~
 ```
 スペースで分割されている。  
-`buf[0:session['words_balance']]`により`buf[0:10]`しか読み取れていないことがわかる。  
+`buf[0:session['words_balance']]`により`buf[0:11]`しか読み取れていないことがわかる。  
 `Words Balance`を管理する箇所を調査する。  
 ```python
 ~~~
@@ -64,7 +64,7 @@ def buyWord():
 ```
 入力値`nwords`をintにキャストし、`session['words_balance'] += nwords`している。  
 ここで負の数も使用できることに気づく。  
-すると、`buf[0:-1]`となり、末尾の要素の一つ前まで取得できる。  
+`Words Balance`を-2すると、`buf[0:-1]`となり、末尾の要素の一つ前まで取得できる。  
 以下のように実行する。  
 ```bash
 $ curl -X POST http://3.64.250.135:9000/api/charge?nwords=-2 -I
