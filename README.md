@@ -12,6 +12,7 @@
 - [Ricerca CTF 2023](https://ricercasecurity.blogspot.com/2023/06/ricerca-ctf-2023-writeup-web.html)  
 - [SECCON Beginners CTF 2023](https://github.com/satoki/ctf4b_2023_satoki_writeups)  
 - [TsukuCTF 2023](https://github.com/satoki/tsukuctf_2023_satoki_writeups)  
+- [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
 ## MAPNA CTF 2024 (2024/01/20)
