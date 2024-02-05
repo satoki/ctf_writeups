@@ -47,9 +47,8 @@ app.post("/api/login", (req, res) => {
 ただし、`users[id] && isAdmin[user]`がtrueの場合のみadminになれるようだ。  
 はじめに`isAdmin[user]`について考える。  
 大量に作られたユーザの一つだけがランダムに`isAdmin`のキーとして追加されており、誰がadminであるのかわからない。  
-adminのユーザ名がわからないが、何とかしてtrueにしてやる必要がある。  
 ここで、`__proto__`や`toString`を`user`に指定すると`undefined`にならないことに気づく。  
-残りの`users[id]`だがSQLiのUNIONで適当な`id`を返してやればよい。  
+残りの`users[id]`はSQLiのUNIONで適当な`id`を返してやればよい。  
 以下のように行う。  
 ```bash
 $ curl -X POST https://funnylogin.mc.ax/api/login -d "user=user&pass=pass"
