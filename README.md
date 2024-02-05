@@ -15,6 +15,12 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## DiceCTF 2024 Quals (2024/02/02)
+[DiceCTF 2024 Quals](DiceCTF_2024_Quals)  
+236 Points  
+- [funnylogin:web:109pts](DiceCTF_2024_Quals/funnylogin)  
+- [zshfuck:misc:127pts](DiceCTF_2024_Quals/zshfuck)  
+
 ## MAPNA CTF 2024 (2024/01/20)
 [MAPNA CTF 2024](MAPNA_CTF_2024)  
 247 Points  
