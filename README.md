@@ -15,6 +15,17 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## shioCTF 2024 (2024/02/12)
+[shioCTF 2024](shioCTF_2024)  
+830 Points  
+- [to ShioCTF:Welcome:100pts](shioCTF_2024/to_ShioCTF)  
+- [simpleDB:Web:172pts](shioCTF_2024/simpleDB)  
+- [card:Web:258pts](shioCTF_2024/card)  
+- [aburasoba:OSINT:100pts](shioCTF_2024/aburasoba)  
+- [club:OSINT:100pts](shioCTF_2024/club)  
+- [fictional mountain:Misc:100pts](shioCTF_2024/fictional_mountain)  
+- [google form:Survey:0pts](shioCTF_2024/google_form)  
+
 ## DiceCTF 2024 Quals (2024/02/02)
 [DiceCTF 2024 Quals](DiceCTF_2024_Quals)  
 236 Points  
