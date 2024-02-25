@@ -59,7 +59,7 @@ keyは`urandom(32)`で予測不能であり、`rand_printable`もランダムに
 復号するにあたってまず初めに`random.seed(int(time()))`といういかにも特定してくれという実装について考える。  
 `time()`は暗号化結果のファイルciphertextの更新日時から分かりそうだ。  
 すると`rand_printable`のシャッフル後がわかるので、パディングの文字列の順番がわかる。  
-ここでECBは同じ鍵を用いて同じ平文ブロックを暗号化すると、同じ暗号文になったことを思い出す。  
+ここでECBは同じ鍵を用いて同じ平文ブロックを暗号化すると、同じ暗号文ブロックになったことを思い出す。  
 例えば、同一アルファベットの文字列32バイト(256ビット)である`bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb`をECBで暗号化する。  
 すると16バイト(128ビット)ブロック(`bbbbbbbbbbbbbbbb`と`bbbbbbbbbbbbbbbb`)ごとに暗号化された暗号文ブロックが二つ生成されるが、これが一致する。  
 同一でないアルファベット`baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`である場合には、`baaaaaaaaaaaaaaa`と`aaaaaaaaaaaaaaaa`のブロックに分けられるため暗号文ブロックが一致しない。  
