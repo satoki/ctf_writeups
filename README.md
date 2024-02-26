@@ -15,6 +15,13 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## bi0sCTF 2024 (2024/02/24)
+[bi0sCTF 2024](bi0sCTF_2024)  
+1150 Points  
+- [A Block and a Hard Place:Misc:590pts](bi0sCTF_2024/A_Block_and_a_Hard_Place)  
+- [verboten:Forensics:559pts](bi0sCTF_2024/verboten)  
+- [Feedback:Misc:1pts](bi0sCTF_2024/Feedback)  
+
 ## BraekerCTF (2024/02/23)
 [BraekerCTF](BraekerCTF)  
 900 Points  
