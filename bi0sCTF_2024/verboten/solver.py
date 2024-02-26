@@ -63,8 +63,4 @@ sock.sendlineafter("Answer: ", "verboten{Stuart:FutureKidsSchool:Howard}")
 print(sock.recvuntil("}\n\n").decode())
 sock.sendlineafter("Answer: ", "verboten{830030:2024-02-16-23-24-43}")
 
-# print(sock.recvuntil("}\n\n").decode())
-# sock.sendlineafter("Answer: ", "verboten{169cbd05b7095f4dc9530f35a6980a79}")
-
-
 sock.sh()

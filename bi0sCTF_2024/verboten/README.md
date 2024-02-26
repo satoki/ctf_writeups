@@ -87,7 +87,7 @@ USBのシリアル番号と差し込んだ時刻を聞かれている。
 ひとまずChatGPT-4に聞く。  
 ![gpt4_1.png](images/gpt4_1.png)  
 レジストリの`SYSTEM\CurrentControlSet\Enum\USBSTOR`にあるようだ。  
-マルウェア感染しているので褒められ行為ではないが、ad1ファイルをFTK Imagerで開きすべてのファイルをローカルにエクスポートしてやる。  
+マルウェア感染しているので褒められ行為ではないが、ad1ファイルをFTK Imagerで開き、すべてのファイルをローカルにエクスポートしてやる。  
 その後、`\Windows\System32\config\SYSTEM`にあるレジストリデータを[Registry Explorer](https://f001.backblazeb2.com/file/EricZimmermanTools/net6/RegistryExplorer.zip)で開いてやる。  
 ![Q1.png](images/Q1.png)  
 Serial Numberは`4C530001090312109353&0`で、Last Connectedは`2024-02-16 12:01:57`と書かれていたので、指定された形式でサーバに送信する。  
@@ -383,7 +383,7 @@ Your single-use code is: 830030
 試行錯誤すると80 Btyesのほうの`StartTime`や`LastModifiedTime`の`1708106083`が通った。  
 80 Bytesのほうで`single use code`であることが明確になったとはいえ、通常は最も古い時刻を答えると思われる。  
 いちいちISTへの変換が必要なので、なぜこんな作りにしたのか理解に苦しむ。  
-`1708106083`はUTCでは`2024-02-16 17:54:43`なので`+ 5:30`して`2024-02-16-23-24-43`になる
+`1708106083`はUTCでは`2024-02-16 17:54:43`なので`+ 5:30`して`2024-02-16-23-24-43`になる  
 以下のように送信する。  
 ```python
 # Q9
