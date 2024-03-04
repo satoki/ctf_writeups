@@ -15,6 +15,20 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## osu!gaming CTF 2024 (2024/03/01)
+[osu!gaming CTF 2024](osu!gaming_CTF_2024)  
+1227 Points  
+- [mikufanpage:web:104pts](osu!gaming_CTF_2024/mikufanpage)  
+- [when-you-dont-see-it:web:111pts](osu!gaming_CTF_2024/when-you-dont-see-it)  
+- [Infiltrating the OSU! (I):misc:104pts](osu!gaming_CTF_2024/Infiltrating_the_OSU!_(I))  
+- [profile-page:web:114pts](osu!gaming_CTF_2024/profile-page)  
+- [Infiltrating the OSU! (II):misc:110pts](osu!gaming_CTF_2024/Infiltrating_the_OSU!_(II))  
+- [egg-pain-∞:misc:126pts](osu!gaming_CTF_2024/egg-pain-∞)  
+- [base727:crypto:104pts](osu!gaming_CTF_2024/base727)  
+- [nathan-on-osu:forensics:117pts](osu!gaming_CTF_2024/nathan-on-osu)  
+- [out-of-click:forensics:149pts](osu!gaming_CTF_2024/out-of-click)  
+- [when-you-see-it:osint:188pts](osu!gaming_CTF_2024/when-you-see-it)  
+
 ## bi0sCTF 2024 (2024/02/24)
 [bi0sCTF 2024](bi0sCTF_2024)  
 1150 Points  

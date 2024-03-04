@@ -1,0 +1,30 @@
+# The encoded content is in hexadecimal. Let's first decode it from hex to get the actual encoded string.
+import binascii
+
+# Decode the hex content to get the base 727 encoded string
+encoded_string_hex = encoded_content.strip()  # Remove newline and potential spaces
+encoded_string_bytes = binascii.unhexlify(encoded_string_hex)
+encoded_string = encoded_string_bytes.decode()
+
+# Now, we need to reverse the encoding process to decode the string from base 727 encoding
+def decode_base_727(encoded_string):
+    base = 727
+    decoded_value = 0
+
+    # Reverse the process of encoding by converting back from base 727 to integer
+    for char in encoded_string:
+        decoded_value = decoded_value * base + ord(char)
+    
+    # Convert the integer value back to a string
+    decoded_string = ""
+    while decoded_value > 0:
+        decoded_string = chr(decoded_value % 256) + decoded_string
+        decoded_value //= 256
+    
+    return decoded_string
+
+# Decode the string from base 727
+decoded_string = decode_base_727(encoded_string)
+
+# Output the decoded string
+decoded_string
