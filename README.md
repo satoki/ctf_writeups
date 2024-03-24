@@ -15,6 +15,35 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## picoCTF 2024 (2024/03/12)
+[picoCTF 2024](picoCTF_2024)  
+2900 Points  
+- [Bookmarklet:Web Exploitation:50pts](picoCTF_2024/Bookmarklet)  
+- [WebDecode:Web Exploitation:50pts](picoCTF_2024/WebDecode)  
+- [IntroToBurp:Web Exploitation:100pts](picoCTF_2024/IntroToBurp)  
+- [Unminify:Web Exploitation:100pts](picoCTF_2024/Unminify)  
+- [No Sql Injection:Web Exploitation:200pts](picoCTF_2024/No_Sql_Injection)  
+- [Trickster:Web Exploitation:300pts](picoCTF_2024/Trickster)  
+- [elements:Web Exploitation:500pts](picoCTF_2024/elements)  
+- [format string 0:Binary Exploitation:50pts](picoCTF_2024/format_string_0)  
+- [heap 0:Binary Exploitation:50pts](picoCTF_2024/heap_0)  
+- [format string 1:Binary Exploitation:100pts](picoCTF_2024/format_string_1)  
+- [heap 1:Binary Exploitation:100pts](picoCTF_2024/heap_1)  
+- [heap 2:Binary Exploitation:200pts](picoCTF_2024/heap_2)  
+- [heap 3:Binary Exploitation:200pts](picoCTF_2024/heap_3)  
+- [format string 2:Binary Exploitation:200pts](picoCTF_2024/format_string_2)  
+- [format string 3:Binary Exploitation:300pts](picoCTF_2024/format_string_3)  
+- [babygame03:Binary Exploitation:400pts](picoCTF_2024/babygame03)  
+
+## LINE CTF 2024 (2024/03/23)
+[LINE CTF 2024](LINE_CTF_2024)  
+618 Points  
+- [jalyboy-baby:Web:100pts](LINE_CTF_2024/jalyboy-baby)  
+- [jalyboy-jalygirl:Web:100pts](LINE_CTF_2024/jalyboy-jalygirl)  
+- [G0tcha-G0tcha-doggy:Web:124pts](LINE_CTF_2024/G0tcha-G0tcha-doggy)  
+- [zipviewer-version-clown:Web:149pts](LINE_CTF_2024/zipviewer-version-clown)  
+- [This message will self-destruct in...:Web:145pts](LINE_CTF_2024/This_message_will_self-destruct_in)  
+
 ## osu!gaming CTF 2024 (2024/03/01)
 [osu!gaming CTF 2024](osu!gaming_CTF_2024)  
 1227 Points  
