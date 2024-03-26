@@ -1,6 +1,6 @@
 # elements:Web Exploitation:500pts
 Insert Standard Web Challenge Here.  
-Source code: [`elements.tar.gz`](/)  
+Source code: [`elements.tar.gz`](../elements)  
 Craft some magic up [here](http://rhea.picoctf.net:56994/)  
 
 # Solution
