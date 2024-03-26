@@ -1,11 +1,11 @@
 # elements:Web Exploitation:500pts
 Insert Standard Web Challenge Here.  
-Source code: [`elements.tar.gz`](elements.tar.gz)  
+Source code: [`elements.tar.gz`](/)  
 Craft some magic up [here](http://rhea.picoctf.net:56994/)  
 
 # Solution
 URLとソースが配布される。  
-※ファイルサイズの問題でelements.tar.gzを分割している(cat elements.tar.gz-?? > elements.tar.gzで戻せる)。  
+※ファイルサイズの問題でelements.tar.gzを分割している(`cat elements.tar.gz-?? > elements.tar.gz`で戻せる)。  
 ```
 0657fbfc68bdcc940c3fab116eed76bcb3effc47  elements.tar.gz
 1f40eab367eb3132420db6498fd57c2a04bb10e9  elements.tar.gz-00
