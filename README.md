@@ -17,7 +17,7 @@
 
 ## picoCTF 2024 (2024/03/12)
 [picoCTF 2024](picoCTF_2024)  
-2900 Points  
+3400 Points  
 - [Bookmarklet:Web Exploitation:50pts](picoCTF_2024/Bookmarklet)  
 - [WebDecode:Web Exploitation:50pts](picoCTF_2024/WebDecode)  
 - [IntroToBurp:Web Exploitation:100pts](picoCTF_2024/IntroToBurp)  
@@ -34,6 +34,7 @@
 - [format string 2:Binary Exploitation:200pts](picoCTF_2024/format_string_2)  
 - [format string 3:Binary Exploitation:300pts](picoCTF_2024/format_string_3)  
 - [babygame03:Binary Exploitation:400pts](picoCTF_2024/babygame03)  
+- [high frequency troubles:Binary Exploitation:500pts](picoCTF_2024/high_frequency_troubles)  
 
 ## LINE CTF 2024 (2024/03/23)
 [LINE CTF 2024](LINE_CTF_2024)  
