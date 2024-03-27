@@ -275,7 +275,7 @@ createServer((req, res) => {
 		"navigate-to 'none'"
 	]
 ```
-基本的となる、外部に情報を送信するテクニックは以下が[知られている]((https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src))。  
+基本となる、外部に情報を送信するテクニックは以下が[知られている]((https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src))。  
 
 - a tag ping  
 - fetch  
@@ -354,7 +354,7 @@ WebRTCではDNS解決を利用して、サブドメインから情報を外部�
 		}
 	}));
 ```
-この`network_prediction_options: 2`という設定を行うと、HTML要素などのプリロード(先読み機能)をoffになる。  
+この`network_prediction_options: 2`という設定を行うと、HTML要素などのプリロード(先読み機能)がoffになる。  
 linkタグのdns-prefetchを利用して、WebRTCと同じくDNS解決でCSPをバイパスする手法が[知られている](https://book.hacktricks.xyz/v/jp/pentesting-web/content-security-policy-csp-bypass#dns-prefetch)が、これも無効化されている。  
 
 ここまでで、一般にCSPをバイパスして情報を持ち出す手法が全てブロックされていることが分かった。  
