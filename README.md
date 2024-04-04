@@ -15,6 +15,23 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## XS3 Challenges (2024/03/28)
+[XS3 Challenges](XS3_Challenges)  
+1000 Points  
+- [Welcome Flag:Introduction:5pts](XS3_Challenges/Welcome_Flag)  
+- [Server Side Upload:Introduction:20pts](XS3_Challenges/Server_Side_Upload)  
+- [Pre Signed Upload:Introduction:20pts](XS3_Challenges/Pre_Signed_Upload)  
+- [POST Policy:Introduction:20pts](XS3_Challenges/POST_Policy)  
+- [Is the end safe?:Validation Bypass:50pts](XS3_Challenges/Is_the_end_safe%3F)  
+- [Just included?:Validation Bypass:50pts](XS3_Challenges/Just_included%3F)  
+- [forward priority...:Validation Bypass:50pts](XS3_Challenges/forward_priority)  
+- [Content extension:Logic Bug:100pts](XS3_Challenges/Content_extension)  
+- [GEToken:Advanced:150pts](XS3_Challenges/GEToken)  
+- [frame:Advanced:200pts](XS3_Challenges/frame)  
+- [sniff?:Advanced:150pts](XS3_Challenges/sniff%3F)  
+- [I am ...:Special:100pts](XS3_Challenges/I_am_)  
+- [Congratulations:All Submit:85pts](XS3_Challenges/Congratulations)  
+
 ## picoCTF 2024 (2024/03/12)
 [picoCTF 2024](picoCTF_2024)  
 3400 Points  

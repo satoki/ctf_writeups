@@ -1,0 +1,23 @@
+import boto3
+
+REGION_NAME = "ap-northeast-1"
+IDENTITY_POOL_ID = "ap-northeast-1:05611045-eb46-41e2-9f6c-f41d87547e4d"
+USER_POOL_ID = "ap-northeast-1_7RCw4isM9"
+ID_TOKEN = "eyJraWQiOiJYU0pnQnFGVTlDQmJQRTdmMGtPVHI3V3NSaGlMZHoySGw0YnliVXZlYWtRPSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI0OGNiYzk4OS04OGQzLTQzNTUtYmYwOC00YjEyZjIyZWQ5NjMiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiY3VzdG9tOmZsYWciOiJmbGFne2M4MWU3MjhkOWQ0YzJmNjM2ZjA2N2Y4OWNjMTQ4NjJjfSIsImlzcyI6Imh0dHBzOlwvXC9jb2duaXRvLWlkcC5hcC1ub3J0aGVhc3QtMS5hbWF6b25hd3MuY29tXC9hcC1ub3J0aGVhc3QtMV83UkN3NGlzTTkiLCJjb2duaXRvOnVzZXJuYW1lIjoiYWRtaW4iLCJvcmlnaW5fanRpIjoiM2ZhOGY0Y2ItM2JlMi00NDYzLTkzYTQtYTg5Y2JkOGQ1Mzk4IiwiYXVkIjoiNnA1YTVjZnU2NDd2bGgwdmEwcWVoaHZ2bHEiLCJldmVudF9pZCI6ImRiYzQ3MmVjLTdkMTctNDU1NC1iNjk1LTBmMzI4MTZhZWI1YyIsInRva2VuX3VzZSI6ImlkIiwiYXV0aF90aW1lIjoxNzExNjk1NTQ4LCJleHAiOjE3MTE3MDY0ODQsImlhdCI6MTcxMTcwMjg4NCwianRpIjoiMWY1YWZlYzgtN2E5ZC00OWNiLWExODMtNTJhZmI3Y2MzMmIyIiwiZW1haWwiOiJuLnNhaXRvQGF6YXJhLmpwIn0.hwRo66KBOX8k-LFwsMJyfYRueXFPUEi0iVv6n3U-nWojiVN9ZtJYfUxF0-vlmhUTaTd2NXyCdaJPpodo7SY5_rFULIEWsv-cVyQOVjqAbWyGHLSGZZKVcRlz351VsHhOyceiZDjAwTMOEPdtWPJ-It30e_BXKIprTbRboFfjIP5j1bRUT1jfoF4X_pSYMYY1cbj2Qd4H-8NvVhwYx7tUGyaXd9JR820pI8qHGJju2w8PWQtL90CfGIjMr8KpoVFFFbfcbyVK7jNP-xRka4GIfBqgmQR5zRcCxMA9I5Mu-8WuMjd4F714joBmxVXh1LoCkKX-91Jykk8aFefhmyIN5g"
+
+client = boto3.client("cognito-identity", region_name=REGION_NAME)
+
+identity_response = client.get_id(
+    IdentityPoolId=IDENTITY_POOL_ID,
+    Logins={f"cognito-idp.{REGION_NAME}.amazonaws.com/{USER_POOL_ID}": ID_TOKEN},
+)
+
+identity_id = identity_response["IdentityId"]
+
+credentials_response = client.get_credentials_for_identity(
+    IdentityId=identity_id,
+    Logins={f"cognito-idp.{REGION_NAME}.amazonaws.com/{USER_POOL_ID}": ID_TOKEN},
+)
+
+temp_credentials = credentials_response["Credentials"]
+print(temp_credentials)
