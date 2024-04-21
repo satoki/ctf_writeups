@@ -211,11 +211,11 @@ empty
 pwndbg> vmmap
 LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
              Start                End Perm     Size Offset File
-    0x555555554000     0x555555555000 r--p     1000      0 /mnt/c/Users/tsato/Downloads/DLLLLp/hft
+    0x555555554000     0x555555555000 r--p     1000      0 /hft
 ~~~
     0x55555555a000     0x55555559d000 rw-p    43000      0 [heap]
     0x7ffff7d90000     0x7ffff7d93000 rw-p     3000      0 [anon_7ffff7d90]
-    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /mnt/c/Users/tsato/Downloads/DLLLLp/libc.so.6
+    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /libc.so.6
 ~~~
 ```
 `0x21299`の場合  
@@ -223,11 +223,11 @@ LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
 pwndbg> vmmap
 LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
              Start                End Perm     Size Offset File
-    0x555555554000     0x555555555000 r--p     1000      0 /mnt/c/Users/tsato/Downloads/DLLLLp/hft
+    0x555555554000     0x555555555000 r--p     1000      0 /hft
 ~~~
     0x55555555a000     0x55555559d000 rw-p    43000      0 [heap]
     0x7ffff7d6e000     0x7ffff7d93000 rw-p    25000      0 [anon_7ffff7d6e]
-    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /mnt/c/Users/tsato/Downloads/DLLLLp/libc.so.6
+    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /libc.so.6
 ~~~
 ```
 この挙動でlibcの領域まで食い込んで確保すればアドレスリークが達成できると喜ぶが、`malloc`の時点で足りなければ新しい領域が確保されるため不可能であった。  
