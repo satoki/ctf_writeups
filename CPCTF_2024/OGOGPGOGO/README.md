@@ -9,7 +9,7 @@ click here↓
 **Hint1**  
 /ogp エンドポイントにおける title にはオブジェクトも入ります  
 **Hint2**  
-satoriへの渡し方から、任意のHTMLが作れますね！どうやったらLFIできるんだろう... resvgが怪しいな...
+satoriへの渡し方から、任意のHTMLが作れますね！どうやったらLFIできるんだろう... resvgが怪しいな...  
 **Hint3 (解法)**  
 - クエリのパースにqsを利用しているので、titleに任意のオブジェクトを設定できます。つまり、satori に渡しているHTMLのASTをほぼ任意にいじれます。  
 - satori によって生成されたsvgは、resvgによってpngになってから、返ります。resvgでLFIが可能です。  
@@ -217,8 +217,9 @@ SVGは以下になる。
 <svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="satori_pattern_id_0" x="0" y="0" width="1" height="1" patternUnits="objectBoundingBox"><linearGradient id="satori_biid_0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="lightblue"/><stop offset="100%" stop-color="pink"/></linearGradient><rect x="0" y="0" width="1200" height="630" fill="url(#satori_biid_0)"/></pattern></defs><mask id="satori_om-id"><rect x="0" y="0" width="1200" height="630" fill="#fff"/></mask><rect x="0" y="0" width="1200" height="630" fill="white"/><rect x="0" y="0" width="1200" height="630" fill="url(#satori_pattern_id_0)"/><clipPath id="satori_cp-id-0"><rect x="350" y="65" width="500" height="500"/></clipPath><mask id="satori_om-id-0"><rect x="350" y="65" width="500" height="500" fill="#fff"/></mask><image x="350" y="65" width="500" height="500" href="data:satoki"/><image x="500" y="165" width="300" height="300" href="/flag.png" preserveAspectRatio="none" clip-path="url(#satori_cp-id-0)" mask="url(#satori_om-id-0)"/></svg>
 ```
 imageタグがうまく生成できており、エラーも発生していない(`Image data URI resolved without size:`とは言われる)。  
-本番環境に投げてやると以下のOGP画像が生成された。  
+リモートに投げてやると以下のOGP画像が生成された。  
 ![flag.png](images/flag.png)  
 `/flag.png`が読み取れ、flagが得られた。  
+回文www  
 
 ## CPCTF{OGPGO_kore_kaibun}
