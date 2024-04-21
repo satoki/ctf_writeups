@@ -265,7 +265,7 @@ LEGEND: STACK | HEAP | CODE | DATA | RWX | RODATA
              Start                End Perm     Size Offset File
     0x55555555a000     0x55555559d000 rw-p    43000      0 [heap]
 ►   0x7ffff7d6e000     0x7ffff7d93000 rw-p    25000      0 [anon_7ffff7d6e] +0x226f8
-    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /mnt/c/Users/tsato/Downloads/DLLLLp/libc.so.6
+    0x7ffff7d93000     0x7ffff7dbb000 r--p    28000      0 /libc.so.6
 ```
 これはTLS(Thread Local Storage)とよばれるスレッド固有の領域のようだ。  
 マスターカナリアや`tcachebins`の管理領域へのポインタがあるらしい。  
