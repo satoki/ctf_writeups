@@ -1,4 +1,4 @@
-# Read Novels:Web:6.07pts
+# Read Novels:Web:50.00pts
 小説が読めるサイトを見つけたぞ！  
 これ小説以外も見れるじゃん...  
 サイト：[https://read-novels.web.cpctf.space](https://read-novels.web.cpctf.space/)  

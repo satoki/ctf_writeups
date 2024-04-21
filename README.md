@@ -17,14 +17,14 @@
 
 ## CPCTF 2024 (2024/04/20)
 [CPCTF 2024](CPCTF_2024)  
-XXXX Points  
-- [Attack! Attack! Win!:Pwn:10pts](CPCTF_2024/Attack!_Attack!_Win!)  
-- [Typing game:Web:10pts](CPCTF_2024/Typing_game)  
-- [CPCT......:Pwn:13.54pts](CPCTF_2024/CPCT)  
-- [Let's buy some array:Web:10.80pts](CPCTF_2024/Let's_buy_some_array)  
-- [Read Novels:Web:6.07pts](CPCTF_2024/Read_Novels)  
-- [The sky's the limit:Pwn:28.72pts](CPCTF_2024/The_sky's_the_limit)  
-- [OGOGPGOGO:Web:46.13pts](CPCTF_2024/OGOGPGOGO)  
+1019.25 Points  
+- [Attack! Attack! Win!:Pwn:10.00pts](CPCTF_2024/Attack!_Attack!_Win!)  
+- [Typing game:Web:10.00pts](CPCTF_2024/Typing_game)  
+- [CPCT......:Pwn:120.72pts](CPCTF_2024/CPCT)  
+- [Let's buy some array:Web:99.02pts](CPCTF_2024/Let's_buy_some_array)  
+- [Read Novels:Web:50.00pts](CPCTF_2024/Read_Novels)  
+- [The sky's the limit:Pwn:268.23pts](CPCTF_2024/The_sky's_the_limit)  
+- [OGOGPGOGO:Web:461.28pts](CPCTF_2024/OGOGPGOGO)  
 
 ## XS3 Challenges (2024/03/28)
 [XS3 Challenges](XS3_Challenges)  

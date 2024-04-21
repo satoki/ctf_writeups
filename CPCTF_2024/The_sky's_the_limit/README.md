@@ -1,4 +1,4 @@
-# The sky's the limit:Pwn:28.72pts
+# The sky's the limit:Pwn:268.23pts
 あまりにも長い入力は危険らしいので弾くようにしました！  
 `nc the_skys_the_limit.web.cpctf.space 30007`  
 

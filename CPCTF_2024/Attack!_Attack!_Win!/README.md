@@ -1,4 +1,4 @@
-# Attack! Attack! Win!:Pwn:10pts
+# Attack! Attack! Win!:Pwn:10.00pts
 flagを盗まれてしまいました……  
 敵を倒して取り返してきてもらえませんか？  
 `nc attack_attack_win.web.cpctf.space 30005`  

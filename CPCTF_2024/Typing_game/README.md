@@ -1,4 +1,4 @@
-# Typing game:Web:10pts
+# Typing game:Web:10.00pts
 面白そうなタイピングゲームを見つけたぞ！早速やってみよう♪  
 ...なんかムズくない？？？？？  
 問題サイト：[https://typing-game.web.cpctf.space/](https://typing-game.web.cpctf.space/)  

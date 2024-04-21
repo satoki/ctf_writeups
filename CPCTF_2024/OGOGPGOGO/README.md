@@ -1,4 +1,4 @@
-# OGOGPGOGO:Web:46.13pts
+# OGOGPGOGO:Web:461.28pts
 OGP(Open Graph Protocol)についてご存知でしょうか？現代のSEO対策においてOGPは極めて重要です。アメリカの某有名大学の研究では、OGPがある場合はエンゲージメントが４０％も上昇するという調査結果が出ているようです！  
 
 click here↓  

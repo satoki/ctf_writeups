@@ -1,4 +1,4 @@
-# Let's buy some array:Web:10.80pts
+# Let's buy some array:Web:99.02pts
 贔屓にしている数列屋さんがモバイルオーダーに対応したらしい。とは言っても金額計算機能しかないらしいけど。  
 ...この金額計算、あんまり安全じゃなくないか？  
 問題サーバー：[https://lets-buy-some-array.web.cpctf.space/](https://lets-buy-some-array.web.cpctf.space/)  
