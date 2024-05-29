@@ -1,0 +1,122 @@
+<title>10,000 spins for flag</title>
+<div class="container">
+    <div>
+        <div class="spinner">
+            <div class="handle"></div>
+        </div>
+        <div class="message"></div>
+    </div>
+</div>
+
+<style>
+    html, body { height: 100%; }
+
+    * { font-family: Arial, sans-serif; }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .message {
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        user-select: none;
+    }
+
+    .spinner {
+        margin: 0 auto;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        background-color: #e6e6ff;
+    }
+
+    .handle {
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background-color: #9999ff;
+
+        position: relative;
+        top: 50%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+
+        cursor: grab;
+    }
+
+    .handle:active {
+        cursor: grabbing;
+    }
+</style>
+<script>
+    const state = {
+        dragging: false,
+        value: 0,
+        total: 0,
+        flagged: false,
+    }
+
+    const message = async () => {
+        if (state.flagged) return
+        const element = document.querySelector('.message')
+        element.textContent = Math.floor(state.total / 360)
+
+        if (state.total >= 10_000 * 360) {
+            state.flagged = true
+            const response = await fetch('/falg', { method: 'POST' })
+            element.textContent = await response.text()
+        }
+    }
+    message()
+
+    const draw = () => {
+        const spinner = document.querySelector('.spinner')
+        const degrees = state.value
+        spinner.style.transform = `rotate(${degrees}deg)`
+    }
+
+    const down = () => {
+        state.dragging = true
+    }
+
+    const move = (e) => {
+        if (!state.dragging) return
+
+        const spinner = document.querySelector('.spinner')
+        const center = {
+            x: spinner.offsetLeft + spinner.offsetWidth / 2,
+            y: spinner.offsetTop + spinner.offsetHeight / 2,
+        }
+        const dy = e.clientY - center.y
+        const dx = e.clientX - center.x
+        const angle = (Math.atan2(dy, dx) * 180) / Math.PI
+
+        const value = angle < 0 ? 360 + angle : angle
+        const change = value - state.value
+
+        if (0 < change && change < 180) state.total += change
+        if (0 > change && change > -180) state.total += change
+        if (change > 180) state.total -= 360 - change
+        if (change < -180) state.total += 360 + change
+
+        state.value = value
+
+        draw()
+        message()
+    }
+
+    const up = () => {
+        state.dragging = false
+    }
+
+    document.querySelector('.handle').addEventListener('mousedown', down)
+    window.addEventListener('mousemove', move)
+    window.addEventListener('mouseup', up)
+    window.addEventListener('blur', up)
+    window.addEventListener('mouseleave', up)
+</script>
