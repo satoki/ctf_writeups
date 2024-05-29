@@ -92,7 +92,7 @@ ADMIN_PASSWORD = hashlib.md5(
     f'password-{secrets.token_hex}'.encode()
 ).hexdigest()
 ```
-手元で実行して試すと、以下のような奇妙なふるまいを見つける。  
+手元で実行して試すと、以下のような奇妙な実装ミスを見つける。  
 ```bash
 $ python
 >>> import hashlib
@@ -105,10 +105,10 @@ $ python
 >>> f'password-{secrets.token_hex}'.encode()
 b'password-<function token_hex at 0x7ffae2f4e9e0>'
 ```
-`secrets.token_hex`が`<function token_hex at 0x7ffae2f4e9e0>`のようなメモリアドレスを含む文字列となっている。  
-アドレスが分かれば`ADMIN_PASSWORD`も計算できるが、まだエントロピーが高い。  
+`secrets.token_hex()`となるべき箇所が`secrets.token_hex`と記述されており、`<function token_hex at 0x7ffae2f4e9e0>`のようなメモリアドレスを含む文字列となっている。  
+リモートサーバのメモリアドレスが分かれば`ADMIN_PASSWORD`も計算できるが、まだエントロピーが高い。  
 どこからかアドレスがわからないかと考えていると、`paste_id = id(content)`が目に留まる。  
-`id()`はオブジェクトの識別値を返すし、CPythonではメモリのアドレスであったと記憶している。  
+`id()`はオブジェクトの識別値を返し、CPythonではアドレスとなる。  
 これはPasteのURLから取得でき、先ほどのURLのidである`id=135598339909712`もHexで`0x7b5372e1e850`とアドレスのようだ。  
 その他にもPasteを作ると、`135598320237360`(`0x7b5371b5bb30`)や`135598320232560`(`0x7b5371b5a870`)と一致している箇所があると分かる。  
 検証の結果`0x7b537XXXXXXX`の`0xXXXXXXX`を当てればいいようだ。  

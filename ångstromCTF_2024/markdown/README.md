@@ -7,12 +7,12 @@ Send them a link: [https://admin-bot.actf.co/markdown](https://admin-bot.actf.co
 
 # Solution
 サイトとAdmin BotのURLと、ソースが渡される。  
-アクセスするとmarkdown形式のノートが保存できる。  
+アクセスするとmarkdown形式のノートが保存できるサイトのようだ。  
 ![site1.png](site/site1.png)  
 ![site2.png](site/site2.png)  
 ノートごとに`https://markdown.web.actf.co/view/3da090eb6251e22a`のような個別のURLとなる。  
 Admin Botがあることから考えてもXSSのようだ。  
-ソースを見るとフラグの関連する箇所は以下の通りであった。  
+ソースを見るとフラグに関連する箇所は以下の通りであった。  
 ```js
 ~~~
 app.get('/flag', (req, res) => {
