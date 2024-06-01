@@ -15,6 +15,11 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 
 
+## CODEGATE 2024 CTF Preliminaries (2024/06/01)
+[CODEGATE 2024 CTF Preliminaries](CODEGATE_2024_CTF_Preliminaries)  
+250 Points  
+- [ai_warmup:ai:250pts](CODEGATE_2024_CTF_Preliminaries/ai_warmup)  
+
 ## ångstromCTF 2024 (2024/05/25)
 [ångstromCTF 2024](ångstromCTF_2024)  
 630 Points  
