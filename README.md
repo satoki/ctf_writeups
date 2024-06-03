@@ -13,6 +13,7 @@
 - [SECCON Beginners CTF 2023](https://github.com/satoki/ctf4b_2023_satoki_writeups)  
 - [TsukuCTF 2023](https://github.com/satoki/tsukuctf_2023_satoki_writeups)  
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
+- [SECCON Beginners CTF 2024](https://github.com/satoki/ctf4b_2024_satoki_writeups)  
 
 
 ## CODEGATE 2024 CTF Preliminaries (2024/06/01)
