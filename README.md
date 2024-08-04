@@ -16,6 +16,11 @@
 - [SECCON Beginners CTF 2024](https://github.com/satoki/ctf4b_2024_satoki_writeups)  
 
 
+## Dreamhack CTF Season 6 Round #3 (Pwn) (2024/08/03)
+[Dreamhack CTF Season 6 Round #3 (Pwn)](Dreamhack_CTF_Season_6_Round_%233_(Pwn))  
+723 Points  
+- [Period:pwnable:723pts](Dreamhack_CTF_Season_6_Round_%233_(Pwn)/Period)  
+
 ## CODEGATE 2024 CTF Preliminaries (2024/06/01)
 [CODEGATE 2024 CTF Preliminaries](CODEGATE_2024_CTF_Preliminaries)  
 250 Points  
