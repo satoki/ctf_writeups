@@ -17,6 +17,12 @@
 - [SatokiCTF](https://github.com/satoki/satokictf_satoki_writeups)  
 
 
+## IERAE CTF 2024 (2024/09/21)
+[IERAE CTF 2024](IERAE_CTF_2024)  
+438 Points  
+- [OMG:misc:123pts](IERAE_CTF_2024/OMG)  
+- [Great Management Opener:web:315pts](IERAE_CTF_2024/Great_Management_Opener)  
+
 ## AlpacaHack Round 1 (Pwn) (2024/08/18)
 [AlpacaHack Round 1 (Pwn)](AlpacaHack_Round_1_(Pwn))  
 308 Points  
