@@ -17,6 +17,14 @@
 - [SatokiCTF](https://github.com/satoki/satokictf_satoki_writeups)  
 
 
+## Dreamhack CTF Season 6 Round #8 (🌱Div2) (2024/09/28)
+[Dreamhack CTF Season 6 Round #8 (🌱Div2)](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2))  
+XXX Points  
+- [TODO List 0.0.1:web:372pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/TODO_List_0.0.1)  
+- [randerer:pwnable:404pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/randerer)  
+- [STREAMer-Prototype:crypto:100pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/STREAMer-Prototype)  
+- [legacyopt:reversing:290pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/legacyopt)  
+
 ## IERAE CTF 2024 (2024/09/21)
 [IERAE CTF 2024](IERAE_CTF_2024)  
 438 Points  
