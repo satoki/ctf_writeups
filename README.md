@@ -19,7 +19,7 @@
 
 ## Dreamhack CTF Season 6 Round #8 (🌱Div2) (2024/09/28)
 [Dreamhack CTF Season 6 Round #8 (🌱Div2)](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2))  
-XXX Points  
+1166 Points  
 - [TODO List 0.0.1:web:372pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/TODO_List_0.0.1)  
 - [randerer:pwnable:404pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/randerer)  
 - [STREAMer-Prototype:crypto:100pts](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2)/STREAMer-Prototype)  
