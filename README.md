@@ -15,6 +15,7 @@
 - [SECCON CTF 2023 Finals](https://github.com/satoki/seccon_ctf_2023_finals_satoki_writeups)  
 - [SECCON Beginners CTF 2024](https://github.com/satoki/ctf4b_2024_satoki_writeups)  
 - [SatokiCTF](https://github.com/satoki/satokictf_satoki_writeups)  
+- [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
 ## Dreamhack CTF Season 6 Round #8 (🌱Div2) (2024/09/28)
