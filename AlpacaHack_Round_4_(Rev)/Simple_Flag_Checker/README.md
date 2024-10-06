@@ -65,7 +65,7 @@ int __cdecl main(int argc, const char **argv, const char **envp)
 その後に`memcmp`で比較処理を行い、結果をフラグの正誤判定に利用する変数にANDしている。  
 つまり一文字でも間違えると、この変数が偽になり不正解と判定される。  
 `update`はとてつもなく複雑な処理をしているので読みたくない。  
-`memcmp`にブレークポイントを設置し挙動を見る。  
+`memcmp`にブレークポイントを設定し、`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`のような誤ったフラグを入力して挙動を見る。  
 ```bash
 $ gdb ./checker
 ~~~
@@ -123,8 +123,8 @@ flag? Axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ```
 `s1`と`s2`が一致していることがわかる。  
-これは二文字目を`l`、三文字目を`p`にした場合でも同様であった。  
-こうして先頭からフラグを導出できる。  
+二文字目までを`Al`にした場合や、三文字目までを`Alp`にした場合でも同様に、正しいフラグ文字までは`s1`と`s2`が一致した。  
+このふるまいを利用して、先頭からフラグを導出できる。  
 以下のplzflag.pyようにpwndbg導入済みgdbを直で実行し、ptrlibで自動化してやる。  
 ```python
 import re
