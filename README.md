@@ -18,6 +18,11 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## AlpacaHack Round 4 (Rev) (2024/10/05)
+[AlpacaHack Round 4 (Rev)](AlpacaHack_Round_4_(Rev))  
+146 Points  
+- [Simple Flag Checker:Rev:146pts](AlpacaHack_Round_4_(Rev)/Simple_Flag_Checker)  
+
 ## Dreamhack CTF Season 6 Round #8 (🌱Div2) (2024/09/28)
 [Dreamhack CTF Season 6 Round #8 (🌱Div2)](Dreamhack_CTF_Season_6_Round_%238_(🌱Div2))  
 1166 Points  
