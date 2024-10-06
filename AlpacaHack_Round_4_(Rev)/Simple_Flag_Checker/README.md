@@ -158,6 +158,7 @@ print(f"flag = {''.join(flag)}")
 ```
 実行する。  
 ```bash
+$ python plzflag.py
 flag[0] = A
 flag[1] = l
 flag[2] = p
@@ -167,6 +168,9 @@ flag[46] = a
 flag[47] = k
 flag[48] = }
 flag = Alpaca{h4sh_4lgor1thm_1s_b4s3d_0n_MD5_4nd_keccak}
+$ ./checker
+flag? Alpaca{h4sh_4lgor1thm_1s_b4s3d_0n_MD5_4nd_keccak}
+Correct! Your flag is: Alpaca{h4sh_4lgor1thm_1s_b4s3d_0n_MD5_4nd_keccak}
 ```
 flagが得られた。  
 
