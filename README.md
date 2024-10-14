@@ -18,6 +18,11 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## Blue Water CTF 2024 (2024/10/12)
+[Blue Water CTF 2024](Blue_Water_CTF_2024)  
+165 Points  
+- [RSAjail-3:Misc:165pts](Blue_Water_CTF_2024/RSAjail-3)  
+
 ## AlpacaHack Round 4 (Rev) (2024/10/05)
 [AlpacaHack Round 4 (Rev)](AlpacaHack_Round_4_(Rev))  
 146 Points  
