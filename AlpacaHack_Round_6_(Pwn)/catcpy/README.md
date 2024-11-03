@@ -83,9 +83,10 @@ sock.sendlineafter("Data: ", payload)
 sock.sh()
 ```
 実行してどの操作でもない`0`を選択し、プログラムを終了させると`Invalid address 0x7fa900401256`であった。  
-`get_data`はNULLで読み取りを終了し、`strcat`は末尾にNULLを書き込むため上書き前アドレスが少し残っているようだ。  
+`strcat`はNULLで読み取りを終了し、末尾にNULLを書き込むため上書き前アドレスが少し残っているようだ。  
 どうにかして`0x7fa9`の箇所を`0x0000`にしたい。  
 運のよいことに何度でも操作は行えるので、`strcat`の書き込む末尾のNULLで`0x00`埋めしてやればよい。  
+`get_data`では`fgets`が利用されているので改行まで読み取るが、`strcat`する文字列にNULLが含まれていればそれ以降は読み込まれないため問題はない。  
 以下のようにsolver.pyで行う。  
 ```python
 from ptrlib import *
