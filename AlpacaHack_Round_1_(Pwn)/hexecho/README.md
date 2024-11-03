@@ -1,4 +1,4 @@
-# hexecho:Easy:179pts
+# hexecho:Pwn:179pts
 Stack canary makes me feel more secure.  
 
 [hexecho.tar.gz](hexecho.tar.gz)  

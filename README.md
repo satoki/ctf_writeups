@@ -18,6 +18,13 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## AlpacaHack Round 6 (Pwn) (2024/11/03)
+[AlpacaHack Round 6 (Pwn)](AlpacaHack_Round_6_(Pwn))  
+476 Points  
+- [inbound:Pwn:128pts](AlpacaHack_Round_6_(Pwn)/inbound)  
+- [catcpy:Pwn:148pts](AlpacaHack_Round_6_(Pwn)/catcpy)  
+- [wall:Pwn:200pts](AlpacaHack_Round_6_(Pwn)/wall)  
+
 ## Blue Water CTF 2024 (2024/10/12)
 [Blue Water CTF 2024](Blue_Water_CTF_2024)  
 165 Points  
@@ -45,8 +52,8 @@
 ## AlpacaHack Round 1 (Pwn) (2024/08/18)
 [AlpacaHack Round 1 (Pwn)](AlpacaHack_Round_1_(Pwn))  
 308 Points  
-- [echo:Warmup:129pts](AlpacaHack_Round_1_(Pwn)/echo)  
-- [hexecho:Easy:179pts](AlpacaHack_Round_1_(Pwn)/hexecho)  
+- [echo:Pwn:129pts](AlpacaHack_Round_1_(Pwn)/echo)  
+- [hexecho:Pwn:179pts](AlpacaHack_Round_1_(Pwn)/hexecho)  
 
 ## Dreamhack CTF Season 6 Round #3 (Pwn) (2024/08/03)
 [Dreamhack CTF Season 6 Round #3 (Pwn)](Dreamhack_CTF_Season_6_Round_%233_(Pwn))  
