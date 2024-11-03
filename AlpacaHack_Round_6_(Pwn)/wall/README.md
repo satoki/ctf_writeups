@@ -162,6 +162,6 @@ var
 [ptrlib]$ cat flag-6d5a5cb38e69f72e74235bf99e6f1e9b.txt
 Alpaca{p1v0T1ng_t0_Bss_i5_tR1cKy_du3_7o_st4Ck_s1Z3_Lim17}
 ```
-何度か実行すると、flagが得られた。  
+何度か実行するとシェルが得られ、ファイルにflagが書かれていた。  
 
 ## Alpaca{p1v0T1ng_t0_Bss_i5_tR1cKy_du3_7o_st4Ck_s1Z3_Lim17}
