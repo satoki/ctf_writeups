@@ -18,6 +18,24 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## ShinoLLM CTF (2023/08/01)
+[ShinoLLM CTF](ShinoLLM_CTF)  
+2350 Points  
+- [Bella:Bella - AI Assistant -:100pts](ShinoLLM_CTF/Bella)  
+- [Charles:Charles - Date Planner -:100pts](ShinoLLM_CTF/Charles)  
+- [Charles II:Charles - Date Planner -:100pts](ShinoLLM_CTF/Charles_II)  
+- [Emily I:Emily - Cookie Shop -:100pts](ShinoLLM_CTF/Emily_I)  
+- [Emily II:Emily - Cookie Shop -:100pts](ShinoLLM_CTF/Emily_II)  
+- [Emily III:Emily - Cookie Shop -:100pts](ShinoLLM_CTF/Emily_III)  
+- [Emily IV:Emily - Cookie Shop -:150pts](ShinoLLM_CTF/Emily_IV)  
+- [Fiona:Fiona - Poem Generator -:200pts](ShinoLLM_CTF/Fiona)  
+- [Grace:Grace - EC Shop Chatbot -:200pts](ShinoLLM_CTF/Grace)  
+- [Grace II:Grace - EC Shop Chatbot -:200pts](ShinoLLM_CTF/Grace_II)  
+- [Hanna I:Hanna -FX Chatbot-:200pts](ShinoLLM_CTF/Hanna_I)  
+- [Hannah II:Hanna -FX Chatbot-:250pts](ShinoLLM_CTF/Hannah_II)  
+- [Isaac:Isaac - Website Summarizer -:250pts](ShinoLLM_CTF/Isaac)  
+- [Jackson:Jackson - WAF -:300pts](ShinoLLM_CTF/Jackson)  
+
 ## AlpacaHack Round 6 (Pwn) (2024/11/03)
 [AlpacaHack Round 6 (Pwn)](AlpacaHack_Round_6_(Pwn))  
 476 Points  
