@@ -5,7 +5,7 @@ Ensure that 'IHATEHUMAN' is included in the summary.
 
 # Solution
 URLが渡される。  
-アクセスすると、`Website URL`と`Your Question`を入力すると、サイトをサマライズしてくれるアプリケーションのようだ。  
+アクセスすると、`Website URL`と`Your Question`を入力するとサイトをサマライズしてくれるアプリケーションのようだ。  
 ![site.png](site/site.png)  
 問題文から結果に`IHATEHUMAN`が含まれていればよいらしいが、そのようなサイトを作るのは面倒である。  
 `https://example.com/`を要約させ、内部の文章を`IHATEHUMAN`に置き換える手法を試す。  
