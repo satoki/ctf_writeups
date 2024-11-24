@@ -18,6 +18,11 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## SECCON CTF 13 Quals (2024/11/23)
+[SECCON CTF 13 Quals](SECCON_CTF_13_Quals)  
+149 Points  
+- [Tanuki Udon:web:149pts](SECCON_CTF_13_Quals/Tanuki_Udon)  
+
 ## ShinoLLM CTF (2023/08/01)
 [ShinoLLM CTF](ShinoLLM_CTF)  
 2350 Points  
