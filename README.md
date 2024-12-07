@@ -18,6 +18,11 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## Dreamhack CTF Season 6 Round #13 (🚩Div1) (2024/12/07)
+[Dreamhack CTF Season 6 Round #13 (🚩Div1)](Dreamhack_CTF_Season_6_Round_%2313_(🚩Div1))  
+834 Points  
+- [Strong BypassIF:web:834pts](Dreamhack_CTF_Season_6_Round_%2313_(🚩Div1)/Strong_BypassIF)  
+
 ## SECCON CTF 13 Quals (2024/11/23)
 [SECCON CTF 13 Quals](SECCON_CTF_13_Quals)  
 149 Points  
