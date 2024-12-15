@@ -161,7 +161,7 @@ FOUND: PmVG7xe9ECBSgLUA
 ```
 `$pepper1`が`PmVG7xe9ECBSgLUA`とわかった。  
 さらに先ほどのテクニックを応用し、`guest`のパスワードを52文字から1文字ずつ減らして得られたパスワードハッシュをローカルで総当たりすることをひらめく。  
-例えばパスワードを51文字にすると`$pepper2`の先頭1文字が残り、それより後ろは切り詰められる。  
+例えばパスワードを50文字にすると`$pepper2`の先頭1文字が残り、それより後ろは切り詰められる。  
 以下のようにpepper2.pyで行う。  
 ```py
 import base64
@@ -213,7 +213,7 @@ FOUND: 8oC7mIiDFw4hQv2
 FOUND: 8oC7mIiDFw4hQv2e
 ```
 これで`$pepper1`、`$admin_password`、`$pepper2`がすべて入手できた。  
-あとはローカルで`PmVG7xe9ECBSgLUAadminKeTzkrRuESlhd1V8oC7mIiDFw4hQv2e`を指定されたアルゴリズムでパスワードハッシュ化してサーバに投げてやればよい。  
+あとは`PmVG7xe9ECBSgLUA`、`admin`、`KeTzkrRuESlhd1V`、`8oC7mIiDFw4hQv2e`を連結し、ローカルで指定されたアルゴリズムでパスワードハッシュ化してサーバに投げてやればよい。  
 以下のように行う。  
 ```bash
 $ php -r "echo password_hash('PmVG7xe9ECBSgLUAadminKeTzkrRuESlhd1V8oC7mIiDFw4hQv2e', PASSWORD_BCRYPT);" | base64 -w 0

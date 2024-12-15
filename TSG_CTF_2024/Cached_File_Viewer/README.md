@@ -11,8 +11,8 @@ I implemented a simple file viewer!
 [file_viewer.tar.gz](file_viewer.tar.gz)  
 
 # Solution
-カレントのファイル一覧、ソース、接続先が渡される。  
-接続するとファイルをビューできるサービスのようだ。  
+ホームのファイル一覧(`ls ~`の結果)、ソース、接続先が渡される。  
+接続するとファイルを読み込むサービスのようだ。  
 ```bash
 $ nc 34.146.186.1 21001
 1. load_file
