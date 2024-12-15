@@ -18,6 +18,15 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## TSG CTF 2024 (2024/12/14)
+[TSG CTF 2024](TSG_CTF_2024)  
+768 Points  
+- [Toolong Tea:web:100pts](TSG_CTF_2024/Toolong_Tea)  
+- [simple calc:misc:156pts](TSG_CTF_2024/simple_calc)  
+- [Cached File Viewer:misc:113pts](TSG_CTF_2024/Cached_File_Viewer)  
+- [I Have Been Pwned:web:189pts](TSG_CTF_2024/I_Have_Been_Pwned)  
+- [Cipher Preset Button:web:210pts](TSG_CTF_2024/Cipher_Preset_Button)  
+
 ## Dreamhack CTF Season 6 Round #13 (🚩Div1) (2024/12/07)
 [Dreamhack CTF Season 6 Round #13 (🚩Div1)](Dreamhack_CTF_Season_6_Round_%2313_(🚩Div1))  
 834 Points  
