@@ -1,5 +1,5 @@
 # simple calc:misc:156pts
-Made my first calculator—with a special bonus! 🌟  
+はじめて電卓を作ってみたよ。特別なおまけ付き！🌟  
 
 `nc 34.146.186.1 53117`  
 

@@ -1,12 +1,12 @@
 # Toolong Tea:web:100pts
-Recently it's getting colder in Tokyo which TSG is based in. Would you like to have a cup of hot oolong tea? It will warm up your body.  
+最近東京(TSGの拠点)はめっきり寒くなりました。温かい烏龍茶を1杯いかがでしょう。体が温まりますよ。  
 
-### Hint for beginners  
-- First of all, please open the given website and play around with it. This challenge claims that you can get the flag by sending the number `65536` to the server, but it quickly turns out that the story isn't that simple.  
-- Next, please read the attached source code. The file `server.js` contains the important logic of this website. The flag is stored in a variable called `flag`, so the purpose is to leak this value.  
-- There is a bug which can be exploited to get the flag. Some knowledge of web technologies, especially JavaScript, may be required, so please refer to documentation such as MDN if necessary.  
-- You can run this website locally as usual Node.js app (`npm install && node server.js`), or via docker compose (`docker compose up --build`).  
-- Note that you do not need a large volume of accesses to solve this problem. Please refrain from mass access similar to DoS.  
+初心者向けヒント  
+- まず、問題のウェブサイトを開いて適当に操作してみてください。この問題は「65536」という数をサーバーに送信すればフラグが入手できると主張していますが、話はそんなに単純ではないことがすぐに分かります。  
+- 次に、添付されたソースコードを読んでみましょう。このウェブサイトの重要なロジックは`server.js`に書かれています。`flag`変数に入ったフラグを漏洩させるのが目標です。  
+- このウェブサイトにはフラグを得るのに利用できるバグがあります。探すのにweb技術(特にJavaScript)の知識が必要になるかもしれません。必要ならMDNなどのドキュメントを参照してください。  
+- このウェブサイトは通常のNode.jsアプリと同様に(`npm install && node server.js`)、あるいはdocker composeを利用して(`docker compose up --build`)ローカルで動かせます。  
+- なお、この問題を解くのに大量アクセスは必要ありません。DoSまがいの大量アクセスはやめてください。  
 
 [http://34.84.32.212:4932](http://34.84.32.212:4932)  
 

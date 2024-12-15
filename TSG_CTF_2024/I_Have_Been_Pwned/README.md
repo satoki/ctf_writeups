@@ -1,6 +1,6 @@
 # I Have Been Pwned:web:189pts
-We have detected a password compromise and are shutting down the login process.  
-But don't worry. We have a secret pepper.  
+パスワードの漏洩を検知したのでログイン処理をシャットアウトしています。  
+でも大丈夫。秘密のコショウがあるからね。  
 
 [http://34.84.32.212:8080](http://34.84.32.212:8080)  
 
