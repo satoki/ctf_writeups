@@ -18,6 +18,27 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## SECCON CTF 13 決勝観戦CTF (2025/03/01)
+[SECCON CTF 13 決勝観戦CTF](SECCON_CTF_13_決勝観戦CTF)  
+1800 Points  
+- [Welcome!:Welcome:100pts](SECCON_CTF_13_決勝観戦CTF/Welcome!)  
+- [Long Flag:Crypto:100pts](SECCON_CTF_13_決勝観戦CTF/Long_Flag)  
+- [🍪:Web:100pts](SECCON_CTF_13_決勝観戦CTF/🍪)  
+- [Beginner's Flag Printer:Rev:100pts](SECCON_CTF_13_決勝観戦CTF/Beginner's_Flag_Printer)  
+- [parseInt:Misc:100pts](SECCON_CTF_13_決勝観戦CTF/parseInt)  
+- [trippple:Crypto:100pts](SECCON_CTF_13_決勝観戦CTF/trippple)  
+- [csv2json:Web:100pts](SECCON_CTF_13_決勝観戦CTF/csv2json)  
+- [dinosaur:Web:100pts](SECCON_CTF_13_決勝観戦CTF/dinosaur)  
+- [1linepyjail4b:Misc:100pts](SECCON_CTF_13_決勝観戦CTF/1linepyjail4b)  
+- [play with memory:Pwn:100pts](SECCON_CTF_13_決勝観戦CTF/play_with_memory)  
+- [danger of buffer overflow:Pwn:100pts](SECCON_CTF_13_決勝観戦CTF/danger_of_buffer_overflow)  
+- [Flag Printer:Rev:100pts](SECCON_CTF_13_決勝観戦CTF/Flag_Printer)  
+- [Can U Keep A Secret?:Pwn:100pts](SECCON_CTF_13_決勝観戦CTF/Can_U_Keep_A_Secret%3F)  
+- [cache crasher:Pwn:100pts](SECCON_CTF_13_決勝観戦CTF/cache_crasher)  
+- [blue-note:Web:100pts](SECCON_CTF_13_決勝観戦CTF/blue-note)  
+- [Slow Flag Printer:Rev:100pts](SECCON_CTF_13_決勝観戦CTF/Slow_Flag_Printer)  
+- [42:Crypto:100pts](SECCON_CTF_13_決勝観戦CTF/42)  
+
 ## TSG CTF 2024 (2024/12/14)
 [TSG CTF 2024](TSG_CTF_2024)  
 768 Points  
