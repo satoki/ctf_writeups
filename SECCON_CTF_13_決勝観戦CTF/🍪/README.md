@@ -41,6 +41,6 @@ Date: Mon, 03 Mar 2025 02:26:21 GMT
 Connection: close
 Keep-Alive: timeout=72
 ```
-ヘッダをつけてcurlするとflagが得られた。  
+cookieをつけてcurlするとflagが得られた。  
 
 ## Alpaca{7h3_n4m3_c0m35_fr0m_B3cky}
