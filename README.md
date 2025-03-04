@@ -20,7 +20,7 @@
 
 ## SECCON CTF 13 決勝観戦CTF (2025/03/01)
 [SECCON CTF 13 決勝観戦CTF](SECCON_CTF_13_決勝観戦CTF)  
-1800 Points  
+1700 Points  
 - [Welcome!:Welcome:100pts](SECCON_CTF_13_決勝観戦CTF/Welcome!)  
 - [Long Flag:Crypto:100pts](SECCON_CTF_13_決勝観戦CTF/Long_Flag)  
 - [🍪:Web:100pts](SECCON_CTF_13_決勝観戦CTF/🍪)  
