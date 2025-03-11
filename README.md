@@ -18,6 +18,12 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## KalmarCTF 2025 (2025/03/07)
+[KalmarCTF 2025](KalmarCTF_2025)  
+424 Points  
+- [Ez ⛳ v3:web:146pts](KalmarCTF_2025/Ez_⛳_v3)  
+- [G0tchaberg:web:278pts](KalmarCTF_2025/G0tchaberg)  
+
 ## SECCON CTF 13 決勝観戦CTF (2025/03/01)
 [SECCON CTF 13 決勝観戦CTF](SECCON_CTF_13_決勝観戦CTF)  
 1700 Points  

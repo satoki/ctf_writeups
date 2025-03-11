@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <title>Satoki-2</title>
+</head>
+<body>
+    <script>
+        setTimeout(() => {
+            fetch("http://s4t.pw")
+                .then(response => response.text())
+                .then(url => {
+                    const iframe = document.createElement('iframe');
+                    iframe.width = 1000;
+                    iframe.height = 300;
+                    iframe.src = url;
+                    document.body.appendChild(iframe);
+                })
+                .catch(error => {
+                });
+        }, 12000);
+    </script>
+</body>
+</html>

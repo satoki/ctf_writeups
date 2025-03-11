@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <title>Satoki-1</title>
+</head>
+<body>
+    <script>
+        UUID_1 = "bc079f55-f1ac-4228-8d60-ce4b4ff93396";
+        setTimeout(() => {
+            const iframe = document.createElement('iframe');
+            iframe.width = 1000;
+            iframe.height = 300;
+            iframe.src = `file:///tmp/${UUID_1}/`;
+            document.body.appendChild(iframe);
+        }, 5000);
+    </script>
+</body>
+</html>
