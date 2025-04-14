@@ -18,6 +18,11 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## DEF CON CTF 2025 Qualifiers (2025/04/12)
+[DEF CON CTF 2025 Qualifiers](DEF_CON_CTF_2025_Qualifiers)  
+190 Points  
+- [vibe1:Quals:190pts](DEF_CON_CTF_2025_Qualifiers/vibe1)  
+
 ## KalmarCTF 2025 (2025/03/07)
 [KalmarCTF 2025](KalmarCTF_2025)  
 424 Points  
