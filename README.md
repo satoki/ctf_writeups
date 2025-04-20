@@ -18,6 +18,14 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## CPCTF 2025 (2025/04/18)
+[CPCTF 2025](CPCTF_2025)  
+XXXX Points  
+- [Name Omikuji:Web:XXXXpts](CPCTF_2025/Name_Omikuji)  
+- [String Calculator:Web:XXXXpts](CPCTF_2025/String_Calculator)  
+- [Blend Script:Web:XXXXpts](CPCTF_2025/Blend_Script)  
+- [Typst Note:Web:XXXXpts](CPCTF_2025/Typst_Note)  
+
 ## DEF CON CTF 2025 Qualifiers (2025/04/12)
 [DEF CON CTF 2025 Qualifiers](DEF_CON_CTF_2025_Qualifiers)  
 190 Points  
