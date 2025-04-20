@@ -1,4 +1,4 @@
-# Typst Note:Web:XXXXpts
+# Typst Note:Web:372.41pts
 Typst という組版システムで書いたノートを Web 上で公開できるサービスを作ってみたから、みんな使ってみて！  
   
 サイト → [https://typst-note.web.cpctf.space/](https://typst-note.web.cpctf.space/)  

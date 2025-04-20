@@ -1,4 +1,4 @@
-# String Calculator:Web:XXXXpts
+# String Calculator:Web:69.02pts
 文字列結合に対応している電卓サイトを作ってみたよ！  
   
 サイト → [https://string-calculator.web.cpctf.space/](https://string-calculator.web.cpctf.space/)  

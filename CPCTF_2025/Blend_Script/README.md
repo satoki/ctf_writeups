@@ -1,4 +1,4 @@
-# Blend Script:Web:XXXXpts
+# Blend Script:Web:279.86pts
 TypeScriptを安全に実行できる環境を作りました！  
 [https://blend-script.web.cpctf.space/](https://blend-script.web.cpctf.space/)  
 [blend-script.zip](blend-script.zip)  

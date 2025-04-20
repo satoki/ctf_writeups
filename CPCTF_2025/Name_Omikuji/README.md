@@ -1,4 +1,4 @@
-# Name Omikuji:Web:XXXXpts
+# Name Omikuji:Web:50.00pts
 あなたの名前を占います！ (ちょっぴり厳しめ！)  
 [https://name-omikuji.web.cpctf.space](https://name-omikuji.web.cpctf.space)  
 [source code](name-omikuji.zip)  
