@@ -25,7 +25,6 @@
 - [String Calculator:Web:69.02pts](CPCTF_2025/String_Calculator)  
 - [Blend Script:Web:279.86pts](CPCTF_2025/Blend_Script)  
 - [Typst Note:Web:372.41pts](CPCTF_2025/Typst_Note)  
-- [CPCTF 2025:CTF:0pts](CPCTF_2025/CPCTF_2025)  
 
 ## DEF CON CTF 2025 Qualifiers (2025/04/12)
 [DEF CON CTF 2025 Qualifiers](DEF_CON_CTF_2025_Qualifiers)  
