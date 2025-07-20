@@ -18,6 +18,13 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## DownUnderCTF 2025 (2025/07/18)
+[DownUnderCTF 2025](DownUnderCTF_2025)  
+354 Points  
+- [ductfbank 1:ai:100pts](DownUnderCTF_2025/ductfbank_1)  
+- [ductfbank 2:ai:100pts](DownUnderCTF_2025/ductfbank_2)  
+- [Mary had a little lambda:misc:154pts](DownUnderCTF_2025/Mary_had_a_little_lambda)  
+
 ## CPCTF 2025 (2025/04/18)
 [CPCTF 2025](CPCTF_2025)  
 771.29 Points  
