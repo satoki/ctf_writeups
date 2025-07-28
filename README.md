@@ -18,6 +18,22 @@
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
 
 
+## SECCON Beginners CTF 2025 (2025/07/26)
+[SECCON Beginners CTF 2025](SECCON_Beginners_CTF_2025)  
+2022 Points  
+- [kingyo_sukui:misc:100pts](SECCON_Beginners_CTF_2025/kingyo_sukui)  
+- [url-checker:misc:100pts](SECCON_Beginners_CTF_2025/url-checker)  
+- [url-checker2:misc:100pts](SECCON_Beginners_CTF_2025/url-checker2)  
+- [Chamber of Echos:misc:100pts](SECCON_Beginners_CTF_2025/Chamber_of_Echos)  
+- [skipping:web:100pts](SECCON_Beginners_CTF_2025/skipping)  
+- [log-viewer:web:100pts](SECCON_Beginners_CTF_2025/log-viewer)  
+- [メモRAG:web:100pts](SECCON_Beginners_CTF_2025/メモRAG)  
+- [memo4b:web:308pts](SECCON_Beginners_CTF_2025/memo4b)  
+- [login4b:web:420pts](SECCON_Beginners_CTF_2025/login4b)  
+- [pet_name:pwnable:100pts](SECCON_Beginners_CTF_2025/pet_name)  
+- [pet_sound:pwnable:100pts](SECCON_Beginners_CTF_2025/pet_sound)  
+- [pivot4b:pwnable:394pts](SECCON_Beginners_CTF_2025/pivot4b)  
+
 ## DownUnderCTF 2025 (2025/07/18)
 [DownUnderCTF 2025](DownUnderCTF_2025)  
 354 Points  
