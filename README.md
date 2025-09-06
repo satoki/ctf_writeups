@@ -16,6 +16,7 @@
 - [SECCON Beginners CTF 2024](https://github.com/satoki/ctf4b_2024_satoki_writeups)  
 - [SatokiCTF](https://github.com/satoki/satokictf_satoki_writeups)  
 - [JapanUkraineCTF](https://github.com/satoki/japanukrainectf_satoki_writeups)  
+- [ASIS CTF Quals 2025](https://github.com/satoki/asis_ctf_quals_2025_satoki_writeups)  
 
 
 ## SECCON Beginners CTF 2025 (2025/07/26)
