@@ -19,6 +19,16 @@
 - [ASIS CTF Quals 2025](https://github.com/satoki/asis_ctf_quals_2025_satoki_writeups)  
 
 
+## D-CTF Quals 2025 (2025/09/12)
+[D-CTF Quals 2025](D-CTF_Quals_2025)  
+845 Points  
+- [east-grandma:Forensics:50pts](D-CTF_Quals_2025/east-grandma)  
+- [packet-snatchers:Network:48pts](D-CTF_Quals_2025/packet-snatchers)  
+- [jargon:Web:95pts](D-CTF_Quals_2025/jargon)  
+- [injective:Misc:160pts](D-CTF_Quals_2025/injective)  
+- [incogni:Misc:300pts](D-CTF_Quals_2025/incogni)  
+- [grandbazaar:Threat hunting:192pts](D-CTF_Quals_2025/grandbazaar)  
+
 ## SECCON Beginners CTF 2025 (2025/07/26)
 [SECCON Beginners CTF 2025](SECCON_Beginners_CTF_2025)  
 2022 Points  

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Incogni - Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="Incogni%20-%20Login_files/aws-amplify-core.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="Incogni%20-%20Login_files/aws-amplify-auth.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="Incogni%20-%20Login_files/aws-sdk-2.1487.0.min.js"></script>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #0f172a;
+      --muted: #94a3b8;
+      --text: #e5e7eb;
+      --accent: #60a5fa
+    }
+
+    html,
+    body {
+      height: 100%
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #0b1020, #0f172a);
+      color: var(--text);
+      font: 16px/1.5 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial
+    }
+
+    .wrap {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      padding: 24px
+    }
+
+    .card {
+      width: 100%;
+      max-width: 720px;
+      background: rgba(15, 23, 42, .9);
+      border: 1px solid rgba(255, 255, 255, .06);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+      padding: 32px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      margin: 0 0 24px;
+      font-size: 24px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    label {
+      display: block;
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0 0 6px;
+      font-weight: 500;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, .1);
+      background: #0a0f1e;
+      color: var(--text);
+      outline: none;
+      font-size: 15px;
+      box-sizing: border-box;
+    }
+
+    input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96, 165, 250, .15)
+    }
+
+    .row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      justify-content: center;
+    }
+
+    .btn {
+      appearance: none;
+      border: 0;
+      border-radius: 12px;
+      padding: 14px 24px;
+      cursor: pointer;
+      background: #1f2937;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      min-width: 120px;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn.primary {
+      background: linear-gradient(180deg, #3b82f6, #2563eb);
+    }
+
+    .btn.primary:hover {
+      background: linear-gradient(180deg, #2563eb, #1d4ed8);
+    }
+
+    .secrets-section {
+      display: none;
+    }
+
+    .secrets-header {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 0 0 20px;
+      text-align: center;
+      color: var(--text);
+    }
+
+    ul#secrets {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul#secrets li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #0b1220;
+      border: 1px solid rgba(255, 255, 255, .06);
+      padding: 16px 20px;
+      border-radius: 12px;
+      margin: 12px 0;
+      transition: all 0.2s ease;
+    }
+
+    ul#secrets li:hover {
+      background: #0f172a;
+      border-color: rgba(255, 255, 255, .1);
+    }
+
+    ul#secrets li code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 12px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Incogni</h1>
+
+      <div class="login-form" id="login-form">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" autocomplete="username">
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="••••••••" autocomplete="current-password">
+        </div>
+
+        <div class="row">
+          <button id="btn-login" class="btn primary" onclick="signIn()">Sign in</button>
+        </div>
+      </div>
+
+      <div class="secrets-section" id="secrets-section">
+        <h2 class="secrets-header">Your Secrets</h2>
+        <ul id="secrets"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    if (!window.process) window.process = { env: { DEBUG: undefined } };
+    if (!window.global) window.global = window;
+
+    const REGION = "eu-central-1";
+    const USER_POOL_ID = "eu-central-1_Mpd0FJnm7";
+    const USER_POOL_CLIENT_ID = "5ao939ku2uhauj4b69hp99bnk9";
+    const IDENTITY_POOL_ID = "eu-central-1:095ae0bb-a02d-40c9-9edc-df464a633790";
+
+    const Amplify = window.aws_amplify_core && window.aws_amplify_core.Amplify;
+    const Auth = window.aws_amplify_auth && window.aws_amplify_auth.Auth;
+
+    if (!Amplify || !Auth) {
+      console.error("Amplify v5 UMD not present. Expect aws_amplify_core.Amplify and aws_amplify_auth.Auth");
+      throw new Error("Amplify UMD not present");
+    }
+
+    Amplify.configure({
+      Auth: {
+        region: REGION,
+        userPoolId: USER_POOL_ID,
+        userPoolWebClientId: USER_POOL_CLIENT_ID,
+        identityPoolId: IDENTITY_POOL_ID,
+        mandatorySignIn: true,
+        authenticationFlowType: 'USER_SRP_AUTH'
+      }
+    });
+
+    const disableLogin = (b) => document.getElementById('btn-login').disabled = b;
+
+    async function signIn() {
+      const email = document.getElementById('email').value.trim();
+      const pass = document.getElementById('password').value;
+      if (!email || !pass) { console.warn("Enter email & password"); return; }
+
+      disableLogin(true);
+      try {
+        console.log("Signing in…");
+        await Auth.signIn(email, pass);
+        console.log("Signed in.");
+
+        await ensureIdentityCreds();
+        await listSecrets();
+      } catch (e) {
+        console.error("Sign-in error:", e && e.message ? e.message : e);
+      } finally {
+        disableLogin(false);
+      }
+    }
+
+    async function ensureIdentityCreds() {
+      console.log("Fetching credentials…");
+      const c = await Auth.currentCredentials();
+      const v2creds = new AWS.Credentials(c.accessKeyId, c.secretAccessKey, c.sessionToken);
+      AWS.config.update({ region: REGION, credentials: v2creds });
+      console.log("Credentials ready.");
+    }
+
+    async function listSecrets(nextToken) {
+      console.log("Listing secrets…");
+      document.getElementById('login-form').style.display = 'none';
+      document.getElementById('secrets-section').style.display = 'block';
+
+      const ul = document.getElementById('secrets');
+      try {
+        const sm = new AWS.SecretsManager({ region: REGION });
+        const params = { MaxResults: 50 };
+        if (nextToken) params.NextToken = nextToken;
+        const res = await sm.listSecrets(params).promise();
+
+        if (!nextToken) ul.innerHTML = "";
+
+        for (const s of res.SecretList || []) {
+          const li = document.createElement('li');
+
+          const left = document.createElement('div');
+          const strong = document.createElement('div');
+          strong.innerHTML = "<strong></strong>";
+          strong.querySelector('strong').textContent = s.Name;
+          const meta = document.createElement('div');
+          meta.style = "font-size:12px;color:#94a3b8";
+          const code = document.createElement('code');
+          code.textContent = s.ARN;
+          meta.appendChild(code);
+          left.appendChild(strong);
+          left.appendChild(meta);
+
+          li.appendChild(left);
+          ul.appendChild(li);
+        }
+
+        if (res.NextToken) {
+          await listSecrets(res.NextToken);
+        } else if ((!res.SecretList || res.SecretList.length === 0) && !nextToken) {
+          const li = document.createElement('li');
+          li.textContent = "No secrets visible for this role.";
+          ul.appendChild(li);
+        }
+      } catch (e) {
+        console.error("ListSecrets error:", e && e.message ? e.message : e);
+      }
+    }
+  </script>
+
+
+</body></html>
