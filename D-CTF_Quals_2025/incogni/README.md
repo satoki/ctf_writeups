@@ -143,7 +143,7 @@ $ aws kms decrypt \
 An error occurred (AccessDeniedException) when calling the Decrypt operation: User: arn:aws:sts::011528296162:assumed-role/incogni-user-role-1de3a35e/CognitoIdentityCredentials is not authorized to perform: kms:Decrypt on resource: arn:aws:kms:eu-central-1:011528296162:key/79d35eb0-0dba-40f7-b76c-86791cf500a5 because no identity-based policy allows the kms:Decrypt action
 ```
 復号を試みるが、`kms:Decrypt`が許可されていない。  
-ここで困って様々な情報調査していると、カスタム属性がついていることに気付く。  
+ここで困って様々な情報を調査していると、カスタム属性がついていることに気付く。  
 ```bash
 $ export ACCESS_TOKEN=$(echo "$AUTH_JSON" | jq -r '.AuthenticationResult.AccessToken')
 $ aws cognito-idp get-user \
