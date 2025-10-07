@@ -28,9 +28,10 @@ CTFのWeb問題です。配布されたソースコードをあなたに渡し�
 $ curl 'http://puzzle-c4d26ae9.p1.securinets.tn/users/f11d086e-b928-4500-952b-7be2c520e5a2' -H "Cookie: SRV=p2-1c9c9a9afd07712b; session=eyJ1dWlkIjoiZjExZDA4NmUtYjkyOC00NTAwLTk1MmItN2JlMmM1MjBlNWEyIn0.aOS0VA.QxjOxSDhu1hp-caD8Q1-MIiizZs"
 {"email":"satoki.satoki.satoki","password":"Ldko9Z1ECAMq","phone_number":null,"role":"1","username":"satoki00_role1","uuid":"f11d086e-b928-4500-952b-7be2c520e5a2"}
 ```
-これで任意のユーザのパスワードが読み取れそうだと考えるが、プロフィールから自身のUUIDのみがわかり、adminのUUIDはわからないため難しい。  
+ちなみに、現状ではプロフィールから自身のUUIDがわかるのでそれを用いた。  
 ![site5.png](site/site5.png)  
-次に、`脆弱性6: /dbディレクトリの公開`にあるように`/db`にアクセス可能であり、`old.db`なるファイもダウンロードできる。  
+かなり便利な脆弱性ではあるが、adminのUUIDがわからないため、パスワードは取得できない。  
+次に、`脆弱性6: /dbディレクトリの公開`にあるように`/db`にアクセス可能であり、`old.db`なるファイルもダウンロードできる。  
 ![site6.png](site/site6.png)  
 中身にはadminのパスワードハッシュが含まれていたため、rockyou.txtでクラックしたところ`pizzaguy`と分かったが、古い情報なのかログインに利用することができなかった。  
 同様にadminのUUIDも含まれていたが、これも利用することができなかった。  
@@ -116,13 +117,13 @@ adminになったのでSSTIが可能だが、あまりにブラックリスト�
 ```bash
 $ strings dbconnect.exe | grep pass
 password = 'PUZZLE+7011_X207+!*'
-$ unzip -P'PUZZLE+7011_X207+!*' secrets.zip
+$ unzip -P 'PUZZLE+7011_X207+!*' secrets.zip
 Archive:  secrets.zip
  extracting: data.txt
 $ cat data.txt
 Securinets{777_P13c3_1T_Up_T0G3Th3R}
 ```
-exeを`strings`するとパスワードが含まれていて、zipにflagが格納されていた。  
+exeを`strings`するとパスワードが含まれおり、そのパスワードでzipを展開するとflagが格納されていた。  
 あらゆるものがラビットホールの、よくわからない問題だった。  
 
 ## Securinets{777_P13c3_1T_Up_T0G3Th3R}
