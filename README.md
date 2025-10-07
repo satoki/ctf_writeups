@@ -19,6 +19,13 @@
 - [ASIS CTF Quals 2025](https://github.com/satoki/asis_ctf_quals_2025_satoki_writeups)  
 
 
+## Securinets CTF Quals 2025 (2025/10/04)
+[Securinets CTF Quals 2025](Securinets_CTF_Quals_2025)  
+958 Points  
+- [Easy Jail:Misc:311pts](Securinets_CTF_Quals_2025/Easy_Jail)  
+- [Puzzle:Web:302pts](Securinets_CTF_Quals_2025/Puzzle)  
+- [Silent Visitor:Forensics:345pts](Securinets_CTF_Quals_2025/Silent_Visitor)  
+
 ## D-CTF Quals 2025 (2025/09/12)
 [D-CTF Quals 2025](D-CTF_Quals_2025)  
 845 Points  
